@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Étape 09 - Guatemala</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://www.transparenttextures.com/patterns/old-wall.png');
+            background-color: #fdf6e3;
+            margin: 0;
+            padding: 0;
+            color: #3b2f2f;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(253, 246, 227, 0.95);
+            border-bottom: 2px solid #5e4b3c;
+            padding: 10px 30px;
+        }
+        .logo-gauche, .logo-droite {
+            width: 80px;
+        }
+        .titre-bandeau {
+            font-size: 2.4em;
+            font-weight: bold;
+            color: #2f2f2f;
+            text-shadow: 1px 1px 0px #e4d8be;
+            font-variant: small-caps;
+        }
+        .top-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px 0 40px;
+        }
+        section {
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid #c3b091;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 240, 0.85);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 15px;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+        }
+        #map {
+            height: 400px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px;
+            flex-wrap: wrap;
+        }
+        .button {
+            padding: 12px 25px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        .disabled {
+            background-color: #d4c4a8;
+            color: #6b5f4b;
+            pointer-events: none;
+        }
+        .active {
+            background-color: #5e4b3c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../logo/logo_trophee_jules_verne.png" alt="Logo du Trophée Jules Verne" class="logo-gauche">
+        <div class="titre-bandeau">Étape 09 : Guatemala <img src="../flag/guatemala.png" style="height: 30px;"></div>
+        <img src="../logo/amerique_nord.png" alt="Logo Amérique du Nord" class="logo-droite">
+    </header>
+
+    <div class="top-navigation">
+        <a href="../html/etape_08.html" class="button active">⬅ Étape précédente</a>
+        <a href="index.html" class="button active">🏠 Accueil</a>
+        <a href="../html/etape_10.html" class="button active">Étape suivante ➡</a>
+    </div>
+
+    <section class="description">
+        <h2>Description</h2>
+        <p><strong>Neuvième étape du Trophée Jules Verne</strong>, la traversée du Guatemala propose un enchaînement de cols très exigeants. Cette étape de montagne, qui mêle de longues ascensions et des pentes abruptes, promet des écarts significatifs au classement général. L’arrivée à Ciudad est jugée après une série de difficultés en altitude, dont une montée à plus de 2000 mètres.</p>
+    </section>
+
+    <section class="encadre-technique">
+        <h3>Données techniques</h3>
+        <ul>
+            <li><strong>Distance :</strong> 157.9 km</li>
+            <li><strong>Dénivelé positif :</strong> 4006 m</li>
+            <li><strong>Type d’étape :</strong> Montagne</li>
+            <li><strong>Cols répertoriés :</strong>
+                <ul>
+                    <li>Col de 1ʳᵉ cat. – km 15 – 5.9 km à 9.8%</li>
+                    <li>Col de 1ʳᵉ cat. – km 56.5 – 11 km à 7.3%</li>
+                    <li>Col de 4ᵉ cat. – km 68 – 1.2 km à 7.1%</li>
+                    <li>Col de 3ᵉ cat. – km 83 – 2 km à 8.7%</li>
+                    <li>Col de 1ʳᵉ cat. – km 119.5 – 7.6 km à 8.1%</li>
+                    <li>Col de 4ᵉ cat. – km 134 – 3.1 km à 4.9%</li>
+                </ul>
+            </li>
+            <li><strong>Départ :</strong> Salama (955 m)</li>
+            <li><strong>Arrivée :</strong> Ciudad (1527 m)</li>
+            <li><strong>Discipline :</strong> Route – en ligne</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Profil de l'étape</h2>
+        <div class="image-container">
+            <img src="../profile/profil_guatemala.png" alt="Profil de l'étape Guatemala">
+        </div>
+    </section>
+
+    <section>
+        <h2>Carte du parcours</h2>
+        <div id="map"></div>
+    </section>
+
+    <div class="navigation">
+        <a href="../html/etape_08.html" class="button active">⬅ Étape précédente</a>
+        <a href="index.html" class="button active">🏠 Accueil</a>
+        <a href="../html/etape_10.html" class="button disabled">Étape suivante ➡</a>
+    </div>
+
+    <script>
+        const map = L.map('map').setView([15.07, -90.45], 9);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        const latlngs = [
+            [15.074, -90.472], [15.072, -90.466], [15.069, -90.460], [15.067, -90.455],
+            [15.064, -90.450], [15.061, -90.443], [15.059, -90.438], [15.056, -90.432],
+            [15.053, -90.427], [15.051, -90.421], [15.049, -90.417], [15.046, -90.412],
+            [15.043, -90.407], [15.040, -90.402], [15.037, -90.397], [15.034, -90.392]
+        ];
+
+        L.polyline(latlngs, { color: 'green', weight: 5 }).addTo(map)
+            .bindPopup("Parcours Salama → Ciudad");
+
+        L.marker(latlngs[0]).addTo(map).bindPopup("Départ - Salama");
+        L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée - Ciudad");
+    </script>
+</body>
+</html>

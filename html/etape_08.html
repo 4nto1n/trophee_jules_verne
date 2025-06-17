@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Étape 08 : Honduras</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" rel="stylesheet"/>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+<style>
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://www.transparenttextures.com/patterns/old-wall.png');
+            background-color: #fdf6e3;
+            margin: 0;
+            padding: 0;
+            color: #3b2f2f;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(253, 246, 227, 0.95);
+            border-bottom: 2px solid #5e4b3c;
+            padding: 10px 30px;
+        }
+        .logo-gauche, .logo-droite {
+            width: 80px;
+        }
+        .titre-bandeau {
+            font-size: 2.4em;
+            font-weight: bold;
+            color: #2f2f2f;
+            text-shadow: 1px 1px 0px #e4d8be;
+            font-variant: small-caps;
+        }
+        .top-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px 0 40px;
+        }
+        section {
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid #c3b091;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 240, 0.85);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 15px;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+        }
+        #map {
+            height: 400px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px;
+            flex-wrap: wrap;
+        }
+        .button {
+            padding: 12px 25px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        .disabled {
+            background-color: #d4c4a8;
+            color: #6b5f4b;
+            pointer-events: none;
+        }
+        .active {
+            background-color: #5e4b3c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+<img alt="Logo du Trophée Jules Verne" class="logo-gauche" src="../logo/logo_trophee_jules_verne.png"/>
+<div class="titre-bandeau">Étape 08 : Honduras <img src="../flag/honduras.png" style="height: 30px;"/></div>
+<img alt="Logo Amérique du Sud" class="logo-droite" src="../logo/amerique_sud.png"/>
+</header>
+<div class="top-navigation">
+<a class="button active" href="../html/etape_06.html">⬅ Étape précédente</a>
+<a class="button active" href="../index.html">🏠 Accueil</a>
+<a class="button active" href="../html/etape_08.html">Étape suivante ➡</a>
+</div>
+<section class="description">
+<h2>Description</h2>
+<p>Contre-la-montre individuel dans les plaines du Honduras.<br>
+Étape rapide et décisive sur un parcours rectiligne de 31.7 kilomètres.</p>
+</section>
+<section class="encadre-technique">
+<h3>Données techniques</h3>
+<ul>
+    <li><strong>Distance :</strong> 31.7 km</li>
+    <li><strong>Dénivelé positif :</strong> 84 m</li>
+    <li><strong>Type d’étape :</strong> Contre-la-montre individuel</li>
+    <li><strong>Départ :</strong> Lamani (33 m)</li>
+    <li><strong>Arrivée :</strong> Lamani (41 m)</li>
+
+</ul>
+</section>
+<section>
+<h2>Profil de l'étape</h2>
+<div class="image-container">
+<img alt="Profil de l'étape 08" src="../profile/profile_honduras.png"/>
+</div>
+</section>
+<section>
+<h2>Carte du parcours</h2>
+<div id="map"></div>
+</section>
+<div class="navigation">
+<a class="button active" href="../html/etape_06.html">⬅ Étape précédente</a>
+<a class="button active" href="../index.html">🏠 Accueil</a>
+<a class="button active" href="../html/etape_08.html">Étape suivante ➡</a>
+</div>
+
+<script>
+    const map = L.map('map').setView([14.20187, -87.62591], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const latlngs = [
+        [14.20187, -87.62591], [14.20581, -87.62526], [14.20929, -87.62468],
+        [14.21134, -87.62437], [14.21514, -87.62425], [14.21783, -87.62416],
+        [14.22213, -87.62416], [14.22939, -87.62424], [14.23382, -87.62411],
+        [14.23714, -87.62401], [14.23924, -87.62372], [14.24261, -87.62314],
+        [14.24675, -87.62243], [14.24791, -87.62193], [14.25309, -87.61889],
+        [14.25736, -87.61634], [14.26088, -87.61402], [14.26224, -87.61330],
+        [14.26402, -87.61315], [14.26739, -87.61343], [14.27160, -87.61383],
+        [14.27375, -87.61379], [14.27966, -87.61320], [14.28185, -87.61315],
+        [14.28548, -87.61354], [14.28870, -87.61391], [14.29573, -87.61465],
+        [14.30275, -87.61540], [14.30515, -87.61558], [14.30592, -87.61525],
+        [14.30751, -87.61377], [14.30897, -87.61239], [14.31138, -87.61016]
+    ];
+
+    L.polyline(latlngs, { color: 'green', weight: 5 }).addTo(map)
+        .bindPopup("Parcours - Honduras");
+
+    L.marker(latlngs[0]).addTo(map).bindPopup("Départ");
+    L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée");
+</script></body>
+</html>
