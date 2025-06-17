@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Étape 03 - Venezuela
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" rel="stylesheet"/>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js">
+   const map = L.map('map').setView([8.55, -71.22], 11);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+const latlngs = [
+    [8.50123, -71.32358],
+    [8.50133, -71.32308],
+    [8.50619, -71.31413],
+    [8.50888, -71.29958],
+    [8.51257, -71.29250],
+    [8.51911, -71.28218],
+    [8.52552, -71.26871],
+    [8.52989, -71.25864],
+    [8.53742, -71.24725],
+    [8.54592, -71.23374],
+    [8.55501, -71.22488],
+    [8.56054, -71.21544],
+    [8.55482, -71.21689],
+    [8.55780, -71.20419],
+    [8.55807, -71.19544],
+    [8.55779, -71.20391],
+    [8.55936, -71.21459],
+    [8.55268, -71.22751],
+    [8.54493, -71.23632],
+    [8.55373, -71.22645],
+    [8.55988, -71.21681],
+    [8.55593, -71.21673],
+    [8.55827, -71.20533],
+    [8.55761, -71.19557],
+    [8.55615, -71.20267],
+    [8.55926, -71.21325],
+    [8.55382, -71.22664],
+    [8.54576, -71.23458],
+    [8.55234, -71.22747],
+    [8.55922, -71.21732],
+    [8.55695, -71.21689],
+    [8.55868, -71.20762],
+    [8.55692, -71.19677],
+    [8.55565, -71.20203],
+    [8.55943, -71.21127],
+    [8.55574, -71.22422],
+    [8.54656, -71.23247],
+    [8.55023, -71.22827],
+    [8.55886, -71.21795],
+    [8.55773, -71.21696],
+    [8.55842, -71.20933],
+    [8.55614, -71.19905],
+    [8.55560, -71.20134],
+    [8.55921, -71.20956],
+    [8.55742, -71.22212],
+    [8.54728, -71.23138],
+    [8.54923, -71.22903],
+    [8.55866, -71.21895],
+    [8.55842, -71.21648],
+    [8.55740, -71.21095],
+    [8.55541, -71.20134],
+    [8.55648, -71.19869],
+    [8.55886, -71.20768],
+    [8.55868, -71.21970],
+    [8.54883, -71.22992],
+    [8.54771, -71.23077],
+    [8.55839, -71.21987],
+    [8.55959, -71.21542],
+    [8.55559, -71.21430],
+    [8.55565, -71.20239],
+    [8.55726, -71.19636],
+    [8.55843, -71.20537],
+    [8.55932, -71.21766],
+    [8.55066, -71.22830],
+    [8.54661, -71.23199],
+    [8.55694, -71.22246],
+    [8.56059, -71.21502],
+    [8.55459, -71.21681],
+    [8.55698, -71.20345],
+    [8.55774, -71.19568],
+    [8.55819, -71.20452],
+    [8.55944, -71.21628],
+    [8.55197, -71.22787],
+    [8.54580, -71.23405],
+    [8.55492, -71.22498],
+    [8.56054, -71.21544],
+    [8.55508, -71.21681],
+    [8.55786, -71.20427],
+    [8.55841, -71.19522],
+    [8.55729, -71.20346],
+    [8.55927, -71.21387],
+    [8.55306, -71.22727],
+    [8.54510, -71.23637],
+    [8.55331, -71.22684],
+    [8.55981, -71.21690],
+    [8.55605, -71.21673],
+    [8.55833, -71.20561],
+    [8.55719, -71.19613],
+    [8.55581, -71.20234],
+    [8.55935, -71.21215],
+    [8.55433, -71.22603],
+    [8.54601, -71.23389],
+    [8.55152, -71.22784],
+    [8.55900, -71.21751],
+    [8.55744, -71.21698],
+    [8.55893, -71.20895],
+    [8.55643, -71.19829],
+    [8.56816, -71.18654],
+    [8.57544, -71.17366],
+    [8.58589, -71.15928],
+    [8.59775, -71.14459],
+];
+
+L.polyline(latlngs, { color: 'green', weight: 5 }).addTo(map)
+    .bindPopup("Parcours - Venezuela");
+
+L.marker(latlngs[0]).addTo(map).bindPopup("Départ");
+L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée");
+  </script>
+  <style>
+   body {
+            font-family: 'Georgia', serif;
+            background: url('https://www.transparenttextures.com/patterns/old-wall.png');
+            background-color: #fdf6e3;
+            margin: 0;
+            padding: 0;
+            color: #3b2f2f;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(253, 246, 227, 0.95);
+            border-bottom: 2px solid #5e4b3c;
+            padding: 10px 30px;
+        }
+        .logo-gauche, .logo-droite {
+            width: 80px;
+        }
+        .titre-bandeau {
+            font-size: 2.4em;
+            font-weight: bold;
+            color: #2f2f2f;
+            text-shadow: 1px 1px 0px #e4d8be;
+            font-variant: small-caps;
+        }
+        .top-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px 0 40px;
+        }
+        section {
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid #c3b091;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 240, 0.85);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 15px;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+        }
+        #map {
+            height: 400px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px;
+            flex-wrap: wrap;
+        }
+        .button {
+            padding: 12px 25px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        .disabled {
+            background-color: #d4c4a8;
+            color: #6b5f4b;
+            pointer-events: none;
+        }
+        .active {
+            background-color: #5e4b3c;
+            color: white;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <img alt="Logo du Trophée Jules Verne" class="logo-gauche" src="../logo/logo_trophee_jules_verne.png"/>
+   <div class="titre-bandeau">
+    Étape 03 : Venezuela <img src="../flag/venezuela.png" style="height: 30px;"></div></div>
+   <img alt="Logo Amérique du Sud" class="logo-droite" src="../logo/amerique_sud.png"/>
+  </header>
+  <div class="top-navigation">
+   <a class="button active" href="../html/etape_02.html">
+    ⬅ Étape précédente
+   </a>
+   <a class="button active" href="../index.html">
+    🏠 Accueil
+   </a>
+   <a class="button active" href="../html/etape_04.html">
+    Étape suivante ➡
+   </a>
+  </div>
+  <section class="description">
+   <h2>
+    Description
+   </h2>
+   <p>
+    <strong>
+     Troisième étape du Trophée Jules Verne
+    </strong>
+    au
+    <em>
+     Venezuela
+    </em>
+    , une étape vallonnée où les baroudeurs auront leur mot à dire. Les bosses successives useront les organismes et le placement sera capital dans le final.
+   </p>
+  </section>
+  <section class="encadre-technique">
+   <h3>
+    Données techniques
+   </h3>
+   <ul>
+    <li>
+     <strong>
+      Distance :
+     </strong>
+     134 km
+    </li>
+    <li>
+     <strong>
+      Dénivelé positif :
+     </strong>
+     1 620 m
+    </li>
+    <li>
+     <strong>
+      Type d’étape :
+     </strong>
+     Vallonnée avec final en montée
+    </li>
+    <li>
+     <strong>
+      Cols répertoriés :
+     </strong>
+     <ul>
+      <li>
+       Côte de 4e cat. – km 18,1 – 5 km à 4,1%
+      </li>
+      <li>
+       Côte de 4e cat. – km 54,3 – 5 km à 2,6%
+      </li>
+      <li>
+       Côte de 4e cat. – km 90,6 – 5 km à 2,3%
+      </li>
+      <li>
+       <strong>
+        Montée finale
+       </strong>
+       – 13,6 km à 3,4% jusqu'à Mérida (1 588 m)
+      </li>
+     </ul>
+    </li>
+    <li>
+     <strong>
+      Départ :
+     </strong>
+     Lagunillas (756 m)
+    </li>
+    <li>
+     <strong>
+      Arrivée :
+     </strong>
+     Mérida (1 602 m)
+    </li>
+    <li>
+     <strong>
+      Discipline :
+     </strong>
+     Route – en ligne
+    </li>
+   </ul>
+  </section>
+  <section>
+   <h2>
+    Profil de l'étape
+   </h2>
+   <div class="image-container">
+    <img alt="Profil de l'étape Venezuela" src="../profile/profil_venezuela.png"/>
+   </div>
+  </section>
+  <section>
+   <h2>
+    Carte du parcours
+   </h2>
+   <div id="map">
+   </div>
+  </section>
+  <div class="navigation">
+   <a class="button active" href="../html/etape_02.html">
+    ⬅ Étape précédente
+   </a>
+   <a class="button active" href="../index.html">
+    🏠 Accueil
+   </a>
+   <a class="button active" href="../html/etape_04.html">
+    Étape suivante ➡
+   </a>
+  </div>
+  <script>
+   const map = L.map('map').setView([8.5, -71.32], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        const latlngs = [
+    [8.50123, -71.32358],
+    [8.50133, -71.32308],
+    [8.50619, -71.31413],
+    [8.50888, -71.29958],
+    [8.51257, -71.29250],
+    [8.51911, -71.28218],
+    [8.52552, -71.26871],
+    [8.52989, -71.25864],
+    [8.53742, -71.24725],
+    [8.54592, -71.23374],
+    [8.55501, -71.22488],
+    [8.56054, -71.21544],
+    [8.55482, -71.21689],
+    [8.55780, -71.20419],
+    [8.55807, -71.19544],
+    [8.55779, -71.20391],
+    [8.55936, -71.21459],
+    [8.55268, -71.22751],
+    [8.54493, -71.23632],
+    [8.55373, -71.22645],
+    [8.55988, -71.21681],
+    [8.55593, -71.21673],
+    [8.55827, -71.20533],
+    [8.55761, -71.19557],
+    [8.55615, -71.20267],
+    [8.55926, -71.21325],
+    [8.55382, -71.22664],
+    [8.54576, -71.23458],
+    [8.55234, -71.22747],
+    [8.55922, -71.21732],
+    [8.55695, -71.21689],
+    [8.55868, -71.20762],
+    [8.55692, -71.19677],
+    [8.55565, -71.20203],
+    [8.55943, -71.21127],
+    [8.55574, -71.22422],
+    [8.54656, -71.23247],
+    [8.55023, -71.22827],
+    [8.55886, -71.21795],
+    [8.55773, -71.21696],
+    [8.55842, -71.20933],
+    [8.55614, -71.19905],
+    [8.55560, -71.20134],
+    [8.55921, -71.20956],
+    [8.55742, -71.22212],
+    [8.54728, -71.23138],
+    [8.54923, -71.22903],
+    [8.55866, -71.21895],
+    [8.55842, -71.21648],
+    [8.55740, -71.21095],
+    [8.55541, -71.20134],
+    [8.55648, -71.19869],
+    [8.55886, -71.20768],
+    [8.55868, -71.21970],
+    [8.54883, -71.22992],
+    [8.54771, -71.23077],
+    [8.55839, -71.21987],
+    [8.55959, -71.21542],
+    [8.55559, -71.21430],
+    [8.55565, -71.20239],
+    [8.55726, -71.19636],
+    [8.55843, -71.20537],
+    [8.55932, -71.21766],
+    [8.55066, -71.22830],
+    [8.54661, -71.23199],
+    [8.55694, -71.22246],
+    [8.56059, -71.21502],
+    [8.55459, -71.21681],
+    [8.55698, -71.20345],
+    [8.55774, -71.19568],
+    [8.55819, -71.20452],
+    [8.55944, -71.21628],
+    [8.55197, -71.22787],
+    [8.54580, -71.23405],
+    [8.55492, -71.22498],
+    [8.56054, -71.21544],
+    [8.55508, -71.21681],
+    [8.55786, -71.20427],
+    [8.55841, -71.19522],
+    [8.55729, -71.20346],
+    [8.55927, -71.21387],
+    [8.55306, -71.22727],
+    [8.54510, -71.23637],
+    [8.55331, -71.22684],
+    [8.55981, -71.21690],
+    [8.55605, -71.21673],
+    [8.55833, -71.20561],
+    [8.55719, -71.19613],
+    [8.55581, -71.20234],
+    [8.55935, -71.21215],
+    [8.55433, -71.22603],
+    [8.54601, -71.23389],
+    [8.55152, -71.22784],
+    [8.55900, -71.21751],
+    [8.55744, -71.21698],
+    [8.55893, -71.20895],
+    [8.55643, -71.19829],
+    [8.56816, -71.18654],
+    [8.57544, -71.17366],
+    [8.58589, -71.15928],
+    [8.59775, -71.14459],
+];
+
+        L.polyline(latlngs, { color: 'green', weight: 5 }).addTo(map)
+            .bindPopup("Parcours - Venezuela");
+
+        L.marker(latlngs[0]).addTo(map).bindPopup("Départ");
+  </script>
+ </body>
+</html>
