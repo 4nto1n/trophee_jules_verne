@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Étape 10 - Cuba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <!-- Leaflet GPX plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.5.0/gpx.min.js"></script>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://www.transparenttextures.com/patterns/old-wall.png');
+            background-color: #fdf6e3;
+            margin: 0;
+            padding: 0;
+            color: #3b2f2f;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(253, 246, 227, 0.95);
+            border-bottom: 2px solid #5e4b3c;
+            padding: 10px 30px;
+        }
+        .logo-gauche, .logo-droite {
+            width: 80px;
+        }
+        .titre-bandeau {
+            font-size: 2.4em;
+            font-weight: bold;
+            color: #2f2f2f;
+            text-shadow: 1px 1px 0px #e4d8be;
+            font-variant: small-caps;
+        }
+        .top-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px 0 40px;
+        }
+        section {
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid #c3b091;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 240, 0.85);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 15px;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+        }
+        #map {
+            height: 400px;
+            max-width: 100%;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px;
+            flex-wrap: wrap;
+        }
+        .button {
+            padding: 12px 25px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        .active {
+            background-color: #5e4b3c;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+            .logo-gauche, .logo-droite {
+                width: 60px;
+            }
+            .titre-bandeau {
+                font-size: 1.8em;
+            }
+            section, .navigation, .top-navigation {
+                margin: 20px;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+            .button {
+                width: 100%;
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../logo/logo_trophee_jules_verne.png" alt="Logo du Trophée Jules Verne" class="logo-gauche">
+        <div class="titre-bandeau">Étape 10 : Cuba <img src="../flag/cuba.png" style="height: 30px;"></div>
+        <img src="../logo/amerique_nord.png" alt="Logo Amérique du Nord" class="logo-droite">
+    </header>
+
+    <div class="top-navigation">
+        <a href="../html/etape_09.html" class="button active">⬅ Étape précédente</a>
+        <a href="../index.html" class="button active">🏠 Accueil</a>
+        <a href="../html/etape_11.html" class="button active">Étape suivante ➡</a>
+    </div>
+
+    <section class="description">
+        <h2>Description</h2>
+        <p><strong>Dixième étape du Trophée Jules Verne</strong> à <em>La Havane, Cuba</em>, un circuit urbain exigeant de 22,2958 km à parcourir 13 fois pour un total de <strong>243,4 km</strong>. Chaque tour intègre deux secteurs pavés de 700 m classés 2 étoiles, mettant à rude épreuve l’endurance et la technique des coureurs. Le tracé sinueux dans les rues de la capitale cubaine favorisera la vigilance tactique et la maîtrise du peloton.</p>
+    </section>
+
+    <section class="encadre-technique">
+        <h3>Données techniques</h3>
+        <ul>
+            <li><strong>Distance :</strong> 243,4 km (13 tours de ~22,2958 km)</li>
+            <li><strong>Dénivelé positif :</strong> 1379 m</li>
+            <li><strong>Type d’étape :</strong> Circuit urbain</li>
+            <li><strong>Tours :</strong> 13 tours</li>
+            <li><strong>Secteurs pavés :</strong> 2 par tour, 700 m chacun classés 2 étoiles</li>
+            <li><strong>Départ / Arrivée :</strong> La Havane</li>
+            <li><strong>Discipline :</strong> Route – circuit urbain</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Profil de l'étape</h2>
+        <div class="image-container">
+            <img src="../profile/profil_cuba.png" alt="Profil de l'étape Cuba">
+        </div>
+    </section>
+
+    <section>
+        <h2>Carte du parcours</h2>
+        <div id="map"></div>
+    </section>
+
+    <div class="navigation">
+        <a href="../html/etape_09.html" class="button active">⬅ Étape précédente</a>
+        <a href="../index.html" class="button active">🏠 Accueil</a>
+        <a href="../html/etape_11.html" class="button active">Étape suivante ➡</a>
+    </div>
+
+    <script>
+        // Initialisation de la carte
+        const map = L.map('map').setView([23.1136, -82.3666], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Charger le GPX via Leaflet-GPX plugin
+        new L.GPX('../gpx/etape_10_cuba.gpx', {
+            async: true,
+            marker_options: {
+                startIconUrl: '../logo/pin-start.png',
+                endIconUrl: '../logo/pin-end.png',
+                shadowUrl: ''
+            }
+        }).on('loaded', function(e) {
+            map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+    </script>
+</body>
+</html>

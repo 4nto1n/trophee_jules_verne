@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Étape 11 - Mexique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://www.transparenttextures.com/patterns/old-wall.png');
+            background-color: #fdf6e3;
+            margin: 0;
+            padding: 0;
+            color: #3b2f2f;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(253, 246, 227, 0.95);
+            border-bottom: 2px solid #5e4b3c;
+            padding: 10px 30px;
+        }
+        .logo-gauche, .logo-droite {
+            width: 80px;
+        }
+        .titre-bandeau {
+            font-size: 2.4em;
+            font-weight: bold;
+            color: #2f2f2f;
+            text-shadow: 1px 1px 0px #e4d8be;
+            font-variant: small-caps;
+        }
+        .top-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px 0 40px;
+        }
+        section {
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid #c3b091;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 240, 0.85);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 15px;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+        }
+        #map {
+            height: 400px;
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px;
+            flex-wrap: wrap;
+        }
+        .button {
+            padding: 12px 25px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        .disabled {
+            background-color: #d4c4a8;
+            color: #6b5f4b;
+            pointer-events: none;
+        }
+        .active {
+            background-color: #5e4b3c;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+            .logo-gauche, .logo-droite {
+                width: 60px;
+            }
+            .titre-bandeau {
+                font-size: 1.8em;
+            }
+            section, .navigation, .top-navigation {
+                margin: 20px;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+            .button {
+                width: 100%;
+                text-align: center;
+                margin: 10px 0;
+            }
+            #map {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Logo du Trophée -->
+        <img src="../logo/logo_trophee_jules_verne.png" alt="Logo du Trophée Jules Verne" class="logo-gauche">
+        <!-- Titre avec drapeau -->
+        <div class="titre-bandeau">Étape 11 : Mexique <img src="../flag/mexique.png" style="height: 30px;"></div>
+        <!-- Logo Amérique du Nord / Centrale -->
+        <img src="../logo/amerique_nord.png" alt="Logo Amérique du Nord" class="logo-droite">
+    </header>
+
+    <div class="top-navigation">
+        <!-- Lien vers étape précédente -->
+        <a href="../html/etape_10.html" class="button active">⬅ Étape précédente</a>
+        <!-- Accueil -->
+        <a href="../index.html" class="button active">🏠 Accueil</a>
+        <!-- Étape suivante (active même si n'existe pas encore) -->
+        <a href="../html/etape_12.html" class="button active">Étape suivante ➡</a>
+    </div>
+
+    <section class="description">
+        <h2>Description</h2>
+        <p>
+            <strong>Onzième étape du Trophée Jules Verne</strong> au Mexique, autour de Monterrey.  
+            Les coureurs effecturont environ 118,2 km, comprenant plusieurs ascensions marquées dans la zone de Monterrey :  
+            un sprint intermédiaire dans Monterrey même, puis l’enchaînement de cols proches de la Sierra environnante (Santa Catarina, Los Olmos, Los Encinos, Chipinque, El Mirador), demandant puissance et résistance en altitude.  
+            Le parcours part et revient à Monterrey, offrant un final potentiellement animé par de petites montées avant l’arrivée.
+        </p>
+    </section>
+
+    <section class="encadre-technique">
+        <h3>Données techniques</h3>
+        <ul>
+            <li><strong>Distance :</strong> 118,2 km</li>
+            <li><strong>Dénivelé positif :</strong> 2 308 m</li>
+            <li><strong>Type d’étape :</strong> Montagne / vallonnée</li>
+            <li><strong>Cols et points clés :</strong>
+                <ul>
+                    <li><strong>Sprint intermédiaire :</strong> Monterrey – km ~11 (alt. ~473 m)</li>
+                    <li><strong>Col de 4ᵉ cat. Los Olmos</strong> – km ~70,9 – 616 m (Santa Catarina)</li>
+                    <li><strong>Col de 3ᵉ cat. Los Encinos</strong> – km ~84,3 – 892 m</li>
+                    <li><strong>Col de 2ᵉ cat. Chipinque</strong> – km ~95 – 1 207 m (4,9 km à 10%)</li>
+                    <li><strong>Col de 2ᵉ cat. El Mirador</strong> – km ~111,3 – 863 m (2,4 km à 9,2%)</li>
+                </ul>
+            </li>
+            <li><strong>Départ :</strong> Monterrey (449 m)</li>
+            <li><strong>Arrivée :</strong> Monterrey (591 m)</li>
+            <li><strong>Discipline :</strong> Route – en ligne</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Profil de l'étape</h2>
+        <div class="image-container">
+            <!-- Profil généré, placez-le sous ../profile/profil_mexique.png -->
+            <img src="../profile/profil_mexique.png" alt="Profil de l'étape Mexique">
+        </div>
+    </section>
+
+    <section>
+        <h2>Carte du parcours</h2>
+        <div id="map"></div>
+    </section>
+
+    <div class="navigation">
+        <a href="../html/etape_10.html" class="button active">⬅ Étape précédente</a>
+        <a href="../index.html" class="button active">🏠 Accueil</a>
+        <a href="../html/etape_12.html" class="button active">Étape suivante ➡</a>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <!-- Plugin Leaflet-GPX pour charger le GPX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"
+            integrity="sha512-T0pW3r3K3CxkYlaEYRyU1l/QLbmU6Ehae0Qm2fCjStNJ1tW6AWUOTJGCeFED6wiOev/6z+3vB95356AEadMB9w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        // Initialisation de la carte centrée de façon générique ; 
+        // on zoomera sur la trace GPX une fois chargée.
+        const map = L.map('map').setView([25.6866, -100.3161], 11);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Chargement du GPX via Leaflet-GPX
+        const gpxPath = '../gpx/etape_11_mexique.gpx';  // chemin relatif depuis html/etape_11.html
+        new L.GPX(gpxPath, {
+            async: true,
+            marker_options: {
+                startIconUrl: '../logo/pin-start.png',
+                endIconUrl: '../logo/pin-end.png',
+                shadowUrl: ''
+            },
+            polyline_options: {
+                color: 'green',
+                weight: 5,
+                opacity: 0.75
+            }
+        }).on('loaded', function(e) {
+            // Ajuste la vue pour englober la trace
+            map.fitBounds(e.target.getBounds(), { padding: [20, 20] });
+        }).on('error', function(err) {
+            console.error("Erreur chargement GPX :", err);
+            alert("Impossible de charger la trace GPX. Vérifiez le chemin et le serveur HTTP.");
+        }).addTo(map);
+    </script>
+</body>
+</html>
