@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -92,6 +91,10 @@
             border-radius: 6px;
             cursor: pointer;
         }
+        #param-seuil {
+            margin-top: 10px;
+            font-size: 1em;
+        }
     </style>
 </head>
 <body>
@@ -106,21 +109,25 @@
     </div>
 
     <div class="content">
-        <p style="font-size: 1em; line-height: 1.6em; margin-bottom: 20px;">
+        <p style="font-size: 1em; line-height: 1.6em; margin-bottom: 10px;">
             <strong>Méthode de calcul des points :</strong><br>
-            Chaque caractéristique numérique (PLA, MO, etc.) est comptabilisée dans le total individuel d’un coureur.<br>
-            <ul style="margin-top: 8px; margin-bottom: 8px;">
-                <li>Jusqu’à 70 points dans une caractéristique : cela coûte 1 point par unité.</li>
-                <li>Au-delà de 70 points : chaque point supplémentaire coûte de plus en plus cher, selon la formule : 
-                    <code>Coût = (valeur - 70)<sup>2</sup> + 70</code></li>
+            Chaque caractéristique numérique est comptabilisée dans le total individuel d’un coureur :
+            <ul>
+                <li>Jusqu’au <strong>seuil</strong> : coût = 1 point par unité</li>
+                <li>Au-delà : coût = (valeur - seuil)<sup>2</sup> + seuil</li>
             </ul>
             <strong>Composition attendue d’une équipe :</strong><br>
-            <ul style="margin-top: 8px;">
+            <ul>
                 <li>1 coureur "leader" à 1200 points</li>
                 <li>2 jeunes à 1150 points</li>
                 <li>5 autres coureurs à 1000 points</li>
             </ul>
         </p>
+
+        <div id="param-seuil">
+            <label for="seuilInput"><strong>Seuil :</strong></label>
+            <input type="number" id="seuilInput" value="70" min="60" max="75" onchange="updateTotal()">
+        </div>
 
         <table>
             <thead>
@@ -144,7 +151,6 @@
 
     function createRow() {
         const tr = document.createElement("tr");
-
         ["text", "text"].forEach(() => {
             const td = document.createElement("td");
             const input = document.createElement("input");
@@ -179,23 +185,26 @@
         tbody.appendChild(tr);
     }
 
-    function calculateAttributePoints(value) {
-        if (value <= 70) return value;
-        return (value - 70) * (value - 70) + 70;
+    function calculateAttributePoints(value, seuil) {
+        if (value <= seuil) return value;
+        return (value - seuil) ** 2 + seuil;
     }
 
     function updateTotal() {
+        const seuil = parseInt(document.getElementById("seuilInput").value) || 70;
         let globalTotal = 0;
+
         tbody.querySelectorAll("tr").forEach(row => {
             let total = 0;
             const cells = row.querySelectorAll("td input[type='number']");
             cells.forEach(cell => {
                 const val = parseInt(cell.value);
-                if (!isNaN(val)) total += calculateAttributePoints(val);
+                if (!isNaN(val)) total += calculateAttributePoints(val, seuil);
             });
             row.lastElementChild.textContent = total;
             globalTotal += total;
         });
+
         document.getElementById("totalPoints").textContent = "Points totaux équipe : " + globalTotal;
     }
 
@@ -203,14 +212,10 @@
         let csv = "Nom;Prenom;PLA;MO;MM;DES;PAV;CLM;PRO;SPR;ACC;END;RES;REC;VAL;BAR;Jeune;Total\n";
         tbody.querySelectorAll("tr").forEach(row => {
             const data = [];
-            row.querySelectorAll("td").forEach((td, i) => {
+            row.querySelectorAll("td").forEach((td) => {
                 const input = td.querySelector("input");
                 if (input) {
-                    if (input.type === "checkbox") {
-                        data.push(input.checked ? "Oui" : "Non");
-                    } else {
-                        data.push(input.value || "");
-                    }
+                    data.push(input.type === "checkbox" ? (input.checked ? "Oui" : "Non") : input.value || "");
                 } else {
                     data.push(td.textContent);
                 }
