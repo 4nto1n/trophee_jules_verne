@@ -38,23 +38,34 @@
             background-color: #463628;
         }
 
-        .gallery-title {
+        .section-title {
             margin-top: 50px;
-            font-size: 1.2em;
+            font-size: 1.5em;
             font-weight: bold;
             color: #4b3828;
+            text-align: left;
+            padding-left: 10px;
+            border-left: 4px solid #5e4b3c;
         }
 
         .gallery {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: center; /* centré horizontalement */
             gap: 15px;
-            margin-top: 20px;
+            margin-top: 15px;
+        }
+
+        .gallery a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #3b2f2f;
         }
 
         .gallery img {
-            width: 160px;
+            width: 200px;   /* icônes agrandies */
             max-width: 90%;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
@@ -63,6 +74,11 @@
 
         .gallery img:hover {
             transform: scale(1.05);
+        }
+
+        .gallery span {
+            margin-top: 5px;
+            font-size: 0.9em;
         }
 
         @media (max-width: 480px) {
@@ -74,8 +90,15 @@
                 font-size: 1em;
                 padding: 12px 20px;
             }
+            .section-title {
+                font-size: 1.3em;
+            }
             .gallery {
                 gap: 10px;
+                justify-content: center;
+            }
+            .gallery img {
+                width: 80px;  /* icônes agrandies pour mobile */
             }
         }
     </style>
@@ -86,90 +109,113 @@
     <a href="html/etape_01.html" class="button">Commencer l'aventure – Étape 01</a>
     <a href="html/creation_coureurs.html" class="button">Créer une équipe</a>
 
-    <div class="gallery-title">Aller directement :</div>
-
+    <!-- Amérique du Sud -->
+    <div class="section-title">Amérique du Sud</div>
     <div class="gallery">
-        <a href="html/etape_01.html"><img src="icone/etape01.PNG" alt="Étape 01"></a>
-        <a href="html/etape_02.html"><img src="icone/etape02.PNG" alt="Étape 02"></a>
-        <a href="html/etape_03.html"><img src="icone/etape03.PNG" alt="Étape 03"></a>
-        <a href="html/etape_04.html"><img src="icone/etape04.PNG" alt="Étape 04"></a>
-        <a href="html/etape_05.html"><img src="icone/etape05.PNG" alt="Étape 05"></a>
-        <a href="html/etape_06.html"><img src="icone/etape06.PNG" alt="Étape 06"></a>
-        <a href="html/etape_07.html"><img src="icone/etape07.PNG" alt="Étape 07"></a>
-        <a href="html/etape_08.html"><img src="icone/etape08.PNG" alt="Étape 08"></a>
-        <a href="html/etape_09.html"><img src="icone/etape09.PNG" alt="Étape 09"></a>
-        <a href="html/etape_10.html"><img src="icone/etape10.PNG" alt="Étape 10"></a>
-		<a href="html/etape_11.html"><img src="icone/etape11.PNG" alt="Étape 11"></a>
-		<a href="html/etape_12.html"><img src="icone/etape12.PNG" alt="Étape 12"></a>
-		<a href="html/etape_13.html"><img src="icone/etape13.PNG" alt="Étape 13"></a>
-		<a href="html/etape_14.html"><img src="icone/etape14.PNG" alt="Étape 14"></a>
-		<a href="html/etape_15.html"><img src="icone/etape15.PNG" alt="Étape 15"></a>
-		<a href="html/etape_16.html"><img src="icone/etape16.PNG" alt="Étape 16"></a>
-		<a href="html/etape_17.html"><img src="icone/etape17.PNG" alt="Étape 17"></a>
-		<a href="html/etape_18.html"><img src="icone/etape18.PNG" alt="Étape 18"></a>
-		<a href="html/etape_19.html"><img src="icone/etape19.PNG" alt="Étape 19"></a>
-		<a href="html/etape_20.html"><img src="icone/etape20.PNG" alt="Étape 20"></a>
-		<a href="html/etape_21.html"><img src="icone/etape21.PNG" alt="Étape 21"></a>
-		<a href="html/etape_22.html"><img src="icone/etape22.PNG" alt="Étape 22"></a>
-		<a href="html/etape_23.html"><img src="icone/etape23.PNG" alt="Étape 23"></a>
-		<a href="html/etape_24.html"><img src="icone/etape24.PNG" alt="Étape 24"></a>
-		<a href="html/etape_25.html"><img src="icone/etape25.PNG" alt="Étape 25"></a>
-		<a href="html/etape_26.html"><img src="icone/etape26.PNG" alt="Étape 26"></a>
-		<a href="html/etape_27.html"><img src="icone/etape27.PNG" alt="Étape 27"></a>
-		<a href="html/etape_28.html"><img src="icone/etape28.PNG" alt="Étape 28"></a>
-		<a href="html/etape_29.html"><img src="icone/etape29.PNG" alt="Étape 29"></a>
-		<a href="html/etape_30.html"><img src="icone/etape30.PNG" alt="Étape 30"></a>
-		<a href="html/etape_31.html"><img src="icone/etape31.PNG" alt="Étape 31"></a>
-		<a href="html/etape_32.html"><img src="icone/etape32.PNG" alt="Étape 32"></a>
-		<a href="html/etape_33.html"><img src="icone/etape33.PNG" alt="Étape 33"></a>
-		<a href="html/etape_34.html"><img src="icone/etape34.PNG" alt="Étape 34"></a>
-		<a href="html/etape_35.html"><img src="icone/etape35.PNG" alt="Étape 35"></a>
-		<a href="html/etape_36.html"><img src="icone/etape36.PNG" alt="Étape 36"></a>
-		<a href="html/etape_37.html"><img src="icone/etape37.PNG" alt="Étape 37"></a>
-		<a href="html/etape_38.html"><img src="icone/etape38.PNG" alt="Étape 38"></a>
-		<a href="html/etape_39.html"><img src="icone/etape39.PNG" alt="Étape 39"></a>
-		<a href="html/etape_40.html"><img src="icone/etape40.PNG" alt="Étape 40"></a>
-		<a href="html/etape_41.html"><img src="icone/etape41.PNG" alt="Étape 41"></a>
-		<a href="html/etape_42.html"><img src="icone/etape42.PNG" alt="Étape 42"></a>
-		<a href="html/etape_43.html"><img src="icone/etape43.PNG" alt="Étape 43"></a>
-		<a href="html/etape_44.html"><img src="icone/etape44.PNG" alt="Étape 44"></a>
-		<a href="html/etape_45.html"><img src="icone/etape45.PNG" alt="Étape 45"></a>
-		<a href="html/etape_46.html"><img src="icone/etape46.PNG" alt="Étape 46"></a>
-		<a href="html/etape_47.html"><img src="icone/etape47.PNG" alt="Étape 47"></a>
-		<a href="html/etape_48.html"><img src="icone/etape48.PNG" alt="Étape 48"></a>
-		<a href="html/etape_49.html"><img src="icone/etape49.PNG" alt="Étape 49"></a>
-		<a href="html/etape_50.html"><img src="icone/etape50.PNG" alt="Étape 50"></a>
-		<a href="html/etape_51.html"><img src="icone/etape51.PNG" alt="Étape 51"></a>
-		<a href="html/etape_52.html"><img src="icone/etape52.PNG" alt="Étape 52"></a>
-		<a href="html/etape_53.html"><img src="icone/etape53.PNG" alt="Étape 53"></a>
-		<a href="html/etape_54.html"><img src="icone/etape54.PNG" alt="Étape 54"></a>
-		<a href="html/etape_55.html"><img src="icone/etape55.PNG" alt="Étape 55"></a>
-		<a href="html/etape_56.html"><img src="icone/etape56.PNG" alt="Étape 56"></a>
-		<a href="html/etape_57.html"><img src="icone/etape57.PNG" alt="Étape 57"></a>
-		<a href="html/etape_58.html"><img src="icone/etape58.PNG" alt="Étape 58"></a>
-		<a href="html/etape_59.html"><img src="icone/etape59.PNG" alt="Étape 59"></a>
-		<a href="html/etape_60.html"><img src="icone/etape60.PNG" alt="Étape 60"></a>
-		<a href="html/etape_61.html"><img src="icone/etape61.PNG" alt="Étape 61"></a>
-		<a href="html/etape_62.html"><img src="icone/etape62.PNG" alt="Étape 62"></a>
-		<a href="html/etape_63.html"><img src="icone/etape63.PNG" alt="Étape 63"></a>
-		<a href="html/etape_64.html"><img src="icone/etape64.PNG" alt="Étape 64"></a>
-		<a href="html/etape_65.html"><img src="icone/etape65.PNG" alt="Étape 65"></a>
-		<a href="html/etape_66.html"><img src="icone/etape66.PNG" alt="Étape 66"></a>
-		<a href="html/etape_67.html"><img src="icone/etape67.PNG" alt="Étape 67"></a>
-		<a href="html/etape_68.html"><img src="icone/etape68.PNG" alt="Étape 68"></a>
-		<a href="html/etape_69.html"><img src="icone/etape69.PNG" alt="Étape 69"></a>
-		<a href="html/etape_70.html"><img src="icone/etape70.PNG" alt="Étape 70"></a>
-		<a href="html/etape_71.html"><img src="icone/etape71.PNG" alt="Étape 71"></a>
-		<a href="html/etape_72.html"><img src="icone/etape72.PNG" alt="Étape 72"></a>
-		<a href="html/etape_73.html"><img src="icone/etape73.PNG" alt="Étape 73"></a>
-		<a href="html/etape_74.html"><img src="icone/etape74.PNG" alt="Étape 74"></a>
-		<a href="html/etape_75.html"><img src="icone/etape75.PNG" alt="Étape 75"></a>
-		<a href="html/etape_76.html"><img src="icone/etape76.PNG" alt="Étape 76"></a>
-		<a href="html/etape_77.html"><img src="icone/etape77.PNG" alt="Étape 77"></a>
-		<a href="html/etape_78.html"><img src="icone/etape78.PNG" alt="Étape 78"></a>
-		<a href="html/etape_79.html"><img src="icone/etape79.PNG" alt="Étape 79"></a>
-		<a href="html/etape_80.html"><img src="icone/etape80.PNG" alt="Étape 80"></a>
+        <a href="html/etape_01.html">
+            <img src="icone/etape01.PNG" alt="Étape 01 – Argentine">
+            <span>Étape 01<br>Argentine</span>
+        </a>
+        <a href="html/etape_02.html">
+            <img src="icone/etape02.PNG" alt="Étape 02 – Brésil">
+            <span>Étape 02<br>Brésil</span>
+        </a>
+        <a href="html/etape_03.html">
+            <img src="icone/etape03.PNG" alt="Étape 03 – Vénézuéla">
+            <span>Étape 03<br>Vénézuéla</span>
+        </a>
+        <a href="html/etape_04.html">
+            <img src="icone/etape04.PNG" alt="Étape 04 – Colombie">
+            <span>Étape 04<br>Colombie</span>
+        </a>
+        <a href="html/etape_06.html">
+            <img src="icone/etape06.PNG" alt="Étape 06 – Équateur">
+            <span>Étape 06<br>Équateur</span>
+        </a>
+    </div>
 
+    <!-- Caraïbes & Amérique Centrale -->
+    <div class="section-title">Caraïbes & Amérique Centrale</div>
+    <div class="gallery">
+        <a href="html/etape_05.html">
+            <img src="icone/etape05.PNG" alt="Étape 05 – Jamaïque">
+            <span>Étape 05<br>Jamaïque</span>
+        </a>
+        <a href="html/etape_07.html">
+            <img src="icone/etape07.PNG" alt="Étape 07 – Bélize">
+            <span>Étape 07<br>Bélize</span>
+        </a>
+        <a href="html/etape_08.html">
+            <img src="icone/etape08.PNG" alt="Étape 08 – Honduras">
+            <span>Étape 08<br>Honduras</span>
+        </a>
+        <a href="html/etape_09.html">
+            <img src="icone/etape09.PNG" alt="Étape 09 – Guatemala">
+            <span>Étape 09<br>Guatemala</span>
+        </a>
+        <a href="html/etape_10.html">
+            <img src="icone/etape10.PNG" alt="Étape 10 – Cuba">
+            <span>Étape 10<br>Cuba</span>
+        </a>
+    </div>
+
+    <!-- Amérique du Nord -->
+    <div class="section-title">Amérique du Nord</div>
+    <div class="gallery">
+        <a href="html/etape_11.html">
+            <img src="icone/etape11.PNG" alt="Étape 11 – Mexique">
+            <span>Étape 11<br>Mexique</span>
+        </a>
+        <a href="html/etape_12.html">
+            <img src="icone/etape12.PNG" alt="Étape 12 – USA">
+            <span>Étape 12<br>USA</span>
+        </a>
+        <a href="html/etape_13.html">
+            <img src="icone/etape13.PNG" alt="Étape 13 – Canada">
+            <span>Étape 13<br>Canada</span>
+        </a>
+    </div>
+
+    <!-- Océanie & Pacifique Sud -->
+    <div class="section-title">Océanie & Pacifique Sud</div>
+    <div class="gallery">
+        <a href="html/etape_14.html">
+            <img src="icone/etape14.PNG" alt="Étape 14 – Nouvelle-Zélande">
+            <span>Étape 14<br>Nouvelle-Zélande</span>
+        </a>
+        <a href="html/etape_15.html">
+            <img src="icone/etape15.PNG" alt="Étape 15 – Australie">
+            <span>Étape 15<br>Australie</span>
+        </a>
+        <a href="html/etape_16.html">
+            <img src="icone/etape16.PNG" alt="Étape 16 – Tonga">
+            <span>Étape 16<br>Tonga</span>
+        </a>
+        <a href="html/etape_17.html">
+            <img src="icone/etape17.PNG" alt="Étape 17 – Papouasie">
+            <span>Étape 17<br>Papouasie</span>
+        </a>
+    </div>
+
+    <!-- Asie du Sud-Est -->
+    <div class="section-title">Asie du Sud-Est</div>
+    <div class="gallery">
+        <a href="html/etape_18.html">
+            <img src="icone/etape18.PNG" alt="Étape 18 – Indonésie">
+            <span>Étape 18<br>Indonésie</span>
+        </a>
+        <a href="html/etape_19.html">
+            <img src="icone/etape19.PNG" alt="Étape 19 – Malaisie">
+            <span>Étape 19<br>Malaisie</span>
+        </a>
+        <a href="html/etape_20.html">
+            <img src="icone/etape20.PNG" alt="Étape 20 – Philippines">
+            <span>Étape 20<br>Philippines</span>
+        </a>
+        <a href="html/etape_21.html">
+            <img src="icone/etape21.PNG" alt="Étape 21 – Thaïlande">
+            <span>Étape 21<br>Thaïlande</span>
+        </a>
     </div>
 
 </body>
