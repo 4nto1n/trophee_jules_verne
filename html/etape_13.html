@@ -26,17 +26,36 @@
         .logo-gauche, .logo-droite {
             width: 80px;
         }
+        .top-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px 0 40px;
+        }
         .titre-bandeau {
             font-size: 2.4em;
             font-weight: bold;
             color: #2f2f2f;
             text-shadow: 1px 1px 0px #e4d8be;
             font-variant: small-caps;
+            text-align: center;
+            flex-grow: 1;
         }
-        .top-navigation {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 40px 0 40px;
+         .titre-bandeau img.type-icon {
+    height: 60px;           /* ou la taille souhaitée */
+    margin-right: 12px;
+    border: none;           /* supprime toute bordure */
+    box-shadow: none;       /* supprime toute ombre portée */
+    background: transparent;/* s’assure qu’aucun fond n’apparaît */
+    outline: none;          /* supprime tout contour au focus, si cliquable */
+     vertical-align: middle; /* ou text-bottom, baseline, selon l’effet */
+}
+        /* Drapeau */
+        .titre-bandeau img.flag-icon {
+            height: 30px;
+            margin-left: 10px;
+        }
+        h1 {
+            display: none;
         }
         section {
             margin: 40px;
@@ -60,14 +79,11 @@
             height: 400px;
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
-            max-width: 90%;
-            margin: auto;
         }
         .navigation {
             display: flex;
             justify-content: space-between;
             margin: 40px;
-            flex-wrap: wrap;
         }
         .button {
             padding: 12px 25px;
@@ -75,18 +91,60 @@
             text-decoration: none;
             border-radius: 5px;
             font-size: 1em;
-            margin: 5px 0;
+        }
+        .disabled {
+            background-color: #d4c4a8;
+            color: #6b5f4b;
+            pointer-events: none;
         }
         .active {
             background-color: #5e4b3c;
             color: white;
+        }
+        .description p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .description strong {
+            color: #000;
+        }
+        .description em {
+            color: #444;
+        }
+        .encadre-technique {
+            margin: 40px;
+            padding: 20px;
+            border: 2px dashed #b1976b;
+            background-color: #fbf7e4;
+            font-size: 1.05em;
+            line-height: 1.5;
+        }
+        .encadre-technique h3 {
+            margin-top: 0;
+            color: #5e4b3c;
+            font-variant: small-caps;
+        }
+        .encadre-technique ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+            .titre-bandeau {
+                margin: 10px 0;
+            }
+            section, .navigation {
+                margin: 20px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
         <img src="../logo/logo_trophee_jules_verne.png" alt="Logo du Trophée Jules Verne" class="logo-gauche"/>
-        <div class="titre-bandeau">Étape 13 : Canada <img src="../flag/canada.png" style="height:30px;"/></div>
+        <div class="titre-bandeau"><img src="../logo/montagne.png" alt="Montagne" class="type-icon"> Étape 13 : Canada <img src="../flag/canada.png" style="height:30px;"/></div>
         <img src="../logo/amerique_nord.png" alt="Logo Amérique du Nord" class="logo-droite"/>
     </header>
     <div class="top-navigation">

@@ -27,7 +27,7 @@
         .logo-gauche, .logo-droite {
             width: 80px;
         }
-		.top-navigation {
+        .top-navigation {
             display: flex;
             justify-content: space-between;
             padding: 10px 40px 0 40px;
@@ -40,6 +40,20 @@
             font-variant: small-caps;
             text-align: center;
             flex-grow: 1;
+        }
+         .titre-bandeau img.type-icon {
+    height: 60px;           /* ou la taille souhaitée */
+    margin-right: 12px;
+    border: none;           /* supprime toute bordure */
+    box-shadow: none;       /* supprime toute ombre portée */
+    background: transparent;/* s’assure qu’aucun fond n’apparaît */
+    outline: none;          /* supprime tout contour au focus, si cliquable */
+     vertical-align: middle; /* ou text-bottom, baseline, selon l’effet */
+}
+        /* Drapeau */
+        .titre-bandeau img.flag-icon {
+            height: 30px;
+            margin-left: 10px;
         }
         h1 {
             display: none;
@@ -131,7 +145,11 @@
 <body>
     <header>
         <img src="../logo/logo_trophee_jules_verne.png" alt="Logo du Trophée Jules Verne" class="logo-gauche">
-        <div class="titre-bandeau">Étape 01 : Argentine <img src="../flag/argentine.png" style="height: 30px;"></div>
+        <div class="titre-bandeau">
+            <img src="../logo/chrono.png" alt="Contre-la-montre" class="type-icon">
+            Étape 01 : Argentine
+            <img src="../flag/argentine.png" alt="Drapeau Argentine" class="flag-icon">
+        </div>
         <img src="../logo/amerique_sud.png" alt="Logo Amérique du Sud" class="logo-droite">
     </header>
 	

@@ -124,7 +124,7 @@ L.marker(latlngs[0]).addTo(map).bindPopup("Départ");
 L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée");
   </script>
   <style>
-   body {
+        body {
             font-family: 'Georgia', serif;
             background: url('https://www.transparenttextures.com/patterns/old-wall.png');
             background-color: #fdf6e3;
@@ -143,17 +143,36 @@ L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée");
         .logo-gauche, .logo-droite {
             width: 80px;
         }
+        .top-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px 0 40px;
+        }
         .titre-bandeau {
             font-size: 2.4em;
             font-weight: bold;
             color: #2f2f2f;
             text-shadow: 1px 1px 0px #e4d8be;
             font-variant: small-caps;
+            text-align: center;
+            flex-grow: 1;
         }
-        .top-navigation {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 40px 0 40px;
+         .titre-bandeau img.type-icon {
+    height: 60px;           /* ou la taille souhaitée */
+    margin-right: 12px;
+    border: none;           /* supprime toute bordure */
+    box-shadow: none;       /* supprime toute ombre portée */
+    background: transparent;/* s’assure qu’aucun fond n’apparaît */
+    outline: none;          /* supprime tout contour au focus, si cliquable */
+     vertical-align: middle; /* ou text-bottom, baseline, selon l’effet */
+}
+        /* Drapeau */
+        .titre-bandeau img.flag-icon {
+            height: 30px;
+            margin-left: 10px;
+        }
+        h1 {
+            display: none;
         }
         section {
             margin: 40px;
@@ -182,7 +201,6 @@ L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée");
             display: flex;
             justify-content: space-between;
             margin: 40px;
-            flex-wrap: wrap;
         }
         .button {
             padding: 12px 25px;
@@ -190,7 +208,6 @@ L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée");
             text-decoration: none;
             border-radius: 5px;
             font-size: 1em;
-            margin: 5px 0;
         }
         .disabled {
             background-color: #d4c4a8;
@@ -201,13 +218,50 @@ L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée");
             background-color: #5e4b3c;
             color: white;
         }
-  </style>
+        .description p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .description strong {
+            color: #000;
+        }
+        .description em {
+            color: #444;
+        }
+        .encadre-technique {
+            margin: 40px;
+            padding: 20px;
+            border: 2px dashed #b1976b;
+            background-color: #fbf7e4;
+            font-size: 1.05em;
+            line-height: 1.5;
+        }
+        .encadre-technique h3 {
+            margin-top: 0;
+            color: #5e4b3c;
+            font-variant: small-caps;
+        }
+        .encadre-technique ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+            .titre-bandeau {
+                margin: 10px 0;
+            }
+            section, .navigation {
+                margin: 20px;
+            }
+        }
+    </style>
  </head>
  <body>
   <header>
    <img alt="Logo du Trophée Jules Verne" class="logo-gauche" src="../logo/logo_trophee_jules_verne.png"/>
-   <div class="titre-bandeau">
-    Étape 03 : Venezuela <img src="../flag/venezuela.png" style="height: 30px;"></div></div>
+   <div class="titre-bandeau"><img src="../logo/vallon.png" alt="Vallon" class="type-icon"> Étape 03 : Venezuela <img src="../flag/venezuela.png" style="height: 30px;"></div></div>
    <img alt="Logo Amérique du Sud" class="logo-droite" src="../logo/amerique_sud.png"/>
   </header>
   <div class="top-navigation">
