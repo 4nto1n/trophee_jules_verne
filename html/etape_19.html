@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Étape 19 - Malaisie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://www.transparenttextures.com/patterns/old-wall.png');
+            background-color: #fdf6e3;
+            margin: 0;
+            padding: 0;
+            color: #3b2f2f;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(253, 246, 227, 0.95);
+            border-bottom: 2px solid #5e4b3c;
+            padding: 10px 30px;
+        }
+        .logo-gauche, .logo-droite {
+            width: 80px;
+        }
+        .titre-bandeau {
+            font-size: 2.4em;
+            font-weight: bold;
+            color: #2f2f2f;
+            text-shadow: 1px 1px 0px #e4d8be;
+            font-variant: small-caps;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Icône de type d'étape */
+        .titre-bandeau img.type-icon {
+            height: 60px;           /* taille souhaitée */
+            margin-right: 12px;
+            border: none;           /* supprime toute bordure */
+            box-shadow: none;       /* supprime ombre */
+            background: transparent;/* aucun fond */
+            outline: none;
+            vertical-align: middle;
+        }
+        /* Drapeau */
+        .titre-bandeau img.flag-icon {
+            height: 30px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        h1 {
+            display: none;
+        }
+        /* Navigation en haut */
+        .top-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 40px 0 40px;
+        }
+        section {
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid #c3b091;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 240, 0.85);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .description p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .description strong {
+            color: #000;
+        }
+        .description em {
+            color: #444;
+        }
+        .encadre-technique {
+            margin: 40px;
+            padding: 20px;
+            border: 2px dashed #b1976b;
+            background-color: #fbf7e4;
+            font-size: 1.05em;
+            line-height: 1.5;
+        }
+        .encadre-technique h3 {
+            margin-top: 0;
+            color: #5e4b3c;
+            font-variant: small-caps;
+        }
+        .encadre-technique ul {
+            padding-left: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 15px;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+        }
+        #map {
+            height: 400px;
+            max-width: 100%;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px;
+            flex-wrap: wrap;
+        }
+        .button {
+            padding: 12px 25px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        .disabled {
+            background-color: #d4c4a8;
+            color: #6b5f4b;
+            pointer-events: none;
+        }
+        .active {
+            background-color: #5e4b3c;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+            .titre-bandeau {
+                margin: 10px 0;
+            }
+            section, .navigation, .top-navigation {
+                margin: 20px;
+            }
+            .logo-gauche, .logo-droite {
+                width: 60px;
+            }
+            .titre-bandeau {
+                font-size: 1.8em;
+            }
+            .button {
+                width: 100%;
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../logo/logo_trophee_jules_verne.png" alt="Logo du Trophée Jules Verne" class="logo-gauche">
+        <div class="titre-bandeau">
+            <!-- Icône puncher pour Malaisie -->
+            <img src="../logo/vallon.png" alt="Vallon" class="type-icon">
+            Étape 19 : Malaisie
+            <img src="../flag/malaisie.png" alt="Drapeau Malaisie" class="flag-icon">
+        </div>
+        <img src="../logo/asie.png" alt="Logo région" class="logo-droite">
+        <!-- Remplace src du logo-droite selon continent : ici vous mettez par ex. ../logo/asie.png ou autre -->
+    </header>
+
+    <div class="top-navigation">
+        <a href="../html/etape_18.html" class="button active">⬅ Étape précédente</a>
+        <a href="../index.html" class="button active">🏠 Accueil</a>
+        <a href="../html/etape_20.html" class="button active">Étape suivante ➡</a>
+    </div>
+
+    <section class="description">
+        <h2>Description</h2>
+        <p><strong>Dix-neuvième étape du Trophée Jules Verne</strong> en <em>Malaisie</em>, sur un parcours d’environ 172,9 km. Étape puncher qui emprunte en grande partie des routes ondulées, entre collines douces et secteurs plats favorables aux attaques. Malgré un dénivelé modéré (870 m), les petites bosses et le rythme soutenu peuvent créer des cassures. Attendez-vous à des sprints réduits en petit groupe ou des attaques opportunistes dans les côtes courtes. La tactique d’équipe sera essentielle pour contrôler les échappées.</p>
+    </section>
+
+    <section class="encadre-technique">
+        <h3>Données techniques</h3>
+        <ul>
+            <li><strong>Distance :</strong> 172,9 km</li>
+            <li><strong>Dénivelé positif :</strong> 870 m</li>
+            <li><strong>Type d’étape :</strong> Puncher (étape vallonnée courte)</li>
+            <li><strong>Départ :</strong> Kuala Kubu Baru (59 m)</li>
+            <li><strong>Arrivée :</strong> Hulu Selangor (226 m)</li>
+            <li><strong>Discipline :</strong> Route – en ligne</li>
+            <li><strong>Secteurs notables :</strong> plusieurs petites côtes courtes (2-3 km) avec pentes autour de 5-9% pouvant faire la différence</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Profil de l'étape</h2>
+        <div class="image-container">
+            <img src="../profile/profil_malaisie.png" alt="Profil de l'étape Malaisie">
+        </div>
+    </section>
+
+    <section>
+        <h2>Carte du parcours</h2>
+        <div id="map"></div>
+    </section>
+
+    <div class="navigation">
+        <a href="../html/etape_18.html" class="button active">⬅ Étape précédente</a>
+        <a href="../index.html" class="button active">🏠 Accueil</a>
+        <a href="../html/etape_20.html" class="button active">Étape suivante ➡</a>
+    </div>
+
+    <script>
+        // Initialisation de la carte Leaflet
+        const map = L.map('map').setView([3.4, 101.6], 10); // Centrez sur Malaisie, ajustez si besoin
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Exemple de tracé GPX : remplacer par extraction automatique ou latlngs depuis votre GPX Malaisie
+        // Vous devez extraire les latlngs du GPX Malaisie pour avoir la trace correcte.
+        const latlngs = [
+            // [latitude, longitude], ...
+            // Exemples fictifs, à remplacer par vos données extraites du GPX
+            [3.392, 101.589],
+            [3.395, 101.595],
+            [3.400, 101.600],
+            // ... ajouter toutes les coord du GPX ...
+            [3.450, 101.650]
+        ];
+
+        // Trace polyline
+        L.polyline(latlngs, { color: 'green', weight: 5 }).addTo(map)
+            .bindPopup("Parcours Kuala Kubu Baru → Hulu Selangor");
+
+        // Marqueurs de départ et arrivée
+        if (latlngs.length > 0) {
+            L.marker(latlngs[0]).addTo(map).bindPopup("Départ - Kuala Kubu Baru");
+            L.marker(latlngs[latlngs.length - 1]).addTo(map).bindPopup("Arrivée - Hulu Selangor");
+        }
+    </script>
+</body>
+</html>
