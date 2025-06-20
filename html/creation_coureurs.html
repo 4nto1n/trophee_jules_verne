@@ -14,7 +14,7 @@
         }
         header {
             display: flex;
-            justify-content: space-between;
+            justify-content: center; /* centré horizontalement */
             align-items: center;
             background-color: rgba(253, 246, 227, 0.95);
             border-bottom: 2px solid #5e4b3c;
@@ -22,6 +22,7 @@
         }
         .logo {
             height: 80px;
+            margin-right: 20px;
         }
         .titre-bandeau {
             font-size: 2.4em;
@@ -69,7 +70,7 @@
         }
         .top-bar {
             display: flex;
-            justify-content: flex-start;
+            justify-content: center; /* Centrer le bouton accueil */
             margin: 20px 40px 0 40px;
         }
         .top-bar a {
@@ -80,8 +81,9 @@
             border-radius: 6px;
             font-weight: bold;
             box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+            cursor: pointer;
         }
-        #exportCSV {
+        #exportCSV, #importCSV {
             margin-top: 20px;
             padding: 10px 20px;
             font-size: 1em;
@@ -90,10 +92,14 @@
             border: none;
             border-radius: 6px;
             cursor: pointer;
+            margin-right: 10px;
         }
         #param-seuil {
             margin-top: 10px;
             font-size: 1em;
+        }
+        #importFileInput {
+            display: none;
         }
     </style>
 </head>
@@ -101,7 +107,6 @@
     <header>
         <img src="../logo/logo_trophee_jules_verne.png" alt="Logo du Trophée Jules Verne" class="logo">
         <div class="titre-bandeau">Création des coureurs</div>
-        <div style="width:80px;"></div>
     </header>
 
     <div class="top-bar">
@@ -143,7 +148,11 @@
         </table>
 
         <div id="totalPoints">Points totaux équipe : 0</div>
-        <button id="exportCSV">Exporter l'équipe en CSV</button>
+        <div>
+            <button id="importCSV">Importer un CSV</button>
+            <button id="exportCSV">Exporter l'équipe en CSV</button>
+            <input type="file" id="importFileInput" accept=".csv">
+        </div>
     </div>
 
 <script>
@@ -215,7 +224,11 @@
             row.querySelectorAll("td").forEach((td) => {
                 const input = td.querySelector("input");
                 if (input) {
-                    data.push(input.type === "checkbox" ? (input.checked ? "Oui" : "Non") : input.value || "");
+                    if (input.type === "checkbox") {
+                        data.push(input.checked ? "Oui" : "Non");
+                    } else {
+                        data.push(input.value || "");
+                    }
                 } else {
                     data.push(td.textContent);
                 }
@@ -234,7 +247,74 @@
         URL.revokeObjectURL(url);
     }
 
+    function importCSV() {
+        const fileInput = document.getElementById('importFileInput');
+        fileInput.click();
+    }
+
+    function handleFileSelect(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const text = e.target.result;
+            const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
+            if (lines.length < 2) {
+                alert('CSV invalide : contient moins de 2 lignes');
+                return;
+            }
+            const header = lines[0].trim();
+            const expectedHeader = "Nom;Prenom;PLA;MO;MM;DES;PAV;CLM;PRO;SPR;ACC;END;RES;REC;VAL;BAR;Jeune;Total";
+            if (header !== expectedHeader) {
+                alert('Le format du CSV est incorrect ou ne provient pas du bon site.');
+                return;
+            }
+            tbody.innerHTML = '';
+            lines.slice(1).forEach(line => {
+                const cols = line.split(';');
+                if (cols.length < 18) return;
+                const tr = document.createElement('tr');
+                for (let i = 0; i < 2; i++) {
+                    const td = document.createElement('td');
+                    const input = document.createElement('input');
+                    input.type = 'text';
+                    input.value = cols[i];
+                    td.appendChild(input);
+                    tr.appendChild(td);
+                }
+                for (let i = 2; i < 16; i++) {
+                    const td = document.createElement('td');
+                    const input = document.createElement('input');
+                    input.type = 'number';
+                    input.min = 55;
+                    input.max = 85;
+                    const val = parseInt(cols[i]);
+                    if (!isNaN(val)) input.value = val;
+                    input.addEventListener('input', updateTotal);
+                    td.appendChild(input);
+                    tr.appendChild(td);
+                }
+                const tdCheck = document.createElement('td');
+                const check = document.createElement('input');
+                check.type = 'checkbox';
+                if (cols[16].toLowerCase() === 'oui' || cols[16].toLowerCase() === 'true') check.checked = true;
+                tdCheck.appendChild(check);
+                tr.appendChild(tdCheck);
+                const tdTotal = document.createElement('td');
+                tdTotal.textContent = cols[17] || '0';
+                tr.appendChild(tdTotal);
+                tbody.appendChild(tr);
+            });
+            updateTotal();
+        };
+        reader.readAsText(file, 'UTF-8');
+        event.target.value = '';
+    }
+
     document.getElementById("exportCSV").addEventListener("click", exportCSV);
+    document.getElementById("importCSV").addEventListener("click", importCSV);
+    document.getElementById('importFileInput').addEventListener('change', handleFileSelect);
+
     for (let i = 0; i < 8; i++) createRow();
 </script>
 </body>
