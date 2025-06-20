@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Carte - Trophée Jules Verne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://www.transparenttextures.com/patterns/old-wall.png');
+            background-color: #fdf6e3;
+            color: #3b2f2f;
+            text-align: center;
+            padding: 30px 15px;
+            margin: 0;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(253, 246, 227, 0.95);
+            border-bottom: 2px solid #5e4b3c;
+            padding: 10px 30px;
+        }
+        .logo {
+            height: 60px;
+            margin-right: 15px;
+        }
+        .titre-bandeau {
+            font-size: 2em;
+            font-weight: bold;
+            color: #2f2f2f;
+            text-shadow: 1px 1px 0px #e4d8be;
+            font-variant: small-caps;
+        }
+        .top-bar {
+            margin: 20px 0;
+        }
+        .top-bar a {
+            display: inline-block;
+            background-color: #5e4b3c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+            transition: background-color 0.2s ease;
+        }
+        .top-bar a:hover {
+            background-color: #463628;
+        }
+        .map-container {
+            margin: 20px auto;
+            max-width: 100%;
+            border: 2px solid #c3b091;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: rgba(255, 255, 240, 0.9);
+            padding: 10px;
+        }
+        .map-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        @media (max-width: 480px) {
+            .titre-bandeau {
+                font-size: 1.5em;
+            }
+            .top-bar a {
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../logo/logo_trophee_jules_verne.png" alt="Logo Trophée Jules Verne" class="logo">
+        <div class="titre-bandeau">Carte du Trophée Jules Verne</div>
+    </header>
+    <div class="top-bar">
+        <a href="../index.html">🏠 Retour accueil</a>
+    </div>
+    <div class="map-container">
+        <img src="../logo/carte.png" alt="Carte du Trophée Jules Verne">
+    </div>
+</body>
+</html>
