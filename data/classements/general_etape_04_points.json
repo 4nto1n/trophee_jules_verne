@@ -1,0 +1,520 @@
+[
+  {
+    "position": 1,
+    "nom": "Dra Ke",
+    "equipe": "Weed",
+    "joueur": "",
+    "points": 77
+  },
+  {
+    "position": 2,
+    "nom": "Otto Krug",
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "points": 64
+  },
+  {
+    "position": 3,
+    "nom": "Guivarch Kiri",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "points": 41
+  },
+  {
+    "position": 4,
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "points": 37
+  },
+  {
+    "position": 5,
+    "nom": "Hans Hopfen",
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "points": 26
+  },
+  {
+    "position": 6,
+    "nom": "Erik Zabel",
+    "equipe": "Big Farma",
+    "joueur": "",
+    "points": 23
+  },
+  {
+    "position": 7,
+    "nom": "Kaiser Bier",
+    "equipe": "Österreichisches Bier",
+    "joueur": "",
+    "points": 22
+  },
+  {
+    "position": 8,
+    "nom": "Delirium Tremens",
+    "equipe": "Belgisch Bier",
+    "joueur": "",
+    "points": 22
+  },
+  {
+    "position": 9,
+    "nom": "B Passi",
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "points": 20
+  },
+  {
+    "position": 10,
+    "nom": "Tom Desbauges",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "points": 20
+  },
+  {
+    "position": 11,
+    "nom": "Wiesel Burger",
+    "equipe": "Österreichisches Bier",
+    "joueur": "",
+    "points": 20
+  },
+  {
+    "position": 12,
+    "nom": "Lef Fe",
+    "equipe": "Belgisch Bier",
+    "joueur": "",
+    "points": 20
+  },
+  {
+    "position": 13,
+    "nom": "Jan Hertog",
+    "equipe": "Nederlands Bier",
+    "joueur": "",
+    "points": 19
+  },
+  {
+    "position": 14,
+    "nom": "Mobb Infamous",
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "points": 18
+  },
+  {
+    "position": 15,
+    "nom": "Nicolas De Bourgueil",
+    "equipe": "20 Rouge",
+    "joueur": "",
+    "points": 17
+  },
+  {
+    "position": 16,
+    "nom": "N'golo Comté",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "points": 17
+  },
+  {
+    "position": 17,
+    "nom": "Trumer Pils",
+    "equipe": "Österreichisches Bier",
+    "joueur": "",
+    "points": 17
+  },
+  {
+    "position": 18,
+    "nom": "Gilbert Lainé",
+    "equipe": "Team Alençon",
+    "joueur": "",
+    "points": 17
+  },
+  {
+    "position": 19,
+    "nom": "Leer Dammer",
+    "equipe": "Team Gouda",
+    "joueur": "",
+    "points": 17
+  },
+  {
+    "position": 20,
+    "nom": "Am Stel",
+    "equipe": "Nederlands Bier",
+    "joueur": "",
+    "points": 17
+  },
+  {
+    "position": 21,
+    "nom": "Black Aime",
+    "equipe": "Rap Street Boys",
+    "joueur": "",
+    "points": 17
+  },
+  {
+    "position": 22,
+    "nom": "Fritz Fass",
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "points": 16
+  },
+  {
+    "position": 23,
+    "nom": "Ferme Laporte",
+    "equipe": "Frisquet",
+    "joueur": "",
+    "points": 15
+  },
+  {
+    "position": 24,
+    "nom": "Miguel Indurain",
+    "equipe": "Big Farma",
+    "joueur": "",
+    "points": 15
+  },
+  {
+    "position": 25,
+    "nom": "Robert de la Bergerie",
+    "equipe": "UCPSPA",
+    "joueur": "",
+    "points": 15
+  },
+  {
+    "position": 26,
+    "nom": "Ughes Goboss",
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "points": 15
+  },
+  {
+    "position": 27,
+    "nom": "Alessandro Petacchi",
+    "equipe": "Saunier Duval",
+    "joueur": "",
+    "points": 15
+  },
+  {
+    "position": 28,
+    "nom": "Riccardo Ricco",
+    "equipe": "Saunier Duval",
+    "joueur": "",
+    "points": 13
+  },
+  {
+    "position": 29,
+    "nom": "Mozza Rella",
+    "equipe": "Team Burrata",
+    "joueur": "",
+    "points": 13
+  },
+  {
+    "position": 30,
+    "nom": "Djou Houle",
+    "equipe": "Rap Street Boys",
+    "joueur": "",
+    "points": 13
+  },
+  {
+    "position": 31,
+    "nom": "Stro Mae",
+    "equipe": "Rap Street Boys",
+    "joueur": "",
+    "points": 13
+  },
+  {
+    "position": 32,
+    "nom": "Therm Hostat",
+    "equipe": "Viesmann",
+    "joueur": "",
+    "points": 13
+  },
+  {
+    "position": 33,
+    "nom": "Samy Naceri",
+    "equipe": "Over Dose Racing",
+    "joueur": "",
+    "points": 13
+  },
+  {
+    "position": 34,
+    "nom": "Bruno Krombacher",
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "points": 12
+  },
+  {
+    "position": 35,
+    "nom": "Jay Z",
+    "equipe": "Weed",
+    "joueur": "",
+    "points": 11
+  },
+  {
+    "position": 36,
+    "nom": "Raymond Gold",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "points": 11
+  },
+  {
+    "position": 37,
+    "nom": "Mangetes Morbier",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "points": 11
+  },
+  {
+    "position": 38,
+    "nom": "Matt Pokora",
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "points": 11
+  },
+  {
+    "position": 39,
+    "nom": "Bob Marley",
+    "equipe": "Weed",
+    "joueur": "",
+    "points": 11
+  },
+  {
+    "position": 40,
+    "nom": "Rez Iztense",
+    "equipe": "Viesmann",
+    "joueur": "",
+    "points": 10
+  },
+  {
+    "position": 41,
+    "nom": "Matt Houston",
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "points": 10
+  },
+  {
+    "position": 42,
+    "nom": "Van Sifer",
+    "equipe": "Viesmann",
+    "joueur": "",
+    "points": 10
+  },
+  {
+    "position": 43,
+    "nom": "Heine Ken",
+    "equipe": "Nederlands Bier",
+    "joueur": "",
+    "points": 10
+  },
+  {
+    "position": 44,
+    "nom": "Gilles Tarot",
+    "equipe": "Team Alençon",
+    "joueur": "",
+    "points": 10
+  },
+  {
+    "position": 45,
+    "nom": "Dieter Bitburger",
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "points": 9
+  },
+  {
+    "position": 46,
+    "nom": "Fabio Aroue",
+    "equipe": "Suceurs 2 Roues",
+    "joueur": "",
+    "points": 9
+  },
+  {
+    "position": 47,
+    "nom": "Raymond Poulidor",
+    "equipe": "Froooonce",
+    "joueur": "",
+    "points": 9
+  },
+  {
+    "position": 48,
+    "nom": "Richard Virenque",
+    "equipe": "Froooonce",
+    "joueur": "",
+    "points": 8
+  },
+  {
+    "position": 49,
+    "nom": "Piti Chou",
+    "equipe": "Team Alençon",
+    "joueur": "",
+    "points": 8
+  },
+  {
+    "position": 50,
+    "nom": "Muscat Rivesaltes",
+    "equipe": "20 Rouge",
+    "joueur": "",
+    "points": 8
+  },
+  {
+    "position": 51,
+    "nom": "Al Bane",
+    "equipe": "UCPSPA",
+    "joueur": "",
+    "points": 8
+  },
+  {
+    "position": 52,
+    "nom": "Willy Denzey",
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "points": 7
+  },
+  {
+    "position": 53,
+    "nom": "Kar Rate",
+    "equipe": "Daikin",
+    "joueur": "",
+    "points": 7
+  },
+  {
+    "position": 54,
+    "nom": "Thibaut Pinot",
+    "equipe": "Froooonce",
+    "joueur": "",
+    "points": 7
+  },
+  {
+    "position": 55,
+    "nom": "Geiten Kaas",
+    "equipe": "Team Gouda",
+    "joueur": "",
+    "points": 7
+  },
+  {
+    "position": 56,
+    "nom": "Stella Artois",
+    "equipe": "Belgisch Bier",
+    "joueur": "",
+    "points": 7
+  },
+  {
+    "position": 57,
+    "nom": "Crozés Hermitage",
+    "equipe": "20 Rouge",
+    "joueur": "",
+    "points": 7
+  },
+  {
+    "position": 58,
+    "nom": "David Gaudu",
+    "equipe": "Froooonce",
+    "joueur": "",
+    "points": 6
+  },
+  {
+    "position": 59,
+    "nom": "Dario Frigo",
+    "equipe": "Saunier Duval",
+    "joueur": "",
+    "points": 6
+  },
+  {
+    "position": 60,
+    "nom": "G Calo",
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "points": 6
+  },
+  {
+    "position": 61,
+    "nom": "Michael Rasmussen",
+    "equipe": "Big Farma",
+    "joueur": "",
+    "points": 5
+  },
+  {
+    "position": 62,
+    "nom": "Thierry Ardisson",
+    "equipe": "Over Dose Racing",
+    "joueur": "",
+    "points": 5
+  },
+  {
+    "position": 63,
+    "nom": "Göss Her",
+    "equipe": "Österreichisches Bier",
+    "joueur": "",
+    "points": 4
+  },
+  {
+    "position": 64,
+    "nom": "Duncan Coillotte",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "points": 4
+  },
+  {
+    "position": 65,
+    "nom": "Snoop Dog",
+    "equipe": "Weed",
+    "joueur": "",
+    "points": 4
+  },
+  {
+    "position": 66,
+    "nom": "Leo Pompasse",
+    "equipe": "UCPSPA",
+    "joueur": "",
+    "points": 3
+  },
+  {
+    "position": 67,
+    "nom": "Ay Dam",
+    "equipe": "Team Gouda",
+    "joueur": "",
+    "points": 3
+  },
+  {
+    "position": 68,
+    "nom": "Otta Kringer",
+    "equipe": "Österreichisches Bier",
+    "joueur": "",
+    "points": 3
+  },
+  {
+    "position": 69,
+    "nom": "Ben Johnson",
+    "equipe": "Doping",
+    "joueur": "",
+    "points": 2
+  },
+  {
+    "position": 70,
+    "nom": "Ley Den",
+    "equipe": "Team Gouda",
+    "joueur": "",
+    "points": 2
+  },
+  {
+    "position": 71,
+    "nom": "Al Kpote",
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "points": 2
+  },
+  {
+    "position": 72,
+    "nom": "Hirt Herbier",
+    "equipe": "Österreichisches Bier",
+    "joueur": "",
+    "points": 2
+  },
+  {
+    "position": 73,
+    "nom": "Rico Ta",
+    "equipe": "Team Burrata",
+    "joueur": "",
+    "points": 1
+  },
+  {
+    "position": 74,
+    "nom": "Justin Bieber",
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "points": 1
+  }
+]

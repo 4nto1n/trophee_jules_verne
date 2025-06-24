@@ -1,0 +1,170 @@
+[
+  {
+    "position": 7,
+    "equipe": "Team Claquos",
+    "joueur": "",
+    "temps": "123:24:38",
+    "ecart": "+0:21:58"
+  },
+  {
+    "position": 1,
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "temps": "123:02:40",
+    "ecart": "+0:00:00"
+  },
+  {
+    "position": 5,
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "temps": "123:13:47",
+    "ecart": "+0:11:07"
+  },
+  {
+    "position": 6,
+    "equipe": "Daikin",
+    "joueur": "",
+    "temps": "123:21:52",
+    "ecart": "+0:19:12"
+  },
+  {
+    "position": 9,
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "temps": "123:27:59",
+    "ecart": "+0:25:19"
+  },
+  {
+    "position": 14,
+    "equipe": "Viesmann",
+    "joueur": "",
+    "temps": "123:37:51",
+    "ecart": "+0:35:11"
+  },
+  {
+    "position": 2,
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "temps": "123:10:36",
+    "ecart": "+0:07:56"
+  },
+  {
+    "position": 4,
+    "equipe": "Saunier Duval",
+    "joueur": "",
+    "temps": "123:12:05",
+    "ecart": "+0:09:25"
+  },
+  {
+    "position": 21,
+    "equipe": "Rap Street Boys",
+    "joueur": "",
+    "temps": "123:54:33",
+    "ecart": "+0:51:53"
+  },
+  {
+    "position": 22,
+    "equipe": "Suceurs 2 Roues",
+    "joueur": "",
+    "temps": "123:54:55",
+    "ecart": "+0:52:15"
+  },
+  {
+    "position": 13,
+    "equipe": "20 Rouge",
+    "joueur": "",
+    "temps": "123:37:48",
+    "ecart": "+0:35:08"
+  },
+  {
+    "position": 3,
+    "equipe": "Froooonce",
+    "joueur": "",
+    "temps": "123:11:14",
+    "ecart": "+0:08:34"
+  },
+  {
+    "position": 18,
+    "equipe": "Doping",
+    "joueur": "",
+    "temps": "123:48:31",
+    "ecart": "+0:45:51"
+  },
+  {
+    "position": 10,
+    "equipe": "UCPSPA",
+    "joueur": "",
+    "temps": "123:30:39",
+    "ecart": "+0:27:59"
+  },
+  {
+    "position": 11,
+    "equipe": "Weed",
+    "joueur": "",
+    "temps": "123:34:02",
+    "ecart": "+0:31:22"
+  },
+  {
+    "position": 16,
+    "equipe": "Frisquet",
+    "joueur": "",
+    "temps": "123:40:07",
+    "ecart": "+0:37:27"
+  },
+  {
+    "position": 8,
+    "equipe": "Big Farma",
+    "joueur": "",
+    "temps": "123:26:18",
+    "ecart": "+0:23:38"
+  },
+  {
+    "position": 20,
+    "equipe": "Team Burrata",
+    "joueur": "",
+    "temps": "123:52:41",
+    "ecart": "+0:50:01"
+  },
+  {
+    "position": 15,
+    "equipe": "Team Alençon",
+    "joueur": "",
+    "temps": "123:38:57",
+    "ecart": "+0:36:17"
+  },
+  {
+    "position": 12,
+    "equipe": "Österreichisches Bier",
+    "joueur": "",
+    "temps": "123:35:08",
+    "ecart": "+0:32:28"
+  },
+  {
+    "position": 17,
+    "equipe": "Team Gouda",
+    "joueur": "",
+    "temps": "123:44:17",
+    "ecart": "+0:41:37"
+  },
+  {
+    "position": 23,
+    "equipe": "Over Dose Racing",
+    "joueur": "",
+    "temps": "123:57:27",
+    "ecart": "+0:54:47"
+  },
+  {
+    "position": 19,
+    "equipe": "Belgisch Bier",
+    "joueur": "",
+    "temps": "123:50:50",
+    "ecart": "+0:48:10"
+  },
+  {
+    "position": 24,
+    "equipe": "Nederlands Bier",
+    "joueur": "",
+    "temps": "123:59:54",
+    "ecart": "+0:57:14"
+  }
+]

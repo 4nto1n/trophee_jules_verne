@@ -1,0 +1,282 @@
+[
+  {
+    "position": 1,
+    "nom": "Delirium Tremens",
+    "equipe": "Belgisch Bier",
+    "joueur": "",
+    "montagne": 84
+  },
+  {
+    "position": 2,
+    "nom": "Ki Inimod",
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "montagne": 35
+  },
+  {
+    "position": 3,
+    "nom": "Alessandro Petacchi",
+    "equipe": "Saunier Duval",
+    "joueur": "",
+    "montagne": 34
+  },
+  {
+    "position": 4,
+    "nom": "Damiano Cunego",
+    "equipe": "Saunier Duval",
+    "joueur": "",
+    "montagne": 32
+  },
+  {
+    "position": 5,
+    "nom": "Bernard Hinault",
+    "equipe": "Froooonce",
+    "joueur": "",
+    "montagne": 30
+  },
+  {
+    "position": 6,
+    "nom": "Al Kpote",
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "montagne": 27
+  },
+  {
+    "position": 7,
+    "nom": "N'golo Comté",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "montagne": 26
+  },
+  {
+    "position": 8,
+    "nom": "Mozza Rella",
+    "equipe": "Team Burrata",
+    "joueur": "",
+    "montagne": 23
+  },
+  {
+    "position": 9,
+    "nom": "Lalande De Pomerol",
+    "equipe": "20 Rouge",
+    "joueur": "",
+    "montagne": 21
+  },
+  {
+    "position": 10,
+    "nom": "Vinz Cent",
+    "equipe": "UCPSPA",
+    "joueur": "",
+    "montagne": 20
+  },
+  {
+    "position": 11,
+    "nom": "Zun Dert",
+    "equipe": "Nederlands Bier",
+    "joueur": "",
+    "montagne": 19
+  },
+  {
+    "position": 12,
+    "nom": "Jonas Vingegarde",
+    "equipe": "Suceurs 2 Roues",
+    "joueur": "",
+    "montagne": 14
+  },
+  {
+    "position": 13,
+    "nom": "Ra Chelle",
+    "equipe": "UCPSPA",
+    "joueur": "",
+    "montagne": 13
+  },
+  {
+    "position": 14,
+    "nom": "Robin Aitery",
+    "equipe": "Frisquet",
+    "joueur": "",
+    "montagne": 13
+  },
+  {
+    "position": 15,
+    "nom": "Karl Beck",
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "montagne": 12
+  },
+  {
+    "position": 16,
+    "nom": "Guivarch Kiri",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "montagne": 12
+  },
+  {
+    "position": 17,
+    "nom": "Brillat Savarin",
+    "equipe": "Team Claquos",
+    "joueur": "",
+    "montagne": 11
+  },
+  {
+    "position": 18,
+    "nom": "Thibaut Pinot",
+    "equipe": "Froooonce",
+    "joueur": "",
+    "montagne": 10
+  },
+  {
+    "position": 19,
+    "nom": "Aurel San",
+    "equipe": "Rap Street Boys",
+    "joueur": "",
+    "montagne": 10
+  },
+  {
+    "position": 20,
+    "nom": "Mangetes Morbier",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "montagne": 8
+  },
+  {
+    "position": 21,
+    "nom": "Nippon Nimove",
+    "equipe": "Daikin",
+    "joueur": "",
+    "montagne": 8
+  },
+  {
+    "position": 22,
+    "nom": "So Prano",
+    "equipe": "Rap Street Boys",
+    "joueur": "",
+    "montagne": 8
+  },
+  {
+    "position": 23,
+    "nom": "Laurent Jalabert",
+    "equipe": "Froooonce",
+    "joueur": "",
+    "montagne": 7
+  },
+  {
+    "position": 24,
+    "nom": "Hess Céhache",
+    "equipe": "Rap Street Boys",
+    "joueur": "",
+    "montagne": 6
+  },
+  {
+    "position": 25,
+    "nom": "Raymond Gold",
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "montagne": 5
+  },
+  {
+    "position": 26,
+    "nom": "Mascare Pone",
+    "equipe": "Team Burrata",
+    "joueur": "",
+    "montagne": 5
+  },
+  {
+    "position": 27,
+    "nom": "Steven Kruijswijuijswijk",
+    "equipe": "Suceurs 2 Roues",
+    "joueur": "",
+    "montagne": 5
+  },
+  {
+    "position": 28,
+    "nom": "Leo Pompasse",
+    "equipe": "UCPSPA",
+    "joueur": "",
+    "montagne": 4
+  },
+  {
+    "position": 29,
+    "nom": "Rez Iztense",
+    "equipe": "Viesmann",
+    "joueur": "",
+    "montagne": 4
+  },
+  {
+    "position": 30,
+    "nom": "Dieter Bitburger",
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "montagne": 3
+  },
+  {
+    "position": 31,
+    "nom": "Muscat Rivesaltes",
+    "equipe": "20 Rouge",
+    "joueur": "",
+    "montagne": 3
+  },
+  {
+    "position": 32,
+    "nom": "B Passi",
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "montagne": 2
+  },
+  {
+    "position": 33,
+    "nom": "Ferme Laporte",
+    "equipe": "Frisquet",
+    "joueur": "",
+    "montagne": 2
+  },
+  {
+    "position": 34,
+    "nom": "Parmi Giano",
+    "equipe": "Team Burrata",
+    "joueur": "",
+    "montagne": 2
+  },
+  {
+    "position": 35,
+    "nom": "Roch Fort",
+    "equipe": "Team Claquos",
+    "joueur": "",
+    "montagne": 1
+  },
+  {
+    "position": 36,
+    "nom": "Naruto Uzumaki",
+    "equipe": "Daikin",
+    "joueur": "",
+    "montagne": 1
+  },
+  {
+    "position": 37,
+    "nom": "Yves Gêle",
+    "equipe": "Frisquet",
+    "joueur": "",
+    "montagne": 1
+  },
+  {
+    "position": 38,
+    "nom": "Brie de Meaux",
+    "equipe": "Team Claquos",
+    "joueur": "",
+    "montagne": 1
+  },
+  {
+    "position": 39,
+    "nom": "Al Libi",
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "montagne": 1
+  },
+  {
+    "position": 40,
+    "nom": "Yves Voncrevay",
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "montagne": 1
+  }
+]
