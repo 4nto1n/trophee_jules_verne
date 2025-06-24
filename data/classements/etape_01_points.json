@@ -1,0 +1,72 @@
+[
+  {
+    "position": 1,
+    "nom": "Zip Fer",
+    "equipe": "Österreichisches Bier",
+    "points": 41,
+    "joueur": "Fer"
+  },
+  {
+    "position": 2,
+    "nom": "Hess Céhache",
+    "equipe": "Rap Street Boys",
+    "points": 37,
+    "joueur": "Céhache"
+  },
+  {
+    "position": 3,
+    "nom": "Fritz Fass",
+    "equipe": "Bier Brigade",
+    "points": 31,
+    "joueur": "Fass"
+  },
+  {
+    "position": 4,
+    "nom": "Roch Fort",
+    "equipe": "Team Claquos",
+    "points": 25,
+    "joueur": "Fort"
+  },
+  {
+    "position": 5,
+    "nom": "Diego Maradona",
+    "equipe": "Doping",
+    "points": 22,
+    "joueur": "Maradona"
+  },
+  {
+    "position": 6,
+    "nom": "Henoc Beausejour",
+    "equipe": "Gangster and Gentleman",
+    "points": 21,
+    "joueur": "Beausejour"
+  },
+  {
+    "position": 7,
+    "nom": "Lalande De Pomerol",
+    "equipe": "20 Rouge",
+    "points": 19,
+    "joueur": "Pomerol"
+  },
+  {
+    "position": 8,
+    "nom": "Bob Lacroute",
+    "equipe": "Good Cheese",
+    "points": 15,
+    "joueur": "Lacroute"
+  },
+  {
+    "position": 9,
+    "nom": "Stella Artois",
+    "equipe": "Belgisch Bier",
+    "points": 13,
+    "joueur": "Artois"
+  },
+  {
+    "position": 10,
+    "nom": "Leo Pompasse",
+    "equipe": "UCPSPA",
+    "points": 11,
+    "joueur": "Pompasse"
+  }
+]

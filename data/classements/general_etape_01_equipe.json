@@ -1,0 +1,62 @@
+[
+  {
+    "position": 1,
+    "equipe": "Österreichisches Bier",
+    "temps": "4:03:56",
+    "joueur": "Fer"
+  },
+  {
+    "position": 2,
+    "equipe": "Team Claquos",
+    "temps": "4:18:11",
+    "joueur": "Fort"
+  },
+  {
+    "position": 3,
+    "equipe": "Rap Street Boys",
+    "temps": "4:23:28",
+    "joueur": "Céhache"
+  },
+  {
+    "position": 4,
+    "equipe": "Doping",
+    "temps": "4:27:41",
+    "joueur": "Maradona"
+  },
+  {
+    "position": 5,
+    "equipe": "Good Cheese",
+    "temps": "4:30:40",
+    "joueur": "Lacroute"
+  },
+  {
+    "position": 6,
+    "equipe": "Gangster and Gentleman",
+    "temps": "4:36:49",
+    "joueur": "Beausejour"
+  },
+  {
+    "position": 7,
+    "equipe": "Bier Brigade",
+    "temps": "4:48:53",
+    "joueur": "Fass"
+  },
+  {
+    "position": 8,
+    "equipe": "Belgisch Bier",
+    "temps": "4:51:49",
+    "joueur": "Artois"
+  },
+  {
+    "position": 9,
+    "equipe": "20 Rouge",
+    "temps": "4:54:23",
+    "joueur": "Pomerol"
+  },
+  {
+    "position": 10,
+    "equipe": "UCPSPA",
+    "temps": "4:59:53",
+    "joueur": "Pompasse"
+  }
+]

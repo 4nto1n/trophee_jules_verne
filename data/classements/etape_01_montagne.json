@@ -1,0 +1,72 @@
+[
+  {
+    "position": 1,
+    "nom": "Hess Céhache",
+    "equipe": "Rap Street Boys",
+    "montagne": 19,
+    "joueur": "Céhache"
+  },
+  {
+    "position": 2,
+    "nom": "Bob Lacroute",
+    "equipe": "Good Cheese",
+    "montagne": 15,
+    "joueur": "Lacroute"
+  },
+  {
+    "position": 3,
+    "nom": "Lalande De Pomerol",
+    "equipe": "20 Rouge",
+    "montagne": 14,
+    "joueur": "Pomerol"
+  },
+  {
+    "position": 4,
+    "nom": "Diego Maradona",
+    "equipe": "Doping",
+    "montagne": 12,
+    "joueur": "Maradona"
+  },
+  {
+    "position": 5,
+    "nom": "Roch Fort",
+    "equipe": "Team Claquos",
+    "montagne": 11,
+    "joueur": "Fort"
+  },
+  {
+    "position": 6,
+    "nom": "Stella Artois",
+    "equipe": "Belgisch Bier",
+    "montagne": 10,
+    "joueur": "Artois"
+  },
+  {
+    "position": 7,
+    "nom": "Leo Pompasse",
+    "equipe": "UCPSPA",
+    "montagne": 8,
+    "joueur": "Pompasse"
+  },
+  {
+    "position": 8,
+    "nom": "Zip Fer",
+    "equipe": "Österreichisches Bier",
+    "montagne": 5,
+    "joueur": "Fer"
+  },
+  {
+    "position": 9,
+    "nom": "Fritz Fass",
+    "equipe": "Bier Brigade",
+    "montagne": 5,
+    "joueur": "Fass"
+  },
+  {
+    "position": 10,
+    "nom": "Henoc Beausejour",
+    "equipe": "Gangster and Gentleman",
+    "montagne": 0,
+    "joueur": "Beausejour"
+  }
+]

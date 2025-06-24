@@ -1,0 +1,122 @@
+{
+  "tour": {
+    "totalEtapes": 10,
+    "etapesTerminees": 5,
+    "etapes": [
+      {
+        "numero": 1,
+        "pays": "France",
+        "ville1": "Paris",
+        "ville2": "Lille",
+        "winner": {
+          "nom": "Alice Dupont",
+          "equipe": "Team Alpha",
+          "temps": "3:45:12"
+        }
+      },
+      {
+        "numero": 2,
+        "pays": "Belgique",
+        "ville1": "Bruxelles",
+        "ville2": "Charleroi",
+        "winner": {
+          "nom": "Bob Martin",
+          "equipe": "Team Beta",
+          "temps": "4:02:30"
+        }
+      },
+      {
+        "numero": 3,
+        "pays": "Allemagne",
+        "ville1": "Berlin",
+        "ville2": "Hambourg",
+        "winner": {
+          "nom": "Carla Moreau",
+          "equipe": "Team Alpha",
+          "temps": "3:58:45"
+        }
+      },
+      {
+        "numero": 4,
+        "pays": "Pays-Bas",
+        "ville1": "Amsterdam",
+        "ville2": "Rotterdam",
+        "winner": {
+          "nom": "David Leblanc",
+          "equipe": "Team Gamma",
+          "temps": "4:10:05"
+        }
+      },
+      {
+        "numero": 5,
+        "pays": "Luxembourg",
+        "ville1": "Luxembourg",
+        "ville2": "",
+        "winner": {
+          "nom": "Alice Dupont",
+          "equipe": "Team Alpha",
+          "temps": "3:50:20"
+        }
+      }
+    ],
+    "leadersActuels": {
+      "GC": "Alice Dupont",
+      "Points": "Carla Moreau",
+      "Montagne": "David Leblanc",
+      "Jeune": "Emma Roux"
+    }
+  },
+  "statsRiders": [
+    {
+      "nom": "Alice Dupont",
+      "victories": 2,
+      "podiums": 3,
+      "top5": 5,
+      "top10": 5
+    },
+    {
+      "nom": "Bob Martin",
+      "victories": 1,
+      "podiums": 1,
+      "top5": 2,
+      "top10": 3
+    },
+    {
+      "nom": "Carla Moreau",
+      "victories": 1,
+      "podiums": 2,
+      "top5": 4,
+      "top10": 5
+    },
+    {
+      "nom": "David Leblanc",
+      "victories": 1,
+      "podiums": 1,
+      "top5": 3,
+      "top10": 4
+    }
+  ],
+  "statsTeams": [
+    {
+      "equipe": "Team Alpha",
+      "victories": 2,
+      "podiums": 4,
+      "top5": 8,
+      "top10": 10
+    },
+    {
+      "equipe": "Team Beta",
+      "victories": 1,
+      "podiums": 1,
+      "top5": 3,
+      "top10": 4
+    },
+    {
+      "equipe": "Team Gamma",
+      "victories": 1,
+      "podiums": 1,
+      "top5": 2,
+      "top10": 3
+    }
+  ]
+}

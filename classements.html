@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Classements - Trophée Jules Verne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lien vers votre fichier CSS principal -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Classements</h1>
+    <a href="index.html" class="button">Accueil</a>
+
+    <!-- Sélecteurs de vue et d’étape, recherche et filtre équipe -->
+    <div class="selectors">
+        <!-- Boutons de vue -->
+        <button id="btnEtape" class="toggle-button active">Étape</button>
+        <button id="btnGeneral" class="toggle-button">Général</button>
+        <button id="btnHall" class="toggle-button">Hall of Fame</button>
+
+        <!-- Contrôle de navigation d’étape -->
+        <div class="etape-control">
+            <button id="prevEtape" class="arrow-button" aria-label="Étape précédente">&#9664;</button>
+            <select id="etapeSelect">
+                <!-- Options générées en JS via etapes.js -->
+            </select>
+            <button id="nextEtape" class="arrow-button" aria-label="Étape suivante">&#9654;</button>
+        </div>
+
+        <!-- Champ de recherche par nom de coureur -->
+        <input type="text" id="searchInput" placeholder="Recherche coureur..." />
+
+        <!-- Filtre par équipe -->
+        <select id="teamFilter">
+            <option value="">Toutes équipes</option>
+            <!-- Options peuplées dynamiquement via JS -->
+        </select>
+    </div>
+
+    <!-- Conteneur pour afficher le maillot (équipe) du leader de la vue courante -->
+ 
+
+    <!-- Onglets de classement -->
+    <div class="tabs">
+        <button class="tab-button active" data-tab="temps">Temps</button>
+        <button class="tab-button" data-tab="points">Points</button>
+        <button class="tab-button" data-tab="montagne">Montagne</button>
+        <button class="tab-button" data-tab="jeune">Jeunes</button>
+        <button class="tab-button" data-tab="equipe">Équipe</button>
+    </div>
+
+    <!-- Contenu du classement affiché dynamiquement -->
+    <div id="tabContent" class="tab-content">
+        <p>Sélectionnez une vue et une étape pour afficher le classement.</p>
+    </div>
+
+    <!-- Inclusion des scripts JS -->
+    <!-- 1) team_jerseys.js : définit l’objet TEAM_JERSEYS -->
+    <script src="js/team_jerseys.js"></script>
+    <!-- 2) etapes.js : définit la variable globale ETAPES -->
+    <script src="js/etapes.js"></script>
+    <!-- 3) classements.js : logique d’affichage des classements, avec icônes inline pour leader général -->
+    <script src="js/classements.js"></script>
+</body>
+</html>

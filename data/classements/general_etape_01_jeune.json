@@ -1,0 +1,72 @@
+[
+  {
+    "position": 1,
+    "nom": "Lalande De Pomerol",
+    "equipe": "20 Rouge",
+    "jeune": "4:16:28",
+    "joueur": "Pomerol"
+  },
+  {
+    "position": 2,
+    "nom": "Roch Fort",
+    "equipe": "Team Claquos",
+    "jeune": "4:19:09",
+    "joueur": "Fort"
+  },
+  {
+    "position": 3,
+    "nom": "Henoc Beausejour",
+    "equipe": "Gangster and Gentleman",
+    "jeune": "4:28:34",
+    "joueur": "Beausejour"
+  },
+  {
+    "position": 4,
+    "nom": "Stella Artois",
+    "equipe": "Belgisch Bier",
+    "jeune": "4:55:05",
+    "joueur": "Artois"
+  },
+  {
+    "position": 5,
+    "nom": "Leo Pompasse",
+    "equipe": "UCPSPA",
+    "jeune": "5:01:21",
+    "joueur": "Pompasse"
+  },
+  {
+    "position": 6,
+    "nom": "Diego Maradona",
+    "equipe": "Doping",
+    "jeune": "5:02:03",
+    "joueur": "Maradona"
+  },
+  {
+    "position": 7,
+    "nom": "Hess Céhache",
+    "equipe": "Rap Street Boys",
+    "jeune": "5:02:09",
+    "joueur": "Céhache"
+  },
+  {
+    "position": 8,
+    "nom": "Fritz Fass",
+    "equipe": "Bier Brigade",
+    "jeune": "5:22:17",
+    "joueur": "Fass"
+  },
+  {
+    "position": 9,
+    "nom": "Zip Fer",
+    "equipe": "Österreichisches Bier",
+    "jeune": "5:22:51",
+    "joueur": "Fer"
+  },
+  {
+    "position": 10,
+    "nom": "Bob Lacroute",
+    "equipe": "Good Cheese",
+    "jeune": "5:38:06",
+    "joueur": "Lacroute"
+  }
+]
