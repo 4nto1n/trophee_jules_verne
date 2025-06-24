@@ -1,0 +1,170 @@
+[
+  {
+    "position": 1,
+    "equipe": "Big Farma",
+    "joueur": "",
+    "temps": "15:12:15",
+    "ecart": ""
+  },
+  {
+    "position": 2,
+    "equipe": "Team Claquos",
+    "joueur": "",
+    "temps": "15:13:23",
+    "ecart": "+0:01:08"
+  },
+  {
+    "position": 3,
+    "equipe": "Viesmann",
+    "joueur": "",
+    "temps": "15:15:12",
+    "ecart": "+0:02:57"
+  },
+  {
+    "position": 4,
+    "equipe": "Bier Brigade",
+    "joueur": "Bismuth",
+    "temps": "15:17:17",
+    "ecart": "+0:05:02"
+  },
+  {
+    "position": 5,
+    "equipe": "Froooonce",
+    "joueur": "",
+    "temps": "15:19:56",
+    "ecart": "+0:07:41"
+  },
+  {
+    "position": 6,
+    "equipe": "UCPSPA",
+    "joueur": "",
+    "temps": "15:23:15",
+    "ecart": "+0:11:00"
+  },
+  {
+    "position": 7,
+    "equipe": "Suceurs 2 Roues",
+    "joueur": "",
+    "temps": "15:26:44",
+    "ecart": "+0:14:29"
+  },
+  {
+    "position": 8,
+    "equipe": "Gangster and Gentleman",
+    "joueur": "",
+    "temps": "15:26:44",
+    "ecart": "+0:14:29"
+  },
+  {
+    "position": 9,
+    "equipe": "Good Cheese",
+    "joueur": "",
+    "temps": "15:30:32",
+    "ecart": "+0:18:17"
+  },
+  {
+    "position": 10,
+    "equipe": "Frisquet",
+    "joueur": "",
+    "temps": "15:34:42",
+    "ecart": "+0:22:27"
+  },
+  {
+    "position": 11,
+    "equipe": "Daikin",
+    "joueur": "",
+    "temps": "15:38:59",
+    "ecart": "+0:26:44"
+  },
+  {
+    "position": 12,
+    "equipe": "Österreichisches Bier",
+    "joueur": "",
+    "temps": "15:43:30",
+    "ecart": "+0:31:15"
+  },
+  {
+    "position": 13,
+    "equipe": "Saunier Duval",
+    "joueur": "",
+    "temps": "15:51:52",
+    "ecart": "+0:39:37"
+  },
+  {
+    "position": 14,
+    "equipe": "RnB de Rue",
+    "joueur": "",
+    "temps": "16:02:21",
+    "ecart": "+0:50:06"
+  },
+  {
+    "position": 15,
+    "equipe": "Belgisch Bier",
+    "joueur": "",
+    "temps": "16:13:44",
+    "ecart": "+1:01:29"
+  },
+  {
+    "position": 16,
+    "equipe": "Over Dose Racing",
+    "joueur": "",
+    "temps": "16:13:44",
+    "ecart": "+1:01:29"
+  },
+  {
+    "position": 17,
+    "equipe": "Team Burrata",
+    "joueur": "",
+    "temps": "16:27:42",
+    "ecart": "+1:15:27"
+  },
+  {
+    "position": 18,
+    "equipe": "Rap Street Boys",
+    "joueur": "",
+    "temps": "16:41:46",
+    "ecart": "+1:29:31"
+  },
+  {
+    "position": 19,
+    "equipe": "Team Gouda",
+    "joueur": "",
+    "temps": "16:59:18",
+    "ecart": "+1:47:03"
+  },
+  {
+    "position": 20,
+    "equipe": "Team Alençon",
+    "joueur": "",
+    "temps": "17:17:07",
+    "ecart": "+2:04:52"
+  },
+  {
+    "position": 21,
+    "equipe": "20 Rouge",
+    "joueur": "",
+    "temps": "17:39:00",
+    "ecart": "+2:26:45"
+  },
+  {
+    "position": 22,
+    "equipe": "Doping",
+    "joueur": "",
+    "temps": "18:03:51",
+    "ecart": "+2:51:36"
+  },
+  {
+    "position": 23,
+    "equipe": "Weed",
+    "joueur": "",
+    "temps": "18:28:51",
+    "ecart": "+3:16:36"
+  },
+  {
+    "position": 24,
+    "equipe": "Nederlands Bier",
+    "joueur": "",
+    "temps": "19:10:47",
+    "ecart": "+3:58:32"
+  }
+]
