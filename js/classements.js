@@ -845,7 +845,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (activeTab === 'montagne') {
             headers = ['Position', 'Nom', 'Équipe', 'Montagne', 'Joueur']; dataFileSuffix = 'montagne';
         } else if (activeTab === 'jeune') {
-            headers = ['Position', 'Nom', 'Équipe', 'Jeune', 'Joueur']; dataFileSuffix = 'jeune';
+            headers = ['Position', 'Nom', 'Équipe', 'Temps', 'Joueur']; dataFileSuffix = 'jeune';
         } else {
             headers = ['Position', 'Nom', 'Équipe', capitalize(activeTab), 'Joueur']; dataFileSuffix = activeTab;
         }
@@ -895,7 +895,21 @@ document.addEventListener('DOMContentLoaded', () => {
             fileName = `data/classements/etape_${val}_${dataFileSuffix}.json`;
         }
         console.log('[classements.js] Récupération JSON depuis', fileName);
-
+        // === 1) Charger le classement précédent pour calculer l’évolution ===
+        let prevRankByName = {};
+        if (viewType === 'general') {
+            const prevNum = String(parseInt(etapeSelect.value, 10) - 1).padStart(2, '0');
+            const prevFile = `data/classements/general_etape_${prevNum}_${dataFileSuffix}.json`;
+            try {
+                const prevResp = await fetch(prevFile);
+                if (prevResp.ok) {
+                    const prevList = await prevResp.json();
+                    prevList.forEach(e => { prevRankByName[e.nom] = parseInt(e.position, 10); });
+                }
+            } catch (e) {
+                console.warn('Évolution: impossible de charger', prevFile, e);
+            }
+        }
         // --- 4.8 Fetch et remplissage ---
         fetch(fileName)
             .then(resp => {
@@ -907,6 +921,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.error('[classements.js] JSON retourné n’est pas un tableau pour', fileName);
                     dataList = [];
                 }
+                // 1) Tri et filtrage spécifique pour les onglets Étape Points et Montagne
+                if (viewType === 'etape' && activeTab === 'points') {
+                    // exclure zéros et trier points décroissants
+                    dataList = dataList.filter(e => parseInt(e.points, 10) > 0);
+                    dataList.sort((a, b) => parseInt(b.points, 10) - parseInt(a.points, 10));
+                } else if (viewType === 'etape' && activeTab === 'montagne') {
+                    // exclure zéros et trier montagne décroissant
+                    dataList = dataList.filter(e => parseInt(e.montagne, 10) > 0);
+                    dataList.sort((a, b) => parseInt(b.montagne, 10) - parseInt(a.montagne, 10));
+                } else {
+                    // tri par position croissante par défaut
+                    dataList.sort((a, b) => parseInt(a.position, 10) - parseInt(b.position, 10));
+                }
+
+                
                 // Filtre équipe
                 const equipesUtilisees = Array.from(new Set(dataList.map(e => (e.equipe||'').trim()))).filter(s => s);
                 if (teamFilter) {
@@ -917,13 +946,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         teamFilter.appendChild(opt);
                     });
                 }
+                
+                
+                
                 // Références écart
                 let leaderTimeSec = NaN, leaderJeuneSec = NaN, leaderPoints = NaN, leaderMontagne = NaN;
-                if ((activeTab === 'temps' || activeTab === 'equipe') && dataList.length > 0) {
+                if ((activeTab === 'temps' || activeTab === 'equipe' || activeTab === 'jeune') && dataList.length > 0) {
                     leaderTimeSec = parseTimeToSeconds(dataList[0].temps);
-                }
-                if (activeTab === 'jeune' && dataList.length > 0) {
-                    leaderJeuneSec = parseTimeToSeconds(dataList[0].jeune);
                 }
                 if (activeTab === 'points' && dataList.length > 0) {
                     leaderPoints = parseInt(dataList[0].points, 10);
@@ -958,163 +987,139 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (key === 'jeune') key = 'jeune';
                         if (key === 'joueur') key = 'joueur';
 
-                        if (key === 'nom') {
-                            // Icônes leaders
-                            const nameText = entry.nom || '';
+                        if (key === 'position') {
+                            // === Affichage du rang + flèche d’évolution uniquement pour le général ===
+                            td.textContent = entry.position;
+                            if (viewType === 'general') {
+                                const current = parseInt(entry.position, 10);
+                                const previous = prevRankByName[entry.nom] || Infinity;
+                                const delta = previous - current;
+                                let cls, char;
+                                if (delta > 0) { cls = 'evolution-up';   char = '▲'; }
+                                else if (delta < 0) { cls = 'evolution-down'; char = '▼'; }
+                                else                { cls = 'evolution-same'; char = '—'; }
+                                const span = document.createElement('span');
+                                span.classList.add(cls);
+                                span.textContent = char;
+                                td.appendChild(span);
+                                // nombre de places perdues/gagnées
+                                if (delta !== 0) {
+                                    const spanNum = document.createElement('span');
+                                    spanNum.classList.add(cls);
+                                    spanNum.style.marginLeft = '2px';
+                                    spanNum.textContent = Math.abs(delta);
+                                    td.appendChild(spanNum);
+                            }
+                        }
+                        } else if (key === 'temps' && (activeTab === 'temps' || activeTab === 'equipe' || activeTab === 'jeune')) {
+                            // Temps / Jeune affichage gap + total
+                            const timeStr = entry[key] || '';
+                            const sec = parseTimeToSeconds(timeStr);
+                            const leaderSec = (key === 'jeune') ? leaderJeuneSec : leaderTimeSec;
+                            let gapStr = '';
+                            if (!isNaN(sec) && !isNaN(leaderSec)) {
+                                const diff = sec - leaderSec;
+                                gapStr = (diff === 0 ? 'Leader' : (diff > 0 ? '+' : '') + formatSecondsToHMS(diff));
+                            }
+                            const cellDiv = document.createElement('div');
+                            cellDiv.classList.add('time-cell');
+                            if (gapStr) {
+                                const spanGap = document.createElement('span');
+                                spanGap.classList.add('time-gap');
+                                spanGap.textContent = gapStr;
+                                cellDiv.appendChild(spanGap);
+                            }
+                            if (timeStr) {
+                                const spanTotal = document.createElement('span');
+                                spanTotal.classList.add('time-total');
+                                spanTotal.textContent = timeStr;
+                                cellDiv.appendChild(spanTotal);
+                            }
+                            td.appendChild(cellDiv);
+                        } else if (key === 'points') {
+                            // Points affichage valeur + écart
+                            const pts = parseInt(entry.points, 10);
+                            let gap = '';
+                            if (!isNaN(pts) && !isNaN(leaderPoints)) {
+                                const diff = pts - leaderPoints;
+                                if (diff !== 0) gap = `(${diff > 0 ? '+' + diff : diff})`;
+                            }
+                            const divVal = document.createElement('div');
+                            divVal.classList.add('value-cell');
+                            const spanMain = document.createElement('span');
+                            spanMain.classList.add('value-main');
+                            spanMain.textContent = isNaN(pts) ? (entry.points || '-') : pts;
+                            divVal.appendChild(spanMain);
+                            if (gap) {
+                                const spanGap = document.createElement('span');
+                                spanGap.classList.add('value-gap');
+                                spanGap.textContent = gap;
+                                divVal.appendChild(spanGap);
+                            }
+                            td.appendChild(divVal);
+                        } else if (key === 'montagne') {
+                            // Montagne affichage valeur + écart
+                            const mg = parseInt(entry.montagne, 10);
+                            let gap = '';
+                            if (!isNaN(mg) && !isNaN(leaderMontagne)) {
+                                const diff = mg - leaderMontagne;
+                                if (diff !== 0) gap = `(${diff > 0 ? '+' + diff : diff})`;
+                            }
+                            const divVal = document.createElement('div');
+                            divVal.classList.add('value-cell');
+                            const spanMain = document.createElement('span');
+                            spanMain.classList.add('value-main');
+                            spanMain.textContent = isNaN(mg) ? (entry.montagne || '-') : mg;
+                            divVal.appendChild(spanMain);
+                            if (gap) {
+                                const spanGap = document.createElement('span');
+                                spanGap.classList.add('value-gap');
+                                spanGap.textContent = gap;
+                                divVal.appendChild(spanGap);
+                            }
+                            td.appendChild(divVal);
+                        } else if (key === 'equipe') {
+                            // Équipe avec maillot
+                            const raw = entry.equipe || '';
+                            const wrapper = document.createElement('div');
+                            wrapper.classList.add('team-cell');
+                            const imgPath = getJerseyPath(raw.trim());
+                            if (imgPath) {
+                                const img = document.createElement('img');
+                                img.src = imgPath;
+                                img.alt = `Maillot ${raw.trim()}`;
+                                img.classList.add('maillot-img');
+                                img.loading = 'lazy';
+                                wrapper.appendChild(img);
+                            }
+                            const span = document.createElement('span');
+                            span.textContent = raw || '-';
+                            wrapper.appendChild(span);
+                            td.appendChild(wrapper);
+                        } else if (key === 'nom') {
+                            // Nom avec icônes leaders
+                            const raw = entry.nom || '';
                             const nameContainer = document.createElement('div');
                             nameContainer.classList.add('name-cell');
                             ['temps','points','montagne','jeune'].forEach(suffix => {
                                 const leaderObj = generalLeaders[suffix];
-                                if (leaderObj && leaderObj.nom === nameText) {
+                                if (leaderObj && leaderObj.nom === raw) {
                                     const img = document.createElement('img');
                                     img.src = CLASSIFY_JERSEY_PATHS[suffix];
-                                    let altTxt = '';
-                                    if (suffix === 'temps') altTxt = 'Leader GC';
-                                    else if (suffix === 'points') altTxt = 'Leader Points';
-                                    else if (suffix === 'montagne') altTxt = 'Leader Montagne';
-                                    else if (suffix === 'jeune') altTxt = 'Leader Jeune';
-                                    img.alt = altTxt;
+                                    img.alt = suffix === 'temps' ? 'Leader GC' : suffix === 'points' ? 'Leader Points' : suffix === 'montagne' ? 'Leader Montagne' : 'Leader Jeune';
                                     img.classList.add('leader-classify-img');
                                     img.loading = 'lazy';
                                     nameContainer.appendChild(img);
                                 }
                             });
                             const spanName = document.createElement('span');
-                            spanName.textContent = nameText || '-';
+                            spanName.textContent = raw || '-';
                             nameContainer.appendChild(spanName);
                             td.appendChild(nameContainer);
-
-                        } else if (key === 'equipe') {
-                            const raw = entry.equipe || '';
-                            const teamName = raw.trim();
-                            const wrapper = document.createElement('div');
-                            wrapper.classList.add('team-cell');
-                            const imgPath = getJerseyPath(teamName);
-                            if (imgPath) {
-                                const img = document.createElement('img');
-                                img.src = imgPath;
-                                img.alt = `Maillot ${teamName}`;
-                                img.classList.add('maillot-img');
-                                img.loading = 'lazy';
-                                wrapper.appendChild(img);
-                            }
-                            const span = document.createElement('span');
-                            span.textContent = teamName || '-';
-                            wrapper.appendChild(span);
-                            td.appendChild(wrapper);
-
-                        } else if (key === 'temps' && (activeTab === 'temps' || activeTab === 'equipe')) {
-                            const timeStr = entry.temps || '';
-                            const timeSec = parseTimeToSeconds(timeStr);
-                            let gapStr = '';
-                            if (!isNaN(timeSec) && !isNaN(leaderTimeSec)) {
-                                const diff = timeSec - leaderTimeSec;
-                                if (diff > 0) gapStr = '+' + formatSecondsToHMS(diff);
-                                else gapStr = 'Leader';
-                            }
-                            const cellDiv = document.createElement('div');
-                            cellDiv.classList.add('time-cell');
-                            if (gapStr) {
-                                const spanGap = document.createElement('span');
-                                spanGap.classList.add('time-gap');
-                                spanGap.textContent = gapStr;
-                                cellDiv.appendChild(spanGap);
-                            }
-                            if (timeStr) {
-                                const spanTotal = document.createElement('span');
-                                spanTotal.classList.add('time-total');
-                                spanTotal.textContent = timeStr;
-                                cellDiv.appendChild(spanTotal);
-                            }
-                            td.appendChild(cellDiv);
-
-                        } else if (key === 'jeune' && activeTab === 'jeune') {
-                            const timeStr = entry.jeune || '';
-                            const timeSec = parseTimeToSeconds(timeStr);
-                            let gapStr = '';
-                            if (!isNaN(timeSec) && !isNaN(leaderJeuneSec)) {
-                                const diff = timeSec - leaderJeuneSec;
-                                if (diff > 0) gapStr = '+' + formatSecondsToHMS(diff);
-                                else gapStr = 'Leader';
-                            }
-                            const cellDiv = document.createElement('div');
-                            cellDiv.classList.add('time-cell');
-                            if (gapStr) {
-                                const spanGap = document.createElement('span');
-                                spanGap.classList.add('time-gap');
-                                spanGap.textContent = gapStr;
-                                cellDiv.appendChild(spanGap);
-                            }
-                            if (timeStr) {
-                                const spanTotal = document.createElement('span');
-                                spanTotal.classList.add('time-total');
-                                spanTotal.textContent = timeStr;
-                                cellDiv.appendChild(spanTotal);
-                            }
-                            td.appendChild(cellDiv);
-
-                        } else if (key === 'points') {
-                            const raw = entry.points;
-                            const pts = parseInt(raw, 10);
-                            let gapStr = '';
-                            if (!isNaN(pts) && !isNaN(leaderPoints)) {
-                                const diff = pts - leaderPoints;
-                                if (diff !== 0) gapStr = `(${diff > 0 ? '+'+diff : diff})`;
-                            }
-                            const cellDiv = document.createElement('div');
-                            cellDiv.classList.add('value-cell');
-                            if (!isNaN(pts)) {
-                                const spanMain = document.createElement('span');
-                                spanMain.classList.add('value-main');
-                                spanMain.textContent = pts;
-                                cellDiv.appendChild(spanMain);
-                            } else {
-                                const spanMain = document.createElement('span');
-                                spanMain.classList.add('value-main');
-                                spanMain.textContent = raw != null ? raw : '-';
-                                cellDiv.appendChild(spanMain);
-                            }
-                            if (gapStr) {
-                                const spanGap = document.createElement('span');
-                                spanGap.classList.add('value-gap');
-                                spanGap.textContent = gapStr;
-                                cellDiv.appendChild(spanGap);
-                            }
-                            td.appendChild(cellDiv);
-
-                        } else if (key === 'montagne') {
-                            const raw = entry.montagne;
-                            const mg = parseInt(raw, 10);
-                            let gapStr = '';
-                            if (!isNaN(mg) && !isNaN(leaderMontagne)) {
-                                const diff = mg - leaderMontagne;
-                                if (diff !== 0) gapStr = `(${diff > 0 ? '+'+diff : diff})`;
-                            }
-                            const cellDiv = document.createElement('div');
-                            cellDiv.classList.add('value-cell');
-                            if (!isNaN(mg)) {
-                                const spanMain = document.createElement('span');
-                                spanMain.classList.add('value-main');
-                                spanMain.textContent = mg;
-                                cellDiv.appendChild(spanMain);
-                            } else {
-                                const spanMain = document.createElement('span');
-                                spanMain.classList.add('value-main');
-                                spanMain.textContent = raw != null ? raw : '-';
-                                cellDiv.appendChild(spanMain);
-                            }
-                            if (gapStr) {
-                                const spanGap = document.createElement('span');
-                                spanGap.classList.add('value-gap');
-                                spanGap.textContent = gapStr;
-                                cellDiv.appendChild(spanGap);
-                            }
-                            td.appendChild(cellDiv);
-
                         } else {
-                            // Colonnes simples: position, joueur, etc.
-                            const value = entry[key];
-                            td.textContent = (value !== undefined && value !== null) ? value : '-';
+                            // Colonnes simples
+                            const val = entry[key];
+                            td.textContent = val != null ? val : '-';
                         }
                         tr.appendChild(td);
                     });

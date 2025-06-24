@@ -147,7 +147,7 @@ th {
 
 /* Écart (gap) en noir classique */
 .time-gap {
-    font-weight: regular;
+    font-weight: normal;
     font-size: 1em; /* ou ajustez selon besoin */
     color: #000;    /* noir */
     display: block;
@@ -174,7 +174,7 @@ th {
     display: block;
 }
 
-/* Écart vis-à-vis du leader (négatif) */
+/* Écart vis-à-vis du leader (gris) */
 .value-gap {
     font-size: 0.8em;
     color: #666; /* gris */
@@ -272,7 +272,7 @@ th {
     background-color: #f5f5f5;
 }
 .team-card-jersey {
-    width: 40px;
+    width: 80px;
     height: auto;
     margin-right: 8px;
 }
@@ -301,11 +301,63 @@ th {
     color: #000;
 }
 
+/* ============================= */
+/* Styles pour l’évolution de la position */
+/* ============================= */
+/* On force la couleur en cas d’héritage de couleur noire ailleurs, et on rend plus petit et plus à droite */
+/* Utilisation de !important pour garantir priorité si nécessaire */
 
-/* Classes existantes pour équipe, écarts, etc., restent inchangées */
+/* Évolution positive : flèche vers le haut, en vert vif, plus petit */
+.evolution-up {
+    color: #28a745 !important;         /* vert vif */
+    font-weight: 600 !important;
+    font-size: 0.7em !important;       /* un peu plus petit */
+    margin-left: 6px !important;       /* espace plus grand après le numéro */
+    line-height: 1 !important;
+    vertical-align: middle !important;
+}
 
-/* Si plusieurs maillots pour un même coureur, on peut imbriquer plusieurs <img> côte à côte. */
+/* Évolution négative : flèche vers le bas, en rouge vif */
+.evolution-down {
+    color: #dc3545 !important;         /* rouge vif */
+    font-weight: 600 !important;
+    font-size: 0.7em !important;
+    margin-left: 6px !important;
+    line-height: 1 !important;
+    vertical-align: middle !important;
+}
 
+/* Pas de changement : tiret ou flèche horizontale, en gris clair */
+.evolution-same {
+    color: #6c757d !important;         /* gris moyen */
+    font-weight: 600 !important;
+    font-size: 0.7em !important;
+    margin-left: 6px !important;
+    line-height: 1 !important;
+    vertical-align: middle !important;
+}
 
+/* Pour s’assurer de l’application : alignement inline-flex */
+td > .evolution-up,
+td > .evolution-down,
+td > .evolution-same {
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+/* Adaptation pour thème sombre si besoin */
+@media (prefers-color-scheme: dark) {
+    .evolution-same {
+        color: #adb5bd !important; /* gris clair sur fond sombre */
+    }
+    /* Ajustez vert/rouge si contraste insuffisant :
+    .evolution-up { color: #4caf50 !important; }
+    .evolution-down { color: #e57373 !important; }
+    */
+}
+
+/* ============================= */
+/* Fin des styles Classements */
+/* ============================= */
 
 /* Vous pouvez ajouter d'autres styles globaux ici */
