@@ -897,19 +897,40 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('[classements.js] Récupération JSON depuis', fileName);
         // === 1) Charger le classement précédent pour calculer l’évolution ===
         let prevRankByName = {};
-        if (viewType === 'general') {
-            const prevNum = String(parseInt(etapeSelect.value, 10) - 1).padStart(2, '0');
-            const prevFile = `data/classements/general_etape_${prevNum}_${dataFileSuffix}.json`;
-            try {
-                const prevResp = await fetch(prevFile);
-                if (prevResp.ok) {
-                    const prevList = await prevResp.json();
-                    prevList.forEach(e => { prevRankByName[e.nom] = parseInt(e.position, 10); });
+if (viewType === 'general') {
+    const prevNum = String(parseInt(etapeSelect.value, 10) - 1).padStart(2, '0');
+    // Choisir le bon fichier selon l’onglet actif : équipes ou coureurs
+    let prevFile;
+    if (activeTab === 'equipe') {
+        prevFile = `data/classements/general_etape_${prevNum}_equipe.json`;
+    } else {
+        // pour 'temps', 'jeune', etc., on utilise le JSON coureurs
+        prevFile = `data/classements/general_etape_${prevNum}_${dataFileSuffix}.json`;
+        // Remarque : dataFileSuffix vaut 'temps' ou 'jeune' selon activeTab
+    }
+    try {
+        const prevResp = await fetch(prevFile);
+        if (prevResp.ok) {
+            const prevList = await prevResp.json();
+            prevList.forEach(e => {
+                if (activeTab === 'equipe') {
+                    // indexer par nom d’équipe
+                    if (e.equipe) {
+                        prevRankByName[e.equipe] = parseInt(e.position, 10);
+                    }
+                } else {
+                    // indexer par nom de coureur
+                    if (e.nom) {
+                        prevRankByName[e.nom] = parseInt(e.position, 10);
+                    }
                 }
-            } catch (e) {
-                console.warn('Évolution: impossible de charger', prevFile, e);
-            }
+            });
         }
+    } catch (e) {
+        console.warn('Évolution: impossible de charger', prevFile, e);
+    }
+}
+
         // --- 4.8 Fetch et remplissage ---
         fetch(fileName)
             .then(resp => {
@@ -917,6 +938,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return resp.json();
             })
             .then(dataList => {
+                console.log('Points JSON chargé pour', fileName, dataList);
                 if (!Array.isArray(dataList)) {
                     console.error('[classements.js] JSON retourné n’est pas un tableau pour', fileName);
                     dataList = [];
@@ -950,16 +972,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 
                 // Références écart
-                let leaderTimeSec = NaN, leaderJeuneSec = NaN, leaderPoints = NaN, leaderMontagne = NaN;
-                if ((activeTab === 'temps' || activeTab === 'equipe' || activeTab === 'jeune') && dataList.length > 0) {
-                    leaderTimeSec = parseTimeToSeconds(dataList[0].temps);
-                }
-                if (activeTab === 'points' && dataList.length > 0) {
-                    leaderPoints = parseInt(dataList[0].points, 10);
-                }
-                if (activeTab === 'montagne' && dataList.length > 0) {
-                    leaderMontagne = parseInt(dataList[0].montagne, 10);
-                }
+               // let leaderTimeSec = NaN, leaderJeuneSec = NaN, leaderPoints = NaN, leaderMontagne = NaN;
+                //if ((activeTab === 'temps' || activeTab === 'equipe' || activeTab === 'jeune') && dataList.length > 0) {
+                //    leaderTimeSec = parseTimeToSeconds(dataList[0].temps);
+                //}
+                //if (activeTab === 'points' && dataList.length > 0) {
+                 //   leaderPoints = parseInt(dataList[0].points, 10);
+                //}
+                //if (activeTab === 'montagne' && dataList.length > 0) {
+                 //   leaderMontagne = parseInt(dataList[0].montagne, 10);
+               // }
                 // Vider tbody
                 tbody.innerHTML = '';
                 if (dataList.length === 0) {
@@ -986,47 +1008,57 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (key === 'montagne') key = 'montagne';
                         if (key === 'jeune') key = 'jeune';
                         if (key === 'joueur') key = 'joueur';
+if (key === 'position') {
+    // === Affichage du rang + flèche d’évolution uniquement pour le général ===
+    td.textContent = entry.position;
+    if (viewType === 'general') {
+        const current = parseInt(entry.position, 10);
+        // Choisir la clé selon l’onglet : équipe ou coureur
+        let previous;
+        if (activeTab === 'equipe') {
+            previous = prevRankByName[entry.equipe] || Infinity;
+        } else {
+            previous = prevRankByName[entry.nom] || Infinity;
+        }
+        const delta = previous - current;
+        let cls, char;
+        if (delta > 0) { cls = 'evolution-up';   char = '▲'; }
+        else if (delta < 0) { cls = 'evolution-down'; char = '▼'; }
+        else                { cls = 'evolution-same'; char = '—'; }
+        const span = document.createElement('span');
+        span.classList.add(cls);
+        span.textContent = char;
+        td.appendChild(span);
+        // nombre de places perdues/gagnées
+        if (delta !== 0) {
+            const spanNum = document.createElement('span');
+            spanNum.classList.add(cls);
+            spanNum.style.marginLeft = '2px';
+            spanNum.textContent = Math.abs(delta);
+            td.appendChild(spanNum);
+        }
+    }
 
-                        if (key === 'position') {
-                            // === Affichage du rang + flèche d’évolution uniquement pour le général ===
-                            td.textContent = entry.position;
-                            if (viewType === 'general') {
-                                const current = parseInt(entry.position, 10);
-                                const previous = prevRankByName[entry.nom] || Infinity;
-                                const delta = previous - current;
-                                let cls, char;
-                                if (delta > 0) { cls = 'evolution-up';   char = '▲'; }
-                                else if (delta < 0) { cls = 'evolution-down'; char = '▼'; }
-                                else                { cls = 'evolution-same'; char = '—'; }
-                                const span = document.createElement('span');
-                                span.classList.add(cls);
-                                span.textContent = char;
-                                td.appendChild(span);
-                                // nombre de places perdues/gagnées
-                                if (delta !== 0) {
-                                    const spanNum = document.createElement('span');
-                                    spanNum.classList.add(cls);
-                                    spanNum.style.marginLeft = '2px';
-                                    spanNum.textContent = Math.abs(delta);
-                                    td.appendChild(spanNum);
-                            }
-                        }
                         } else if (key === 'temps' && (activeTab === 'temps' || activeTab === 'equipe' || activeTab === 'jeune')) {
-                            // Temps / Jeune affichage gap + total
-                            const timeStr = entry[key] || '';
-                            const sec = parseTimeToSeconds(timeStr);
-                            const leaderSec = (key === 'jeune') ? leaderJeuneSec : leaderTimeSec;
-                            let gapStr = '';
-                            if (!isNaN(sec) && !isNaN(leaderSec)) {
-                                const diff = sec - leaderSec;
-                                gapStr = (diff === 0 ? 'Leader' : (diff > 0 ? '+' : '') + formatSecondsToHMS(diff));
-                            }
+                            // Affichage du temps total et de l’écart issu du JSON (entry.ecart)
+                            const timeStr = entry.temps || '';
+                            const ecartStr = entry.ecart || '';
                             const cellDiv = document.createElement('div');
                             cellDiv.classList.add('time-cell');
-                            if (gapStr) {
+
+                            // Optionnel : si vous souhaitez afficher "Leader" pour position === 1, décommentez :
+                            // const posNum = parseInt(entry.position, 10);
+                            // if (!isNaN(posNum) && posNum === 1) {
+                            //     const spanLeader = document.createElement('span');
+                            //     spanLeader.classList.add('time-gap', 'leader-label');
+                            //     spanLeader.textContent = 'Leader';
+                            //     cellDiv.appendChild(spanLeader);
+                            // }
+
+                            if (ecartStr) {
                                 const spanGap = document.createElement('span');
                                 spanGap.classList.add('time-gap');
-                                spanGap.textContent = gapStr;
+                                spanGap.textContent = ecartStr;
                                 cellDiv.appendChild(spanGap);
                             }
                             if (timeStr) {
@@ -1037,48 +1069,45 @@ document.addEventListener('DOMContentLoaded', () => {
                             }
                             td.appendChild(cellDiv);
                         } else if (key === 'points') {
-                            // Points affichage valeur + écart
-                            const pts = parseInt(entry.points, 10);
-                            let gap = '';
-                            if (!isNaN(pts) && !isNaN(leaderPoints)) {
-                                const diff = pts - leaderPoints;
-                                if (diff !== 0) gap = `(${diff > 0 ? '+' + diff : diff})`;
-                            }
-                            const divVal = document.createElement('div');
-                            divVal.classList.add('value-cell');
-                            const spanMain = document.createElement('span');
-                            spanMain.classList.add('value-main');
-                            spanMain.textContent = isNaN(pts) ? (entry.points || '-') : pts;
-                            divVal.appendChild(spanMain);
-                            if (gap) {
-                                const spanGap = document.createElement('span');
-                                spanGap.classList.add('value-gap');
-                                spanGap.textContent = gap;
-                                divVal.appendChild(spanGap);
-                            }
-                            td.appendChild(divVal);
-                        } else if (key === 'montagne') {
-                            // Montagne affichage valeur + écart
-                            const mg = parseInt(entry.montagne, 10);
-                            let gap = '';
-                            if (!isNaN(mg) && !isNaN(leaderMontagne)) {
-                                const diff = mg - leaderMontagne;
-                                if (diff !== 0) gap = `(${diff > 0 ? '+' + diff : diff})`;
-                            }
-                            const divVal = document.createElement('div');
-                            divVal.classList.add('value-cell');
-                            const spanMain = document.createElement('span');
-                            spanMain.classList.add('value-main');
-                            spanMain.textContent = isNaN(mg) ? (entry.montagne || '-') : mg;
-                            divVal.appendChild(spanMain);
-                            if (gap) {
-                                const spanGap = document.createElement('span');
-                                spanGap.classList.add('value-gap');
-                                spanGap.textContent = gap;
-                                divVal.appendChild(spanGap);
-                            }
-                            td.appendChild(divVal);
-                        } else if (key === 'equipe') {
+    // Afficher la valeur et l'écart tel que fourni dans le JSON
+    const ptsRaw = entry.points;
+    const pts = ptsRaw != null ? parseInt(ptsRaw, 10) : NaN;
+    const ecartPts = entry.ecart || '';
+    const divVal = document.createElement('div');
+    divVal.classList.add('value-cell');
+    const spanMain = document.createElement('span');
+    spanMain.classList.add('value-main');
+    spanMain.textContent = (!isNaN(pts) ? pts : (ptsRaw || '-'));
+    divVal.appendChild(spanMain);
+    if (ecartPts) {
+        const spanGap = document.createElement('span');
+        spanGap.classList.add('value-gap');
+        spanGap.textContent = ecartPts;
+        divVal.appendChild(spanGap);
+    }
+    td.appendChild(divVal);
+} else if (key === 'montagne') {
+    // Affichage de la valeur "montagne" et de l'écart tel que fourni dans JSON
+    const mgRaw = entry.montagne;
+    const mg = mgRaw != null ? parseInt(mgRaw, 10) : NaN;
+    const ecartM = entry.ecart || ''; // champ "ecart" dans le JSON pour montagne, ex. "Leader Montagne" ou "+5"
+    const divVal = document.createElement('div');
+    divVal.classList.add('value-cell');
+    // Valeur principale
+    const spanMain = document.createElement('span');
+    spanMain.classList.add('value-main');
+    spanMain.textContent = (!isNaN(mg) ? mg : (mgRaw || '-'));
+    divVal.appendChild(spanMain);
+    // Afficher l'écart si présent
+    if (ecartM) {
+        const spanGap = document.createElement('span');
+        spanGap.classList.add('value-gap');
+        spanGap.textContent = ecartM;
+        divVal.appendChild(spanGap);
+    }
+    td.appendChild(divVal);
+}
+ else if (key === 'equipe') {
                             // Équipe avec maillot
                             const raw = entry.equipe || '';
                             const wrapper = document.createElement('div');
