@@ -1,0 +1,42 @@
+[
+  {
+    "position": 1,
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "montagne": 2,
+    "joueur": "Bismuth",
+    "ecart": ""
+  },
+  {
+    "position": 2,
+    "nom": "Matt Houston",
+    "equipe": "RnB de Rue",
+    "montagne": 1,
+    "joueur": "Tefouine",
+    "ecart": "-1"
+  },
+  {
+    "position": 3,
+    "nom": "David Gaudu",
+    "equipe": "Froooonce",
+    "montagne": 1,
+    "joueur": "RicH33",
+    "ecart": "-1"
+  },
+  {
+    "position": 4,
+    "nom": "Thierry Ardisson",
+    "equipe": "Over Dose Racing",
+    "montagne": 1,
+    "joueur": "",
+    "ecart": "-1"
+  },
+  {
+    "position": 5,
+    "nom": "Joseba Beloki",
+    "equipe": "Suceurs 2 Roues",
+    "montagne": 1,
+    "joueur": "",
+    "ecart": "-1"
+  }
+]
