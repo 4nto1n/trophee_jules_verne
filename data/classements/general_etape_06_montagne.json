@@ -1,0 +1,156 @@
+[
+  {
+    "nom": "David Gaudu",
+    "equipe": "Froooonce",
+    "montagne": 31,
+    "position": 1,
+    "ecart": "Leader Montagne"
+  },
+  {
+    "nom": "Marco Pantani",
+    "equipe": "Big Farma",
+    "montagne": 28,
+    "position": 2,
+    "ecart": "-3"
+  },
+  {
+    "nom": "Thibaut Pinot",
+    "equipe": "Froooonce",
+    "montagne": 17,
+    "position": 3,
+    "ecart": "-14"
+  },
+  {
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "montagne": 17,
+    "position": 4,
+    "ecart": "-14"
+  },
+  {
+    "nom": "Matt Houston",
+    "equipe": "RnB de Rue",
+    "montagne": 10,
+    "position": 5,
+    "ecart": "-21"
+  },
+  {
+    "nom": "Willy Denzey",
+    "equipe": "RnB de Rue",
+    "montagne": 8,
+    "position": 6,
+    "ecart": "-23"
+  },
+  {
+    "nom": "Geraint Tomasse",
+    "equipe": "Suceurs 2 Roues",
+    "montagne": 8,
+    "position": 7,
+    "ecart": "-23"
+  },
+  {
+    "nom": "Duncan Coillotte",
+    "equipe": "Good Cheese",
+    "montagne": 8,
+    "position": 8,
+    "ecart": "-23"
+  },
+  {
+    "nom": "Luc Tenfré",
+    "equipe": "Frisquet",
+    "montagne": 7,
+    "position": 9,
+    "ecart": "-24"
+  },
+  {
+    "nom": "Justin Bieber",
+    "equipe": "RnB de Rue",
+    "montagne": 6,
+    "position": 10,
+    "ecart": "-25"
+  },
+  {
+    "nom": "Karl Beck",
+    "equipe": "Bier Brigade",
+    "montagne": 6,
+    "position": 11,
+    "ecart": "-25"
+  },
+  {
+    "nom": "Fritz Fass",
+    "equipe": "Bier Brigade",
+    "montagne": 6,
+    "position": 12,
+    "ecart": "-25"
+  },
+  {
+    "nom": "Richard Virenque",
+    "equipe": "Froooonce",
+    "montagne": 4,
+    "position": 13,
+    "ecart": "-27"
+  },
+  {
+    "nom": "G Calo",
+    "equipe": "RnB de Rue",
+    "montagne": 3,
+    "position": 14,
+    "ecart": "-28"
+  },
+  {
+    "nom": "Riccardo Ricco",
+    "equipe": "Saunier Duval",
+    "montagne": 2,
+    "position": 15,
+    "ecart": "-29"
+  },
+  {
+    "nom": "Grinne Dgeu",
+    "equipe": "Rap Street Boys",
+    "montagne": 2,
+    "position": 16,
+    "ecart": "-29"
+  },
+  {
+    "nom": "Thierry Ardisson",
+    "equipe": "Over Dose Racing",
+    "montagne": 1,
+    "position": 17,
+    "ecart": "-30"
+  },
+  {
+    "nom": "Joseba Beloki",
+    "equipe": "Suceurs 2 Roues",
+    "montagne": 1,
+    "position": 18,
+    "ecart": "-30"
+  },
+  {
+    "nom": "Dario Frigo",
+    "equipe": "Saunier Duval",
+    "montagne": 1,
+    "position": 19,
+    "ecart": "-30"
+  },
+  {
+    "nom": "Tonton Graillou",
+    "equipe": "Team Alençon",
+    "montagne": 1,
+    "position": 20,
+    "ecart": "-30"
+  },
+  {
+    "nom": "Mi Loud",
+    "equipe": "UCPSPA",
+    "montagne": 1,
+    "position": 21,
+    "ecart": "-30"
+  },
+  {
+    "nom": "Pierre Palmade",
+    "equipe": "Over Dose Racing",
+    "montagne": 1,
+    "position": 22,
+    "ecart": "-30"
+  }
+]

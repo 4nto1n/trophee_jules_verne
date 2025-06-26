@@ -1,0 +1,106 @@
+[
+  {
+    "position": 1,
+    "nom": "David Gaudu",
+    "equipe": "Froooonce",
+    "montagne": 10,
+    "joueur": "RicH33",
+    "ecart": ""
+  },
+  {
+    "position": 2,
+    "nom": "Willy Denzey",
+    "equipe": "RnB de Rue",
+    "montagne": 8,
+    "joueur": "Tefouine",
+    "ecart": "-2"
+  },
+  {
+    "position": 3,
+    "nom": "Geraint Tomasse",
+    "equipe": "Suceurs 2 Roues",
+    "montagne": 8,
+    "joueur": "",
+    "ecart": "-2"
+  },
+  {
+    "position": 4,
+    "nom": "Luc Tenfré",
+    "equipe": "Frisquet",
+    "montagne": 7,
+    "joueur": "",
+    "ecart": "-3"
+  },
+  {
+    "position": 5,
+    "nom": "Justin Bieber",
+    "equipe": "RnB de Rue",
+    "montagne": 6,
+    "joueur": "Tefouine",
+    "ecart": "-4"
+  },
+  {
+    "position": 6,
+    "nom": "Thibaut Pinot",
+    "equipe": "Froooonce",
+    "montagne": 5,
+    "joueur": "RicH33",
+    "ecart": "-5"
+  },
+  {
+    "position": 7,
+    "nom": "Matt Houston",
+    "equipe": "RnB de Rue",
+    "montagne": 4,
+    "joueur": "Tefouine",
+    "ecart": "-6"
+  },
+  {
+    "position": 8,
+    "nom": "Riccardo Ricco",
+    "equipe": "Saunier Duval",
+    "montagne": 2,
+    "joueur": "",
+    "ecart": "-8"
+  },
+  {
+    "position": 9,
+    "nom": "Dario Frigo",
+    "equipe": "Saunier Duval",
+    "montagne": 1,
+    "joueur": "",
+    "ecart": "-9"
+  },
+  {
+    "position": 10,
+    "nom": "Tonton Graillou",
+    "equipe": "Team Alençon",
+    "montagne": 1,
+    "joueur": "",
+    "ecart": "-9"
+  },
+  {
+    "position": 11,
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "montagne": 0,
+    "joueur": "Bismuth",
+    "ecart": "-10"
+  },
+  {
+    "position": 12,
+    "nom": "Joseba Beloki",
+    "equipe": "Suceurs 2 Roues",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "-10"
+  },
+  {
+    "position": 13,
+    "nom": "Thierry Ardisson",
+    "equipe": "Over Dose Racing",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "-10"
+  }
+]
