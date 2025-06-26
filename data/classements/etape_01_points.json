@@ -1,0 +1,122 @@
+[
+  {
+    "position": 1,
+    "nom": "Oedipus Brewing",
+    "equipe": "Nederlands Bier",
+    "points": 20,
+    "joueur": "",
+    "ecart": ""
+  },
+  {
+    "position": 2,
+    "nom": "Justin Bieber",
+    "equipe": "RnB de Rue",
+    "points": 17,
+    "joueur": "Tefouine",
+    "ecart": "-3"
+  },
+  {
+    "position": 3,
+    "nom": "Miguel Indurain",
+    "equipe": "Big Farma",
+    "points": 15,
+    "joueur": "mcohara",
+    "ecart": "-5"
+  },
+  {
+    "position": 4,
+    "nom": "Otta Kringer",
+    "equipe": "Österreichisches Bier",
+    "points": 13,
+    "joueur": "",
+    "ecart": "-7"
+  },
+  {
+    "position": 5,
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "points": 11,
+    "joueur": "Bismuth",
+    "ecart": "-9"
+  },
+  {
+    "position": 6,
+    "nom": "Hirt Herbier",
+    "equipe": "Österreichisches Bier",
+    "points": 10,
+    "joueur": "",
+    "ecart": "-10"
+  },
+  {
+    "position": 7,
+    "nom": "Hans Hopfen",
+    "equipe": "Bier Brigade",
+    "points": 9,
+    "joueur": "Bismuth",
+    "ecart": "-11"
+  },
+  {
+    "position": 8,
+    "nom": "Michael Rasmussen",
+    "equipe": "Big Farma",
+    "points": 8,
+    "joueur": "mcohara",
+    "ecart": "-12"
+  },
+  {
+    "position": 9,
+    "nom": "Jean-Claude Van Damme",
+    "equipe": "Over Dose Racing",
+    "points": 7,
+    "joueur": "",
+    "ecart": "-13"
+  },
+  {
+    "position": 10,
+    "nom": "Luc Tenfré",
+    "equipe": "Frisquet",
+    "points": 6,
+    "joueur": "",
+    "ecart": "-14"
+  },
+  {
+    "position": 11,
+    "nom": "Floyd Landis",
+    "equipe": "Big Farma",
+    "points": 5,
+    "joueur": "mcohara",
+    "ecart": "-15"
+  },
+  {
+    "position": 12,
+    "nom": "Zip Fer",
+    "equipe": "Österreichisches Bier",
+    "points": 4,
+    "joueur": "",
+    "ecart": "-16"
+  },
+  {
+    "position": 13,
+    "nom": "Ba Varia",
+    "equipe": "Nederlands Bier",
+    "points": 3,
+    "joueur": "",
+    "ecart": "-17"
+  },
+  {
+    "position": 14,
+    "nom": "Francesco Casagrande",
+    "equipe": "Saunier Duval",
+    "points": 2,
+    "joueur": "",
+    "ecart": "-18"
+  },
+  {
+    "position": 15,
+    "nom": "Bob Marley",
+    "equipe": "Weed",
+    "points": 1,
+    "joueur": "",
+    "ecart": "-19"
+  }
+]
