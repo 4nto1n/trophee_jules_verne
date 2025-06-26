@@ -1,18 +1,18 @@
 [
   {
     "position": 1,
-    "nom": "Oedipus Brewing",
-    "equipe": "Nederlands Bier",
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
     "points": 20,
-    "joueur": "",
+    "joueur": "Bismuth",
     "ecart": ""
   },
   {
     "position": 2,
-    "nom": "Justin Bieber",
-    "equipe": "RnB de Rue",
+    "nom": "Bruno Krombacher",
+    "equipe": "Bier Brigade",
     "points": 17,
-    "joueur": "Tefouine",
+    "joueur": "Bismuth",
     "ecart": "-3"
   },
   {
@@ -25,98 +25,98 @@
   },
   {
     "position": 4,
-    "nom": "Otta Kringer",
-    "equipe": "Österreichisches Bier",
+    "nom": "Max Weizen",
+    "equipe": "Bier Brigade",
     "points": 13,
-    "joueur": "",
+    "joueur": "Bismuth",
     "ecart": "-7"
   },
   {
     "position": 5,
-    "nom": "Uwe Pilsner",
-    "equipe": "Bier Brigade",
+    "nom": "Otta Kringer",
+    "equipe": "Österreichisches Bier",
     "points": 11,
-    "joueur": "Bismuth",
+    "joueur": "",
     "ecart": "-9"
   },
   {
     "position": 6,
-    "nom": "Hirt Herbier",
-    "equipe": "Österreichisches Bier",
+    "nom": "Hans Hopfen",
+    "equipe": "Bier Brigade",
     "points": 10,
-    "joueur": "",
+    "joueur": "Bismuth",
     "ecart": "-10"
   },
   {
     "position": 7,
-    "nom": "Hans Hopfen",
-    "equipe": "Bier Brigade",
+    "nom": "Michael Rasmussen",
+    "equipe": "Big Farma",
     "points": 9,
-    "joueur": "Bismuth",
+    "joueur": "mcohara",
     "ecart": "-11"
   },
   {
     "position": 8,
-    "nom": "Michael Rasmussen",
-    "equipe": "Big Farma",
+    "nom": "Zip Fer",
+    "equipe": "Österreichisches Bier",
     "points": 8,
-    "joueur": "mcohara",
+    "joueur": "",
     "ecart": "-12"
   },
   {
     "position": 9,
-    "nom": "Jean-Claude Van Damme",
-    "equipe": "Over Dose Racing",
+    "nom": "Bob Lacroute",
+    "equipe": "Good Cheese",
     "points": 7,
     "joueur": "",
     "ecart": "-13"
   },
   {
     "position": 10,
-    "nom": "Luc Tenfré",
-    "equipe": "Frisquet",
+    "nom": "Ra Chelle",
+    "equipe": "UCPSPA",
     "points": 6,
     "joueur": "",
     "ecart": "-14"
   },
   {
     "position": 11,
-    "nom": "Floyd Landis",
-    "equipe": "Big Farma",
+    "nom": "Snoop Dog",
+    "equipe": "Weed",
     "points": 5,
-    "joueur": "mcohara",
+    "joueur": "",
     "ecart": "-15"
   },
   {
     "position": 12,
-    "nom": "Zip Fer",
-    "equipe": "Österreichisches Bier",
+    "nom": "Brie de Meaux",
+    "equipe": "Team Claquos",
     "points": 4,
     "joueur": "",
     "ecart": "-16"
   },
   {
     "position": 13,
-    "nom": "Ba Varia",
-    "equipe": "Nederlands Bier",
+    "nom": "Bob Marley",
+    "equipe": "Weed",
     "points": 3,
     "joueur": "",
     "ecart": "-17"
   },
   {
     "position": 14,
-    "nom": "Francesco Casagrande",
-    "equipe": "Saunier Duval",
+    "nom": "K Kamaro",
+    "equipe": "RnB de Rue",
     "points": 2,
-    "joueur": "",
+    "joueur": "Tefouine",
     "ecart": "-18"
   },
   {
     "position": 15,
-    "nom": "Bob Marley",
-    "equipe": "Weed",
+    "nom": "Dieter Bitburger",
+    "equipe": "Bier Brigade",
     "points": 1,
-    "joueur": "",
+    "joueur": "Bismuth",
     "ecart": "-19"
   }
 ]
