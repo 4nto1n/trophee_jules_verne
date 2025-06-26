@@ -1,0 +1,52 @@
+[
+  {
+    "etape": "Étape 21 - Thaïlande",
+    "description": " Vingt-et-unième étape du Trophée Jules Verne , en Thaïlande, entre Chiang Mai et Ban Pa Khui.\n            Cette étape “vallonnée” propose un double passage sur les pentes de Ban Pang Nam Tu, alternant des portions roulantes et des montées sélectives.\n            Les sprinteurs costauds devront gérer leur effort : les ascensions courtes et raides pourront servir de tremplin pour un groupe réduit, mais la vigilance restera de mise sur chaque montée et relance.",
+    "donnees_techniques": " Distance : 122,4 km Dénivelé positif : 1 246 m Type d’étape : Vallonnée Cols répertoriés : Ban Pang Nam Tu – 2ᵉ cat. – km 61.2 – 5.3 km à 5% Ban Pang Nam Tu – 2ᵉ cat. – km 84.1 – 2 km à 6.9% Départ : Chiang Mai (338 m) Arrivée : Ban Pa Khui (331 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 22 - Vietnam",
+    "description": " Vingt-deuxième étape du Trophée Jules Verne , au Vietnam, entre Nha Trang et Da Lat. D'une longueur de 139,1 km pour 2 610 m de dénivelé positif, préparez vos mollets à une journée digne des montagnes russes : d'abord une côte côtière faussement tranquille, puis une montée progressive vers les hauts plateaux. Entre ascensions raides et replats providentiels, chaque coup de pédale comptera. À l'arrivée, la vue sur Da Lat récompensera vos efforts (et fera oublier, presque, la brûlure dans les jambes) !",
+    "donnees_techniques": " Distance : 139,1 km Dénivelé positif : 2 610 m Type d’étape : Montagne Départ : Nha Trang (8 m) Arrivée : Da Lat (1 494 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 23 - Taiwan",
+    "description": " Vingt-troisième étape du Trophée Jules Verne à Taiwan, entre Nantou et Sun Moon Lake.\n            Avec 167 km et 2 108 m de dénivelé positif, cette étape vallonnée est un véritable yo-yo pour vos mollets : \n            un faux-plat montant pour chauffer les jambes dès Nantou (102 m), puis la première ascension vers JiJi (235 m) \n            pour s’échauffer sérieusement. Ensuite, montée au Fudan Pond (451 m) avant une longue descente/récup, \n            puis nouveau coup de collier vers Shuan Zhang Temple (874 m, 1,8 km à 5 %) avant le final au bord du lac (763 m). \n            Préparez-vous à jongler entre sensations de plaine et piqûres de col : vos mollets vont adorer… ou souffrir ! 😅",
+    "donnees_techniques": " Distance : 167 km Dénivelé positif : 2 108 m Type d’étape : Vallonnée Départ : Nantou (102 m) Arrivée : Sun Moon Lake (763 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 24 - Japon",
+    "description": " Vingt-quatrième étape du Trophée Jules Verne au Japon, montagneuse et impitoyable : 167,9 km pour 6 385 m de dénivelé cumulé. Préparez vos plus belles grimaces et vos plus courageux mollets ! Départ de Saitama (17 m), enchaînement de multiples ascensions dont Ranzan, Yorii, Kamayama, Tokyo Trail, Doadira Sky Park, Ono Pass, Shomaru Pass, Arima Pass, et le final exigeant vers Chichibu. Une odyssée qui mêle fiction et souffrance... mais quel bonheur au sommet ! 😅",
+    "donnees_techniques": " Distance : 167,9 km Dénivelé positif : 6 385 m Type d’étape : Montagne Départ : Saitama (17 m) Arrivée : Chichibu (225 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 25 - Corée du Sud (Chrono par équipes)",
+    "description": " Vingt-cinquième étape du Trophée Jules Verne en Corée du Sud, un chrono par équipes de 61,3 km (522 m de D+). Parfait pour voir si votre équipe est synchronisée comme un K-pop boyband… ou si vous terminez en solo avant la ligne ! Plutôt plat, mais gare aux petites bosses sournoises : chaque seconde compte, alors pédalez comme si le kimchi vous attendait au bout ! 😜",
+    "donnees_techniques": " Distance : 61,3 km Dénivelé positif : 522 m Type d’étape : Contre-la-montre par équipes Départ et arrivée : Noryang-ri (0 m → 96 m) Discipline : Route – chrono équipe"
+  },
+  {
+    "etape": "Étape 26 - Chine",
+    "description": " Vingt-sixième étape du Trophée Jules Verne en Chine, 149,4 km de pur fun (ou pas) entre Wuzhishan et Changjiang. Trois cols pour réveiller vos mollets : Atuo Mountain (7,7 km à 5,2 %), Yingge Mountain (9,8 km à 4,1 %) et Jiuja Mountain (2,9 km à 6,4 %) agrémentés de sprints furtifs à Baisha et Qigfang. Si votre entraînement se limite au canapé, prévoyez un aspirateur pour ramasser vos larmes ! 😂",
+    "donnees_techniques": " Distance : 149,4 km Dénivelé positif : à estimer ~ ??? m Type d’étape : Sprint / Montagne Départ : Wuzhishan (313 m) Arrivée : Changjiang (98 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 27 - Bhoutan",
+    "description": " Vingt-septième étape du Trophée Jules Verne au Bhoutan, 210,3 km et un dénivelé cumulatif de 10 818 m : vos mollets vont demander l’asile politique ! Départ de Trashigang (1 086 m), puis Korila Pass (1 953 m, 17 km à 9,7 %), descente et sprint à Lingmethang, puis l’ascension monstruelle vers Thrimshingla Pass (3 676 m, 60 km à 5,1 %), Gayzangkar (3 666 m, 4,9 km à 5,6 %) et finish à Royal National Park (3 107 m). Préparez vos crampons… euh, pédales ! 😅",
+    "donnees_techniques": " Distance : 210,3 km Dénivelé positif : 10 818 m Type d’étape : Montagne Départ : Trashigang (1 086 m) Arrivée : Royal National Park (3 107 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 28 - Népal",
+    "description": " Vingt-huitième étape du Trophée Jules Verne au Népal, un monument d’altitude et d’efforts : 156 km à travers l’Himalaya, vos mollets vont tenter de réclamer une retraite anticipée ! De Bhojpu (1 751 m) on grimpe vers Darpachhurirada (1 670 m) pour chauffer, puis vers 2 096 m (3,5 km à 13,4 %) pour tester la bravoure avant la descente. Ensuite, plongée vers Thakle (383 m) pour savourer l’oxygène rare, puis ascension colossale vers les cols et enfin arrivée à Phera-Everest Gateway (2 620 m). Préparez vos crampons… euh, pédales ! 😅",
+    "donnees_techniques": " Distance : 156 km Dénivelé positif : 10 818 m Type d’étape : Montagne Départ : Bhojpu (1 751 m) Arrivée : Phera-Everest Gateway (2 620 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 29 - Inde",
+    "description": " Vingt-neuvième étape du Trophée Jules Verne en Inde, dernière épreuve himalayenne : 184,9 km et 8 046 m de dénivelé ! Départ de Gorubathan (342 m), montée épique vers Lava View Point (2 209 m, 25 km à 7,1 %), descente furieuse jusqu’à Rangpo (317 m), puis ascension vers Phong (1 519 m, 15 km à 8,2 %) avant une petite récupération et le final terrifiant vers Darjeeling (1 781 m, 14 km à 11,3 %). Si vous pensiez avoir tout vu, vos jambes vont reconsidérer leur vocation ! 😅",
+    "donnees_techniques": " Distance : 184,9 km Dénivelé positif : 8 046 m Type d’étape : Montagne Départ : Gorubathan (342 m) Arrivée : Darjeeling (1 781 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 30 - Pakistan",
+    "description": " Trentième étape du Trophée Jules Verne au Pakistan : un circuit de 10 tours de 2,8 km de pavé à travers champs, pour un total de 123,8 km et 1 487 m de D+. Ce “circuit urbain” vous fera découvrir le sens du mot poussière ! Préparez vos roues, ajustez votre trajectoire et espérez que le vent ne transforme pas le bitume en toboggan de gravier. À vos marques, prêts… pédalez ! 😅",
+    "donnees_techniques": " Distance : 123,8 km Dénivelé positif : 1 487 m Type d’étape : Sprint / Circuit Départ et arrivée : Faisal Hills (491 m), 10 tours de 2,8 km pavés à travers champs Discipline : Route – en ligne / circuit"
+  }
+]

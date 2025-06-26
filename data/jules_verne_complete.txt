@@ -1,0 +1,193 @@
+Team / Nom Cycliste / Type --> en tête  
+Saunier Duval / Riccardo Ricco / Leader
+Saunier Duval / Gilberto Simoni / Grimpeur
+Saunier Duval / Damiano Cunego / Puncheur, Baroudeur, km0
+Saunier Duval / Francesco Casagrande / Porteur d'eau, CLM
+Saunier Duval / Alessandro Ballan / Paveman
+Saunier Duval / Alessandro Petacchi / Sprinteur
+Saunier Duval / Dario Frigo / jeune, 1er lieutenant
+Saunier Duval / Danilo Di Luca / jeune, 2eme lieutenant
+Viessmann / Clim Atizer / Leader
+Viessmann / Otto Clave / Grimpeur
+Viessmann / Rez Iztense / Puncheur, Baroudeur, km0
+Viessmann / Van Sifer / Porteur d'eau, CLM
+Viessmann / Therm Hostat / Paveman
+Viessmann / Gey Zer / Sprinteur
+Viessmann / Kal Orifer / jeune, 1er lieutenant
+Viessmann / Boil Her / jeune, 2eme lieutenant
+Frisquet / Yves Gêle / Leader
+Frisquet / Joël Givré / Grimpeur
+Frisquet / Yves Caille / Puncheur, Baroudeur, km0
+Frisquet / Luc Tenfré / Porteur d'eau, CLM
+Frisquet / Robin Aitery / Paveman
+Frisquet / Moincinq Degré / Sprinteur
+Frisquet / Bank Ize / jeune, 1er lieutenant
+Frisquet / Ferme Laporte / jeune, 2eme lieutenant
+Daikin / Naruto Uzumaki / Leader
+Daikin / Kar Rate / Grimpeur
+Daikin / Kami Kaze / Puncheur, Baroudeur, km0
+Daikin / Nippon Nimove / Porteur d'eau, CLM
+Daikin / Taka Tire / Paveman
+Daikin / Shin Kansen / Sprinteur
+Daikin / Hiro Shima / jeune, 1er lieutenant
+Daikin / Sashi Mi / jeune, 2eme lieutenant
+Bier Brigade / Uwe Pilsner / Leader
+Bier Brigade / Fritz Fass / Rouleur grimpeur
+Bier Brigade / Hans Hopfen / Puncheur, Baroudeur, km0
+Bier Brigade / Max Weizen / Rouleur, Paveman, CLM
+Bier Brigade / Bruno Krombacher / Poisson Pilote
+Bier Brigade / Otto Krug / Sprinteur
+Bier Brigade / Dieter Bitburger / jeune, 1er lieutenant
+Bier Brigade / Karl Beck / jeune, 2eme lieutenant
+Österreichisches Bier / Otta Kringer / Leader
+Österreichisches Bier / Punti Gamer / Rouleur grimpeur
+Österreichisches Bier / Zip Fer / Puncheur, Baroudeur, km0
+Österreichisches Bier / Kaiser Bier / Rouleur, Paveman, CLM
+Österreichisches Bier / Hirt Herbier / Poisson Pilote
+Österreichisches Bier / Göss Her / Sprinteur
+Österreichisches Bier / Wiesel Burger / jeune, 1er lieutenant
+Österreichisches Bier / Trumer Pils / jeune, 2eme lieutenant
+Nederlands Bier / Heine Ken / Leader
+Nederlands Bier / Kom Paan / Rouleur grimpeur
+Nederlands Bier / Ba Varia / Puncheur, Baroudeur, km0
+Nederlands Bier / Oedipus Brewing / Rouleur, Paveman, CLM
+Nederlands Bier / Zun Dert / Poisson Pilote
+Nederlands Bier / Linde Boom / Sprinteur
+Nederlands Bier / Am Stel / jeune, 1er lieutenant
+Nederlands Bier / Jan Hertog / jeune, 2eme lieutenant
+Belgisch Bier / Grim Bergen / Leader
+Belgisch Bier / Lef Fe / Rouleur grimpeur
+Belgisch Bier / Jupi Ler / Puncheur, Baroudeur, km0
+Belgisch Bier / Affli Gem / Rouleur, Paveman, CLM
+Belgisch Bier / Delirium Tremens / Poisson Pilote
+Belgisch Bier / West Malle / Sprinteur
+Belgisch Bier / Oudgard Den / jeune, 1er lieutenant
+Belgisch Bier / Stella Artois / jeune, 2eme lieutenant
+Big Farma / Lance Armstrong / Leader
+Big Farma / Marco Pantani / Grimpeur, Puncheur
+Big Farma / Tyler Hamilton / Grimpeur, porteur d'eau
+Big Farma / Michael Rasmussen / Puncheur, Baroudeur, km0
+Big Farma / Johan Museeuw / Paveman, Poisson Pilote
+Big Farma / Erik Zabel / Sprinteur
+Big Farma / Miguel Indurain / jeune, 1er lieutenant, CLM
+Big Farma / Floyd Landis / jeune, 2eme lieutenant
+Weed / Snoop Dog / Leader
+Weed / John Lennon / Grimpeur, Puncheur
+Weed / Ice Cube / Grimpeur, porteur d'eau
+Weed / Wiz Khalifa / Puncheur, Baroudeur, km0
+Weed / Jay Z / Paveman, Poisson Pilote
+Weed / Dra Ke / Sprinteur
+Weed / Bob Marley / jeune, 1er lieutenant, CLM
+Weed / Kanye West / jeune, 2eme lieutenant
+OVER DOSE RACING / Elon Musk / Leader
+OVER DOSE RACING / Samy Naceri / Grimpeur, Puncheur
+OVER DOSE RACING / Johnny Hallyday / Grimpeur, porteur d'eau
+OVER DOSE RACING / Jean-Luc Delarue / Puncheur, Baroudeur, km0
+OVER DOSE RACING / Thierry Ardisson / Paveman, Poisson Pilote
+OVER DOSE RACING / Frédéric Beigbedder / Sprinteur
+OVER DOSE RACING / Jean-Claude Van Damme / jeune, 1er lieutenant, CLM
+OVER DOSE RACING / Pierre Palmade / jeune, 2eme lieutenant
+Doping / Diego Maradona / Leader
+Doping / Tom Simpson / Grimpeur, Puncheur
+Doping / Tim Montgomery / Grimpeur, porteur d'eau
+Doping / Marion Jones / Puncheur, Baroudeur, km0
+Doping / Sun Yang / Paveman, Poisson Pilote
+Doping / Maurice Greene / Sprinteur
+Doping / Ben Johnson / jeune, 1er lieutenant, CLM
+Doping / Carl Lewis / jeune, 2eme lieutenant
+Good Cheese / N'golo Comté / Leader
+Good Cheese / Raymond Gold / Grimpeur
+Good Cheese / Tom Desbauges / Puncheur, Baroudeur, km0
+Good Cheese / Bob Lacroute / Porteur d'eau, CLM
+Good Cheese / Romain Blochon / Paveman
+Good Cheese / Guivarch Kiri / Sprinteur
+Good Cheese / Duncan Coillotte / jeune, 1er lieutenant
+Good Cheese / Mangetes Morbier / jeune, 2eme lieutenant
+Team Claquos / Cam Ambert / Leader
+Team Claquos / Saint Nectaire / Grimpeur
+Team Claquos / Pico Don / Puncheur, Baroudeur, km0
+Team Claquos / Brie de Meaux / Porteur d'eau, CLM
+Team Claquos / Brillat Savarin / Paveman
+Team Claquos / Ma Roilles / Sprinteur
+Team Claquos / Roch Fort / jeune, 1er lieutenant
+Team Claquos / Fourme Dambert / jeune, 2eme lieutenant
+Team Gouda / Gou Da / Leader
+Team Gouda / Ley Den / Grimpeur
+Team Gouda / Leer Dammer / Puncheur, Baroudeur, km0
+Team Gouda / Blue Fort / Porteur d'eau, CLM
+Team Gouda / Fri Son / Paveman
+Team Gouda / Geiten Kaas / Sprinteur
+Team Gouda / Ay Dam / jeune, 1er lieutenant
+Team Gouda / Maas Dam / jeune, 2eme lieutenant
+Team Burrata / Mozza Rella / Leader
+Team Burrata / Mascare Pone / Grimpeur
+Team Burrata / Rico Ta / Puncheur, Baroudeur, km0
+Team Burrata / Stra Chino / Porteur d'eau, CLM
+Team Burrata / Cazu Martzu / Paveman
+Team Burrata / Peco Rino / Sprinteur
+Team Burrata / Parmi Giano / jeune, 1er lieutenant
+Team Burrata / Gorgone Zola / jeune, 2eme lieutenant
+RnB de Rue / Matt Houston / Leader
+RnB de Rue / B Passi / Grimpeur
+RnB de Rue / G Calo / Grimpeur2
+RnB de Rue / K Kamaro / Rouleur, puncheur, CLM
+RnB de Rue / Doc Gyneco / Paveman
+RnB de Rue / Matt Pokora / Sprinteur
+RnB de Rue / Justin Bieber / jeune, 1er lieutenant
+RnB de Rue / Willy Denzey / jeune, 2eme lieutenant
+UCPSPA / Mi Loud / Leader
+UCPSPA / Vinz Cent / Grimpeur
+UCPSPA / Amande Ine / Grimpeur2
+UCPSPA / Al Bane / Rouleur, puncheur, CLM
+UCPSPA / Moos Tache / Paveman
+UCPSPA / Leo Pompasse / Sprinteur
+UCPSPA / Robert de la Bergerie / jeune, 1er lieutenant
+UCPSPA / Ra Chelle / jeune, 2eme lieutenant
+Rap Street Boys / Aurel San / Leader
+Rap Street Boys / Stro Mae / Grimpeur
+Rap Street Boys / Black Aime / Grimpeur2
+Rap Street Boys / So Prano / Rouleur, puncheur, CLM
+Rap Street Boys / Hess Céhache / Paveman
+Rap Street Boys / Djou Houle / Sprinteur
+Rap Street Boys / Grinne Dgeu / jeune, 1er lieutenant
+Rap Street Boys / Maitre Gims / jeune, 2eme lieutenant
+TEAM ALENCON / Gilles Tarot / Leader
+TEAM ALENCON / Gilbert Lainé / Grimpeur
+TEAM ALENCON / Hubert Savary de Beauregard / Grimpeur2
+TEAM ALENCON / Chikun Gunya / Rouleur, puncheur, CLM
+TEAM ALENCON / David Desnos / Paveman
+TEAM ALENCON / Piti Chou / Sprinteur
+TEAM ALENCON / Vianney Pangrazy / jeune, 1er lieutenant
+TEAM ALENCON / Tonton Graillou / jeune, 2eme lieutenant
+Froooonce / Richard Virenque / Leader
+Froooonce / David Gaudu / Grimpeur
+Froooonce / Bernard Hinault / Grimpeur, Puncheur
+Froooonce / Thomas Voeckler / Puncheur, Baroudeur, km0, descendeur
+Froooonce / Laurent Jalabert / Rouleur, CLM
+Froooonce / Raymond Poulidor / Paveman, Sprinteur
+Froooonce / Thibaut Pinot / jeune, 1er lieutenant
+Froooonce / Julian Alaphilippe / jeune, 2eme lieutenant, baroudeur
+Gangster and Gentleman / Henoc Beausejour / Leader
+Gangster and Gentleman / Al Libi / Grimpeur
+Gangster and Gentleman / Yves Voncrevay / Grimpeur, Puncheur
+Gangster and Gentleman / Mobb Infamous / Puncheur, Baroudeur, km0, descendeur
+Gangster and Gentleman / Ra Aekwon / Rouleur, CLM
+Gangster and Gentleman / Al Kpote / Paveman, Sprinteur
+Gangster and Gentleman / Ki Inimod / jeune, 1er lieutenant
+Gangster and Gentleman / Ughes Goboss / jeune, 2eme lieutenant, baroudeur
+Suceurs 2 Roues / Jan Ullrich / Leader
+Suceurs 2 Roues / Jonas Vingegarde / Grimpeur
+Suceurs 2 Roues / Joseba Beloki / Grimpeur, Puncheur
+Suceurs 2 Roues / Fabio Aroue / Puncheur, Baroudeur, km0, descendeur
+Suceurs 2 Roues / Rigoberto Ouran / Rouleur, CLM
+Suceurs 2 Roues / Steven Kruijswijuijswijk / Paveman, Sprinteur
+Suceurs 2 Roues / Bradley Wiggins / jeune, 1er lieutenant
+Suceurs 2 Roues / Geraint Tomasse / jeune, 2eme lieutenant, baroudeur
+20 Rouge / Saint Emilion / Leader
+20 Rouge / Goudebananece Beaujolais / Grimpeur
+20 Rouge / Fort Pommard / Grimpeur, Puncheur
+20 Rouge / Nicolas De Bourgueil / Puncheur, Baroudeur, km0, descendeur
+20 Rouge / Lambrusco Prosecco / Rouleur, CLM
+20 Rouge / Muscat Rivesaltes / Paveman, Sprinteur
+20 Rouge / Lalande De Pomerol / jeune, 1er lieutenant
+20 Rouge / Crozés Hermitage / jeune, 2eme lieutenant, baroudeur

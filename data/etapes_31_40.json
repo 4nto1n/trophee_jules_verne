@@ -1,0 +1,52 @@
+[
+  {
+    "etape": "etape_31",
+    "description": "Description Trentième première étape du Trophée Jules Verne à travers l’Iran (196 km, 3 357 m de D+). Vallonnée, avec le dernier col piégeux pour départager les punchers : entre Baneh et Ebrahimeh, préparez-vous à alterner faux-plats et montées punchy. Vos jambes auront sans doute envie d’un shawarma après ! 😜",
+    "donnees_techniques": "Données techniques Distance : 196 km Dénivelé positif : 3 357 m Type d’étape : Vallonnée Départ : Baneh (1 548 m) Arrivée : Ebrahimeh (2 109 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "etape_32",
+    "description": "Description Trente-deuxième étape du Trophée Jules Verne en Turquie, 160 km et 5 179 m de dénivelé : de Zpehyrium (15 m) à l’arrivée (1 193 m). Vos mollets vont découvrir cols imprévus et replats trompeurs : Cukurkeslik, Sunturas, Horozlu, Degnek, Ayvegedigi, puis Hebilli, Sariveli, Boztepe et le final vers 1 193 m. Un kebab de récompense vous attend à l’arrivée… si vous survivrez aux dernières rampes ! 😅",
+    "donnees_techniques": "Données techniques Distance : 160 km Dénivelé positif : 5 179 m Type d’étape : Montagne / Vallonnée Départ : Zpehyrium (15 m) Arrivée : [Nom final] (1 193 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "etape_33",
+    "description": "Description Trente-troisième étape du Trophée Jules Verne en Israël : contre-la-montre de 32,7 km, 730 m de dénivelé. De Jérusalem à Jérusalem (ou circuit autour de la ville sainte), vos jambes joueront au yo-yo sur les collines sacrées ! Sortez les watts sacrés et priez pour le vent… ou pour un miracle de la performance ! 😏",
+    "donnees_techniques": "Données techniques Distance : 32,7 km Dénivelé positif : 730 m Type d’étape : Contre-la-montre individuel Départ et arrivée : Jérusalem (798 m / 699 m selon tracé) Discipline : Route – CLM"
+  },
+  {
+    "etape": "etape_34",
+    "description": "Description Trente-quatrième étape du Trophée Jules Verne en Jordanie : 222,7 km et 4 778 m de dénivelé. De Ma’an à Petra, un parcours vallonné avec des bosses imprévues et un final épique au cœur de la cité antique. Vos mollets vont voyager dans le temps et l’effort ! 😅",
+    "donnees_techniques": "Données techniques Distance : 222,7 km Dénivelé positif : 4 778 m Type d’étape : Vallonnée / Montagne Départ : Ma’an (1 120 m) Arrivée : Petra (1 314 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "etape_35",
+    "description": "Description Trente-cinquième étape du Trophée Jules Verne en Arabie Saoudite : 140,5 km et 1 040 m de dénivelé. De Maraya à Harrat Uwayrid, un parcours vallonné où le désert teste vos limites : entre pierres et rares oasis, suivez ce circuit pour un final abrupt sur la lave recuite d’Harrat Uwayrid (3,6 km à 10,2 %). Sortez vos lunettes de soleil, ajustez vos watts et espérez ne pas fondre au soleil ! 😅",
+    "donnees_techniques": "Données techniques Distance : 140,5 km Dénivelé positif : 1 040 m Type d’étape : Vallonnée Départ : Maraya (786 m) Arrivée : Harrat Uwayrid (1 159 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "etape_36",
+    "description": "Description Trente-sixième étape du Trophée Jules Verne à Bahreïn : contre vents et marées... enfin, surtout contre le vent ! 155,6 km et 386 m de D+. De Manama à Al Jazair, attendez-vous à rouler en pleine étendue plate où le vent décidera de votre destin. Préparez vos roues profilées, repérez les secteurs de vent de côté et espérez que votre bidon ne s’envole pas ! 😅",
+    "donnees_techniques": "Données techniques Distance : 155,6 km Dénivelé positif : 386 m Type d’étape : Vallonnée / Vent Départ : Manama (3 m) Arrivée : Al Jazair (2 m) Discipline : Route – en ligne / CLM par équipes possible si adaptation 😉"
+  },
+  {
+    "etape": "etape_37",
+    "description": "Description Trente-septième étape du Trophée Jules Verne au Qatar : 156,7 km et 179 m de dénivelé. De Manama à Al Jazair sur terrain ultra-plat, idéal pour les sprinteurs affûtés. Ici, pas de vent (promis !), juste un long tapis d’asphalte où chaque virage et relance comptent. Préparez les derniers watts et visez la ligne droite parfaite ! 😄",
+    "donnees_techniques": "Données techniques Distance : 156,7 km Dénivelé positif : 179 m Type d’étape : Vallonnée légère / Sprint Départ : Manama (3 m) Arrivée : Al Jazair (2 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "etape_38",
+    "description": "Description Trente-huitième étape du Trophée Jules Verne aux Émirats Arabes Unis : 180,5 km et 2 443 m de dénivelé. De Al Fujairah à Jebel Jais, préparez-vous à un final explosif : après une mise en jambe plate ponctuée d’un sprint intermédiaire, la montagne surgit pour grimper jusqu’à 1 488 m sur Jebel Jais. De la chaleur côtière aux sommets, vos mollets auront tout vu ! 😅",
+    "donnees_techniques": "Données techniques Distance : 180,5 km Dénivelé positif : 2 443 m Type d’étape : Montagne Départ : Al Fujairah (6 m) Arrivée : Jebel Jais (1 488 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "etape_39",
+    "description": "Description Trente-neuvième étape du Trophée Jules Verne à Oman : 119 km et 1 263 m de D+. De Al Haffa à Ittin, un parcours où le désert s’anime : deux sprints intermédiaires à Al Ma’murah et Salalah Airport, puis l’ascension surprenante vers Qafloot (1 027 m) avant de redescendre vers Ittin. Entre plages de sable et montagnes sablonneuses, vos mollets vivront un petit bol d’aventure omanaise ! 😄",
+    "donnees_techniques": "Données techniques Distance : 119 km Dénivelé positif : 1 263 m Type d’étape : Montagne / Vallonnée Départ : Al Haffa (10 m) Arrivée : Ittin (59 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "etape_40",
+    "description": "Description Quaranteième étape du Trophée Jules Verne en Égypte : 220,6 km et 434 m de dénivelé. Plus de 70 km sur sable fin où le pavé vert devient fauteuil roulant… euh, pardon, guidon tactile. Entre sprints et mirages, vos pneus et votre sens de l’équilibre seront mis à rude épreuve : gare aux grains de sable dans les roulements ! 😅",
+    "donnees_techniques": "Données techniques Distance : 220,6 km Dénivelé positif : 434 m Type d’étape : Plat / Sable / Sprint Départ : Beni Suef (31 m) Arrivée : Pyramids of Gizeh (20 m) Discipline : Route – en ligne"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "etape": "Étape 11 - Mexique",
+    "description": " Onzième étape du Trophée Jules Verne au Mexique, autour de Monterrey.  \n            Les coureurs effecturont environ 118,2 km, comprenant plusieurs ascensions marquées dans la zone de Monterrey :  \n            un sprint intermédiaire dans Monterrey même, puis l’enchaînement de cols proches de la Sierra environnante (Santa Catarina, Los Olmos, Los Encinos, Chipinque, El Mirador), demandant puissance et résistance en altitude.  \n            Le parcours part et revient à Monterrey, offrant un final potentiellement animé par de petites montées avant l’arrivée.",
+    "donnees_techniques": " Distance : 118,2 km Dénivelé positif : 2 308 m Type d’étape : Montagne / vallonnée Cols et points clés : Sprint intermédiaire : Monterrey – km ~11 (alt. ~473 m) Col de 4ᵉ cat. Los Olmos – km ~70,9 – 616 m (Santa Catarina) Col de 3ᵉ cat. Los Encinos – km ~84,3 – 892 m Col de 2ᵉ cat. Chipinque – km ~95 – 1 207 m (4,9 km à 10%) Col de 2ᵉ cat. El Mirador – km ~111,3 – 863 m (2,4 km à 9,2%) Départ : Monterrey (449 m) Arrivée : Monterrey (591 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 12 - USA",
+    "description": " Douzième étape du Trophée Jules Verne aux États-Unis, départ de Hemet pour une boucle revenant à Big Bear City.  \n            Sur environ 177,2 km, les coureurs affronteront plusieurs ascensions significatives :  \n            - Départ à Hemet, montée progressive vers Pine Cove (HC) au km ~37.  \n            - Descente vers Banning, sprint intermédiaire vers km ~73.  \n            - Ensuite montée vers Oak Glen (2ᵉ cat.) vers km ~95, puis descente vers Yucaipa (km ~107, sprint).  \n            - Montée de Glen Martin (1ʳᵉ cat.) vers km ~127.  \n            - Enfin la montée de Onyx Summit (HC) vers km ~159.5, avant le retour et l’arrivée à Big Bear City.  \n            Cette étape de montagne américaine est exigeante, avec des pentes longues et un final en altitude, où la gestion de l’effort sera cruciale.",
+    "donnees_techniques": " Distance : 177,2 km Dénivelé positif : 4 293 m Type d’étape : Montagne Cols et points clés : Montée HC Pine Cove – km ~37 – 1 887 m (23 km à 5,4%) Sprint intermédiaire – Banning – km ~73 – 733 m Col 2ᵉ cat. Oak Glen – km ~95,5 – 1 478 m (13 km à 5,4%) Sprint intermédiaire – Yucaipa – km ~107 – 857 m Col 1ʳᵉ cat. Glen Martin – km ~127 – 1 711 m (17 km à 5,4%) Montée HC Onyx Summit – km ~159,5 – 2 548 m (2 km à 5,8%) Départ : Hemet (523 m) Arrivée : Big Bear City (2 066 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 13 - Canada",
+    "description": " Treizième étape du Trophée Jules Verne au Canada , une véritable étape de montagne dans les Rocheuses. Sur 163,1 km, les coureurs affrontent plusieurs ascensions courtes mais sévères avant la montée finale vers Marmot Basin. Le parcours exigeant mettra à l'épreuve les meilleurs grimpeurs et pourra créer des écarts décisifs.",
+    "donnees_techniques": " Distance : 163,1 km Dénivelé positif : 2011 m Type d’étape : Montagne Cols répertoriés : Côte de 4ᵉ cat. – km 25,8 – 1,5 km à 2,7% Côte de 4ᵉ cat. – km 73,5 – 1,5 km à 6,2% Côte de 4ᵉ cat. – km 120,5 – 1,5 km à 6,2% Montée finale – 11 km à 5,3% jusqu'à Marmot Basin (1 775 m) Départ : Jasper (1 053 m) Arrivée : Marmot Basin (1 803 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 14 - Nouvelle-Zélande",
+    "description": " Quatorzième étape du Trophée Jules Verne en Nouvelle-Zélande : un parcours spectaculaire qui traverse la campagne vallonnée de l’île du Nord. Avec 155,3 km et 2102 m de dénivelé positif, les coureurs affronteront plusieurs ascensions bien réparties. Les montées emblématiques du Wharau Hill se présentent en trois occasions, avant la dernière montée vers Admiral Hill pour la conclusion au sommet. Les amateurs de paysages changeants et de défis tactiques apprécieront cet itinéraire exigeant dans des décors époustouflants.",
+    "donnees_techniques": " Distance : 155,3 km Dénivelé positif : 2102 m Type d’étape : Montagne (secteurs vallonnés) Cols répertoriés : The Wharau Hill – 3ᵉ catégorie – km 19.3 – 6.4 km à 4.9% The Wharau Hill – 3ᵉ catégorie – km 70 – 6.4 km à 4.9% The Wharau Hill – 3ᵉ catégorie – km 134.5 – 3.5 km à 5.7% Admiral Hill – 3ᵉ catégorie – km 155.3 – 9.4 km à 5% Départ : Masterton (99 m) Arrivée : Admiral Hill (475 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 15 - Australie",
+    "description": " Quinzième étape du Trophée Jules Verne en Australie , un parcours épique depuis Corryong jusqu’au mythique Mount Kosci. Les coureurs affronteront les ascensions emblématiques des Snowy Mountains, en passant par Scammells Ridge, Dead Horse Gap, Perisher et plus encore, pour culminer à Mount Kosci.",
+    "donnees_techniques": " Distance : 173 km Dénivelé positif : ~5975 m Type d’étape : Montagne Cols répertoriés : Patrick’s Lookout – 4ᵉ cat. – km 9 – 2.8 km à 5.4% Blarens Gap – 4ᵉ cat. – km 18.3 – 2.7 km à 5.5% Scammells Ridge – HC – km 44.4 – 15 km à 4.8% Dead Horse Gap – HC – km 94.5 – 14 km à 7.1% Penderlea Gap – 4ᵉ cat. – km 121 – 2.1 km à 6% Daines Gap – 2ᵉ cat. – km 157 – 16 km à 4.4% Perisher Gap – 4ᵉ cat. – km 166 – 1 km à 6.2% Mount Kosci – 2ᵉ cat. – km 173 – 11 km à 5.3% Départ : Corryong (321 m) Arrivée : Mount Kosci (1831 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 16 - Tonga",
+    "description": " Seizième étape du Trophée Jules Verne dans les îles Tonga , un véritable défi tactique sur un circuit côtier extrêmement exposé. Sur environ 103 km, les coureurs affronteront 20 zones au bord de l'eau, où le vent pourra faire éclater le peloton et créer des bordures décisives. La boucle entre Lotofoa et Pangai demandera une vigilance permanente et une gestion fine de l'effort.",
+    "donnees_techniques": " Distance : 103 km Dénivelé positif : ~490 m Type d’étape : Plat venteux Départ : Lotofoa (12 m) Arrivée : Pangai (4 m) Secteurs exposés : 20 zones côtières Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 17 - Papouasie",
+    "description": " Dix-septième étape du Trophée Jules Verne en Papouasie , une véritable odyssée montagnarde. Sur 187,9 km, les coureurs affronteront des ascensions titanesques au cœur de la jungle et des reliefs abrupts, avec plus de 5800 m de dénivelé positif. Attendez-vous à des pentes éprouvantes et un parcours exigeant où seule la résistance et le mental feront la différence.",
+    "donnees_techniques": " Distance : 187.9 km Dénivelé positif : 5824 m Type d’étape : Montagne extrême Cols répertoriés : Départ : Tubusereia (24 m) Côte de 4ᵉ cat. – km 63 – 40 m (Sprint) Côte de 4ᵉ cat. – km 83 – 477 m Côte de 2ᵉ cat. – km 107 – 791 m Côte de 1ʳᵉ cat. – km 122 – 1272 m Côte de 2ᵉ cat. – km 132 – 1078 m Côte de 2ᵉ cat. – km 140.5 – 1428 m Côte Hors Catégorie – km 155.5 – 2210 m Arrivée : Kokoda (367 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": "Étape 18 - Indonésie",
+    "description": " Dix-huitième étape du Trophée Jules Verne en Indonésie , un contre-la-montre par équipe exigeant sur des routes variées. Longue de 70.9 km, cette spéciale mettra en lumière la cohésion des équipes et la gestion du rythme sur un parcours sinueux à travers la campagne indonésienne.",
+    "donnees_techniques": " Distance : 70.9 km Dénivelé positif : 423 m Type d’étape : Contre-la-montre par équipe Départ : Point de départ du GPX Arrivée : Point d'arrivée du GPX Discipline : Route – contre-la-montre par équipe"
+  },
+  {
+    "etape": "Étape 19 - Malaisie",
+    "description": " Dix-neuvième étape du Trophée Jules Verne en Malaisie , sur un parcours d’environ 172,9 km. Étape puncher qui emprunte en grande partie des routes ondulées, entre collines douces et secteurs plats favorables aux attaques. Malgré un dénivelé modéré (870 m), les petites bosses et le rythme soutenu peuvent créer des cassures. Attendez-vous à des sprints réduits en petit groupe ou des attaques opportunistes dans les côtes courtes. La tactique d’équipe sera essentielle pour contrôler les échappées.",
+    "donnees_techniques": " Distance : 172,9 km Dénivelé positif : 870 m Type d’étape : Puncher (étape vallonnée courte) Départ : Kuala Kubu Baru (59 m) Arrivée : Hulu Selangor (226 m) Discipline : Route – en ligne Secteurs notables : plusieurs petites côtes courtes (2-3 km) avec pentes autour de 5-9% pouvant faire la différence"
+  },
+  {
+    "etape": "Étape 20 - Philippines",
+    "description": " Vingtième étape du Trophée Jules Verne aux Philippines , une étape pour sprinteurs costauds dans les bosses. Sur un parcours urbain et rural mêlant faux plats et courtes pentes, les sprinteurs capables de résister sur de petites côtes seront à la fête. Attendez-vous à des arrivées en peloton réduit après plusieurs efforts successifs.",
+    "donnees_techniques": " Distance : 144,7 km Dénivelé positif : 375 m Type d’étape : Sprint en bosse Départ : Calamba (102 m) Arrivée : Angeles (90 m) Discipline : Route – en ligne"
+  }
+]
