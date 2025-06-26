@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const maillotContainer  = document.getElementById('maillotContainer');// conteneur pour afficher maillot de l’équipe leader de la vue
     const searchInput       = document.getElementById('searchInput');     // champ de recherche nom coureur (facultatif)
     const teamFilter        = document.getElementById('teamFilter');      // <select> filtre par équipe (facultatif)
+    const TEAM_STAGES = [18, 25, 44];
 
     console.log('[classements.js] Initialisation DOMContentLoaded');
 
@@ -326,53 +327,86 @@ document.addEventListener('DOMContentLoaded', () => {
         const teamMap  = new Map();  // equipe -> { victories, rawTop3, rawTop5, rawTop10 }
         const riderMap = new Map();  // nom -> { equipe, victories, rawTop3, rawTop5, rawTop10 }
         for (let { item, dataRes } of etapesTermineesList) {
-            // Stocker info winner pour historique
-            let winnerEntry = dataRes.find(e => e.position === 1) || dataRes[0];
-            const nomW = winnerEntry.nom || '';
-            const equipeW = winnerEntry.equipe || '';
-            const tempsW = winnerEntry.temps || '';
-            etapes.push({
-                numero: item.numero,
-                pays: item.pays,
-                ville1: item.ville1,
-                ville2: item.ville2 || '',
-                winner: { nom: nomW, equipe: equipeW, temps: tempsW }
-            });
-            // Parcourir chaque coureur
-            for (let entry of dataRes) {
-                const pos = entry.position;
-                const nom = entry.nom || '';
-                const equipe = entry.equipe || '';
+    const num = item.numero;
 
-                // Initialisation riderMap
-                if (!riderMap.has(nom)) {
-                    riderMap.set(nom, { equipe: equipe, victories: 0, rawTop3: 0, rawTop5: 0, rawTop10: 0 });
-                }
-                // Initialisation teamMap
-                if (!teamMap.has(equipe)) {
-                    teamMap.set(equipe, { victories: 0, rawTop3: 0, rawTop5: 0, rawTop10: 0 });
-                }
-                const rStat = riderMap.get(nom);
-                const tStat = teamMap.get(equipe);
+    // --- Historique et comptage victoire ---
+    if (TEAM_STAGES.includes(num)) {
+        // Étape par équipes : on lit le classement équipe au lieu du classement temps
+        const fileTeam = `data/classements/etape_${String(num).padStart(2,'0')}_equipe.json`;
+        const teamList = await fetch(fileTeam)
+                              .then(r => r.ok ? r.json() : [])
+                              .catch(() => []);
+        const winTeam = teamList.find(e => parseInt(e.position,10) === 1) || { equipe: '' };
 
-                if (pos === 1) {
-                    rStat.victories++;
-                    tStat.victories++;
-                }
-                if (pos >= 1 && pos <= 3) {
-                    rStat.rawTop3++;
-                    tStat.rawTop3++;
-                }
-                if (pos >= 1 && pos <= 5) {
-                    rStat.rawTop5++;
-                    tStat.rawTop5++;
-                }
-                if (pos >= 1 && pos <= 10) {
-                    rStat.rawTop10++;
-                    tStat.rawTop10++;
-                }
+        // Historique : on n’affiche que l’équipe
+        etapes.push({
+            numero: num,
+            pays: item.pays,
+            ville1: item.ville1,
+            ville2: item.ville2 || '',
+            winner: { nom: null, equipe: winTeam.equipe, temps: null }
+        });
+
+        // Stats équipes : +1 victoire à l’équipe gagnante
+        if (winTeam.equipe) {
+            if (!teamMap.has(winTeam.equipe)) {
+                teamMap.set(winTeam.equipe, { victories: 0, rawTop3: 0, rawTop5: 0, rawTop10: 0 });
+            }
+            teamMap.get(winTeam.equipe).victories++;
+        }
+        // **On n’incrémente pas riderMap** pour cette étape.
+    }
+    else {
+        // Étape classique individuelle
+        const winnerEntry = dataRes.find(e => e.position === 1) || dataRes[0];
+        const nomW    = winnerEntry.nom    || '';
+        const equipeW = winnerEntry.equipe || '';
+        const tempsW  = winnerEntry.temps  || '';
+
+        etapes.push({
+            numero: num,
+            pays: item.pays,
+            ville1: item.ville1,
+            ville2: item.ville2 || '',
+            winner: { nom: nomW, equipe: equipeW, temps: tempsW }
+        });
+
+        // Parcours de chaque coureur pour stats individuelles et équipes
+        for (let entry of dataRes) {
+            const pos    = entry.position;
+            const nom    = entry.nom    || '';
+            const equipe = entry.equipe || '';
+
+            // Initialisation
+            if (!riderMap.has(nom)) {
+                riderMap.set(nom, { equipe: equipe, victories: 0, rawTop3: 0, rawTop5: 0, rawTop10: 0 });
+            }
+            if (!teamMap.has(equipe)) {
+                teamMap.set(equipe, { victories: 0, rawTop3: 0, rawTop5: 0, rawTop10: 0 });
+            }
+            const rStat = riderMap.get(nom);
+            const tStat = teamMap.get(equipe);
+
+            // Victoire / podium / top5 / top10
+            if (pos === 1) {
+                rStat.victories++;
+                tStat.victories++;
+            }
+            if (pos >= 1 && pos <= 3) {
+                rStat.rawTop3++;
+                tStat.rawTop3++;
+            }
+            if (pos >= 1 && pos <= 5) {
+                rStat.rawTop5++;
+                tStat.rawTop5++;
+            }
+            if (pos >= 1 && pos <= 10) {
+                rStat.rawTop10++;
+                tStat.rawTop10++;
             }
         }
+    }
+}
 
         // 3.3 Récupérer leaders coureurs et équipe pour la dernière étape terminée
         let leadersActuels = { GC: null, Points: null, Montagne: null, Jeune: null };
@@ -593,17 +627,25 @@ document.addEventListener('DOMContentLoaded', () => {
         // Thead
         const theadR = document.createElement('thead');
         const trHR = document.createElement('tr');
-        ['Nom', 'Équipe', 'Victoires', 'Podiums', 'Top 5', 'Top 10'].forEach(h => {
-            const th = document.createElement('th');
-            th.textContent = h;
-            trHR.appendChild(th);
-        });
+        ['#', 'Nom', 'Équipe', 'Victoires', 'Podiums', 'Top 5', 'Top 10'].forEach(h => {
+    const th = document.createElement('th');
+    th.textContent = h;
+    // Optionnel : centrer la colonne "#"
+    if (h === '#') th.style.width = '40px';
+    trHR.appendChild(th);
+});
+
         theadR.appendChild(trHR);
         tableR.appendChild(theadR);
         // Tbody
         const tbodyR = document.createElement('tbody');
-        data.statsRiders.forEach(r => {
+        data.statsRiders.forEach((r,i) => {
             const tr = document.createElement('tr');
+            // Colonne "#"
+    const tdNum = document.createElement('td');
+    tdNum.textContent = (i + 1).toString();
+    tdNum.classList.add('row-number'); // facultatif pour styler
+    tr.appendChild(tdNum);
             // Nom (avec icônes leaders si applicable)
             const tdN = document.createElement('td');
             const nameContainer = document.createElement('div');
@@ -629,10 +671,29 @@ document.addEventListener('DOMContentLoaded', () => {
             nameContainer.appendChild(spanName);
             tdN.appendChild(nameContainer);
             tr.appendChild(tdN);
-            // Équipe
-            const tdE = document.createElement('td');
-            tdE.textContent = r.equipe || '-';
-            tr.appendChild(tdE);
+            /// Équipe + maillot
+const tdE = document.createElement('td');
+const teamWrapper = document.createElement('div');
+teamWrapper.classList.add('team-cell');
+
+// Maillot devant le nom
+const jerseyPath = getJerseyPath(r.equipe);
+if (jerseyPath) {
+  const img = document.createElement('img');
+  img.src = jerseyPath;
+  img.alt = `Maillot ${r.equipe}`;
+  img.classList.add('maillot-img');
+  img.loading = 'lazy';
+  teamWrapper.appendChild(img);
+}
+
+// Nom de l'équipe
+const spanTeam = document.createElement('span');
+spanTeam.textContent = r.equipe || '-';
+teamWrapper.appendChild(spanTeam);
+
+tdE.appendChild(teamWrapper);
+tr.appendChild(tdE);
             // Victoires
             const tdV = document.createElement('td');
             tdV.textContent = r.victories;
@@ -702,10 +763,29 @@ document.addEventListener('DOMContentLoaded', () => {
             const tdNom = document.createElement('td');
             tdNom.textContent = ep.winner?.nom || '-';
             tr.appendChild(tdNom);
-            // Équipe gagnant
-            const tdEquipe = document.createElement('td');
-            tdEquipe.textContent = ep.winner?.equipe || '-';
-            tr.appendChild(tdEquipe);
+            // Équipe gagnant + maillot
+const tdEquipe = document.createElement('td');
+const teamWrapper = document.createElement('div');
+teamWrapper.classList.add('team-cell');
+
+// Maillot
+const jerseyPath = getJerseyPath(ep.winner?.equipe);
+if (jerseyPath) {
+  const img = document.createElement('img');
+  img.src = jerseyPath;
+  img.alt = `Maillot ${ep.winner.equipe}`;
+  img.classList.add('maillot-img');
+  img.loading = 'lazy';
+  teamWrapper.appendChild(img);
+}
+
+// Nom de l'équipe
+const spanTeam = document.createElement('span');
+spanTeam.textContent = ep.winner?.equipe || '-';
+teamWrapper.appendChild(spanTeam);
+
+tdEquipe.appendChild(teamWrapper);
+tr.appendChild(tdEquipe);
             // Temps du gagnant
             const tdTemps = document.createElement('td');
             tdTemps.textContent = ep.winner?.temps || '-';
@@ -717,53 +797,89 @@ document.addEventListener('DOMContentLoaded', () => {
         historySection.appendChild(tableH);
         hallDiv.appendChild(historySection);
 
-        // --- 5) Bouton Télécharger JSON Fame ---
-        const btnDownload = document.createElement('button');
-        btnDownload.textContent = 'Télécharger JSON Fame';
-        btnDownload.addEventListener('click', () => {
-            const obj = {
-                tour: {
-                    totalEtapes: data.totalEtapes,
-                    etapesTerminees: data.etapesTerminees,
-                    etapes: data.etapes,
-                    leadersActuels: data.leadersActuels,
-                    leaderEquipeActuel: data.leaderEquipeActuel
-                },
-                statsTeams: data.statsTeams.map(t => ({
-                    equipe: t.equipe,
-                    victories: t.victories,
-                    podiums: t.podiums,
-                    top5: t.top5,
-                    top10: t.top10,
-                    bestGeneralPos: t.bestGeneralPos
-                })),
-                statsRiders: data.statsRiders.map(r => ({
-                    nom: r.nom,
-                    equipe: r.equipe,
-                    victories: r.victories,
-                    podiums: r.podiums,
-                    top5: r.top5,
-                    top10: r.top10,
-                    generalPos: r.generalPos
-                })),
-                historique: data.etapes.map(ep => ({
-                    numero: ep.numero,
-                    pays: ep.pays,
-                    ville1: ep.ville1,
-                    ville2: ep.ville2,
-                    winner: ep.winner
-                }))
-            };
-            const str = JSON.stringify(obj, null, 2);
-            const blob = new Blob([str], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'fame.json';
-            a.click();
-            URL.revokeObjectURL(url);
-        });
-        hallDiv.appendChild(btnDownload);
+       // --- 5) Bouton Télécharger JSON Fame ---
+const btnDownload = document.createElement('button');
+btnDownload.textContent = 'Télécharger JSON Fame';
+btnDownload.addEventListener('click', async () => {
+    const TEAM_STAGES = [18, 25, 44];
+    const suffixes   = ['temps', 'points', 'montagne', 'jeune', 'equipe'];
+
+    // 1) Pour chaque étape, on récupère un top10 pour chaque suffixe
+    const top10ParEtape = await Promise.all(data.etapes.map(async ep => {
+        const numStr = String(ep.numero).padStart(2, '0');
+        const entry  = { numero: ep.numero };
+
+        await Promise.all(suffixes.map(async suffix => {
+            //  Choix du fichier JSON
+            let file;
+            if (suffix === 'equipe' || (TEAM_STAGES.includes(ep.numero) && suffix === 'temps')) {
+                // pour les étapes par équipes on force équipe.json
+                file = `data/classements/etape_${numStr}_equipe.json`;
+            } else {
+                file = `data/classements/etape_${numStr}_${suffix}.json`;
+            }
+            try {
+                const resp = await fetch(file);
+                if (!resp.ok) throw new Error(`Status ${resp.status}`);
+                const list = await resp.json();
+                entry[`top10_${suffix}`] = Array.isArray(list) ? list.slice(0, 10) : [];
+            } catch (e) {
+                console.warn(`Impossible de charger ${suffix} pour étape ${ep.numero}`, e);
+                entry[`top10_${suffix}`] = [];
+            }
+        }));
+
+        return entry;
+    }));
+
+    // 2) Construction du JSON complet
+    const obj = {
+        tour: {
+            totalEtapes:        data.totalEtapes,
+            etapesTerminees:    data.etapesTerminees,
+            etapes:             data.etapes,
+            leadersActuels:     data.leadersActuels,
+            leaderEquipeActuel: data.leaderEquipeActuel
+        },
+        statsTeams:   data.statsTeams.map(t => ({
+            equipe:          t.equipe,
+            victories:       t.victories,
+            podiums:         t.podiums,
+            top5:            t.top5,
+            top10:           t.top10,
+            bestGeneralPos:  t.bestGeneralPos
+        })),
+        statsRiders:  data.statsRiders.map(r => ({
+            nom:        r.nom,
+            equipe:     r.equipe,
+            victories:  r.victories,
+            podiums:    r.podiums,
+            top5:       r.top5,
+            top10:      r.top10,
+            generalPos: r.generalPos
+        })),
+        historique:   data.etapes.map(ep => ({
+            numero: ep.numero,
+            pays:   ep.pays,
+            ville1: ep.ville1,
+            ville2: ep.ville2,
+            winner: ep.winner
+        })),
+        top10ParEtape
+    };
+
+    // 3) Générer et déclencher le téléchargement
+    const str  = JSON.stringify(obj, null, 2);
+    const blob = new Blob([str], { type: 'application/json' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = 'fame.json';
+    a.click();
+    URL.revokeObjectURL(url);
+});
+hallDiv.appendChild(btnDownload);
+
 
         // Insérer tout dans le conteneur principal
         container.appendChild(hallDiv);
