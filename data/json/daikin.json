@@ -1,0 +1,66 @@
+{
+  "equipe": "Daikin",
+  "maillot": "images/jerseys/daikin.png",
+  "surnom": "Le katana du peloton",
+  "description": "Rivale directe de Saunier Duval, Frisquet, et Viessmann dans le grand univers climatisé du peloton. Une équipe fraîche, rapide, et précise comme un katana dans le vent.",
+  "style_course": "Discipline, fraîcheur, attaques chirurgicales. Quand Daikin surgit, le peloton frissonne.",
+  "devise": "À la vie, à la mort... en climatisé.",
+  "coureurs": [
+    {
+      "nom": "Naruto Uzumaki",
+      "nationalite": "🇯🇵",
+      "type": "Leader",
+      "profil": "Grimpeur charismatique",
+      "description": "Grimpeur fantasque au regard déterminé, inspiré par le vent et les ombres de Kyubi. Énorme endurance grâce à son chakra infini."
+    },
+    {
+      "nom": "Kar Raté",
+      "nationalite": "🥋",
+      "type": "Rouleur-grimpeur, CLM",
+      "profil": "Disciplinaire et précis",
+      "description": "Spécialiste du contre-la-montre. Chaque relais est un kata parfait."
+    },
+    {
+      "nom": "Taka Tire",
+      "nationalite": "🧱",
+      "type": "Paveman",
+      "profil": "Inoxydable et souriant",
+      "description": "Traverse l’Enfer du Nord en souriant, souvent avec une crevaison lente."
+    },
+    {
+      "nom": "Kami Kaze",
+      "nationalite": "💥",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Explosif et suicidaire",
+      "description": "Attaque dès le km 0. Quand il part, c’est “à la vie à la mort”."
+    },
+    {
+      "nom": "Hiro Shima",
+      "nationalite": "🌋",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Détonateur de cols",
+      "description": "Jeune grimpeur prêt à tout faire sauter dans la dernière montée."
+    },
+    {
+      "nom": "Sashi Mi",
+      "nationalite": "🍣",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Furtif et tranchant",
+      "description": "Coureur élégant, file entre les bordures comme un couteau dans du thon cru."
+    },
+    {
+      "nom": "Shin Kansen",
+      "nationalite": "🚄",
+      "type": "Sprinteur",
+      "profil": "Fusée silencieuse",
+      "description": "Lancé à 300 km/h dans les 200 derniers mètres."
+    },
+    {
+      "nom": "Nippon Nimove",
+      "nationalite": "💧",
+      "type": "Porteur d’eau",
+      "profil": "Discret et vital",
+      "description": "Infatigable : tu le vois pas, mais t’auras toujours ta gourde."
+    }
+  ]
+}

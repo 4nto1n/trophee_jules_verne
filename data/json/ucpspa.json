@@ -1,0 +1,66 @@
+{
+  "equipe": "UCPSPA",
+  "maillot": "images/jerseys/ucpspa.png",
+  "surnom": "La vraie caisse, c’est celle du physique.",
+  "description": "Une équipe savoyarde taillée pour la résistance nocturne, la fête et les longues heures en bord de route… ou de comptoir. Leur mot d’ordre ? \"On n’a peut-être pas les watts, mais on a les épaules.\"",
+  "style_course": "UCPSPA, c’est pas juste une équipe : c’est un collectif de gaillards et de gaillardes rompus à la vie nocturne, au gratin dauphinois, et à la récup' en refuge. Sur la route, ils tiennent. En soirée, ils gagnent.",
+  "devise": "On n’a peut-être pas les watts, mais on a les épaules.",
+  "coureurs": [
+    {
+      "nom": "Mi Loud",
+      "nationalite": "🚵‍♀️",
+      "type": "Leader",
+      "profil": "Endurant et râleur",
+      "description": "Endurant de jour comme de nuit, il mène le groupe… mais déteste les touristes en claquettes sur le parcours."
+    },
+    {
+      "nom": "Robert de la Bergerie",
+      "nationalite": "🐏",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Tomme & torgnole",
+      "description": "Solide comme un bloc de tomme, il accueille les nouveaux avec un shot et une claque dans le dos."
+    },
+    {
+      "nom": "Ra Chelle",
+      "nationalite": "💪",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Physique d’intimidation",
+      "description": "Tout le monde est choqué par son physique… certains abandonnent rien qu’en la voyant passer."
+    },
+    {
+      "nom": "Vinz Cent",
+      "nationalite": "🎤",
+      "type": "Puncheur, baroudeur, km 0",
+      "profil": "Tempête sonore",
+      "description": "Démarre fort, roule fort, parle fort, danse encore plus fort."
+    },
+    {
+      "nom": "Amande Ine",
+      "nationalite": "🚴‍♀️",
+      "type": "Rouleur-grimpeur, CLM",
+      "profil": "Canneuse alpine",
+      "description": "Excellente relayeuse, elle a des cannes et un cardio… surdimensionnés."
+    },
+    {
+      "nom": "Al Bane",
+      "nationalite": "💃",
+      "type": "Paveman",
+      "profil": "Imposante et stable",
+      "description": "Une présence imposante sur les pavés. Elle ne tremble pas, c’est les pavés qui s’écartent."
+    },
+    {
+      "nom": "Moos Tache",
+      "nationalite": "🧔",
+      "type": "Sprinteur",
+      "profil": "Barfly à poil dur",
+      "description": "Expérience à l’ancienne, il connaît tous les virages… et tous les bars d’arrivée."
+    },
+    {
+      "nom": "Leo Pompasse",
+      "nationalite": "🙄",
+      "type": "Porteur d’eau",
+      "profil": "Boulet malaisant",
+      "description": "Personne ne comprend pourquoi il est là. Il gêne en montée, il gêne en descente. On évite de lui parler. Il est malaisant."
+    }
+  ]
+}

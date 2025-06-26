@@ -1,0 +1,66 @@
+{
+  "equipe": "Nederlands Bier",
+  "maillot": "images/jerseys/nederlands_bier.png",
+  "surnom": "Fiets, pils en strijd",
+  "description": "La tulipe dans une main, la pinte dans l’autre, cette équipe néerlandaise carbure au malt et au vent de face. Concurrente acharnée de Österreichisches Bier, de la Bier Brigade et de Belgisch Bier, elle mise sur le panache... et l’amertume.",
+  "style_course": "Une équipe haute en pression, surtout en fin d’étape.",
+  "devise": "Fiets, pils en strijd",
+  "coureurs": [
+    {
+      "nom": "Heine Ken",
+      "nationalite": "🍺",
+      "type": "Leader",
+      "profil": "Maître du vent",
+      "description": "Leader légendaire, toujours placé, maîtrise le vent comme personne et finit souvent la tête dans le fût."
+    },
+    {
+      "nom": "Am Stel",
+      "nationalite": "🌬️",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Prometteur et assoiffé",
+      "description": "Jeune et prometteur, il roule pour le futur… et pour sa tournée."
+    },
+    {
+      "nom": "Hertog Jan",
+      "nationalite": "👑",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Discret et princier",
+      "description": "Au style princier, il mousse discrètement mais finit souvent bien placé."
+    },
+    {
+      "nom": "Ba Varia",
+      "nationalite": "🍻",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Explosif et effervescent",
+      "description": "Puncheur explosif et baroudeur effervescent, il attaque au km0 et boit après."
+    },
+    {
+      "nom": "Oedipus Brewing",
+      "nationalite": "⏱️",
+      "type": "Rouleur-grimpeur, CLM",
+      "profil": "Solide et méthodique",
+      "description": "Rouleur grimpeur au nom compliqué et aux jambes solides, il fait le ménage en CLM."
+    },
+    {
+      "nom": "Zun Dert",
+      "nationalite": "🧱",
+      "type": "Paveman",
+      "profil": "Dur au mal",
+      "description": "Paveman spécialiste des monts du Nord, le fessier plus costaud que son braquet."
+    },
+    {
+      "nom": "Linde Boom",
+      "nationalite": "⚡",
+      "type": "Sprinteur",
+      "profil": "Nerveux et percutant",
+      "description": "Sprinteur rapide et nerveux, prêt à déboucher n’importe quelle arrivée au forceps."
+    },
+    {
+      "nom": "Kom Paan",
+      "nationalite": "🧴",
+      "type": "Porteur d’eau",
+      "profil": "Platiste ambianceur",
+      "description": "Porteur d’eau et ambianceur, platiste discret, il distribue les bidons et les pintes avec la même régularité."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "equipe": "Belgisch Bier",
+  "maillot": "images/jerseys/belgisch_bier.png",
+  "surnom": "Une équipe 100 % houblonnée, avec du goût, du caractère et une belle mousse de panache",
+  "description": "Rivale directe de la Bier Brigade ! Une équipe 100 % houblonnée, avec du goût, du caractère et une belle mousse de panache.",
+  "style_course": "Une équipe prête à faire mousser les étapes et à faire péter les capsules sur les podiums 🍾🇧🇪!",
+  "devise": "Houblon, caractère, podiums",
+  "coureurs": [
+    {
+      "nom": "Grim Bergen",
+      "nationalite": "🍺",
+      "type": "Leader",
+      "profil": "Vénéré et fort en caractère",
+      "description": "Leader vénéré, fort en caractère, il élève le niveau dès que la pression monte."
+    },
+    {
+      "nom": "Oudgard Den",
+      "nationalite": "🍻",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Jeune vieilli en fût",
+      "description": "1er lieutenant, jeune vieilli en fût, il promet une belle garde et un avenir mousseux."
+    },
+    {
+      "nom": "Stella Artois",
+      "nationalite": "🍺",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Brillante et populaire",
+      "description": "2e lieutenant, populaire et brillante, elle fait pétiller le peloton avec classe."
+    },
+    {
+      "nom": "Jupi Ler",
+      "nationalite": "🍻",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Explosif et mousseux",
+      "description": "Il attaque au km0 et s’écume sur les bosses comme une pils sur les pavés."
+    },
+    {
+      "nom": "Affli Gem",
+      "nationalite": "🍺",
+      "type": "Rouleur-grimpeur, CLM",
+      "profil": "Solide et trappiste",
+      "description": "Rouleur-grimpeur au malt solide, parfait sur les CLM vallonnés et les cols trappistes."
+    },
+    {
+      "nom": "Delirium Tremens",
+      "nationalite": "🍻",
+      "type": "Paveman",
+      "profil": "Halluciné et rebondissant",
+      "description": "Paveman halluciné, il rebondit sur les pavés comme une chope sur un comptoir bruxellois."
+    },
+    {
+      "nom": "West Malle",
+      "nationalite": "🍺",
+      "type": "Sprinteur",
+      "profil": "Trapu et triple",
+      "description": "Sprinteur trapu, il délivre sa puissance en triple fermentation sur les 200 derniers mètres."
+    },
+    {
+      "nom": "Lef Fe",
+      "nationalite": "🍻",
+      "type": "Porteur d’eau",
+      "profil": "Discret et désaltérant",
+      "description": "Coéquipier modèle, discret et savoureux, il aide tout le monde à se désaltérer en course comme en soirée."
+    }
+  ]
+}

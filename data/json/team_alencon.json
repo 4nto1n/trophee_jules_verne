@@ -1,0 +1,66 @@
+{
+  "equipe": "Team Alençon",
+  "maillot": "images/jerseys/team_alencon.png",
+  "surnom": "L’indépendance à la sauce kebab",
+  "description": "Au cœur de la Normandie, entre les pavés fatigués et les volutes de sauce blanche de l’Athènes Kébas, une équipe pas comme les autres est née : Coinche de Rue. Pas de sponsor, pas de calcul. Ici, c’est la débrouille, le cœur, et surtout le style alençonnais. Inégalé, incompris, indomptable. Leur QG ? Le Stadium, bar mythique où la bière coule en même temps que les annonces à la belote. Une main sur le guidon, l’autre pour dire \"capot\", les mecs roulent pour la gloire et les copains.",
+  "style_course": "Totalement désorganisé mais profondément humain. Ils attaquent quand ils veulent, ils s’arrêtent pour un kebab si besoin. Le peloton les regarde d’un œil moqueur… jusqu’à ce qu’ils prennent 10 minutes dans une bordure menée sans le vouloir.",
+  "devise": "Coinche ou crève.",
+  "coureurs": [
+    {
+      "nom": "Gilles Tarot",
+      "nationalite": "🧙‍♂️",
+      "type": "Leader",
+      "profil": "Grimpeur mystique",
+      "description": "Le sage de la coinche. Un grimpeur inspiré, adepte des échappées mystiques et des lectures d’avenir dans les traces de pneus."
+    },
+    {
+      "nom": "Vianney Pangrazy",
+      "nationalite": "🐓",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Coureur local attachant",
+      "description": "L’enfant du pays. Il roule en tongs quand il peut, en rage quand il faut. Il rêve de gagner une étape et de rentrer en mobylette."
+    },
+    {
+      "nom": "Tonton Graillou",
+      "nationalite": "🥖",
+      "type": "Jeune, 2ème lieutenant",
+      "profil": "Polyvalent gourmet",
+      "description": "Mi-coureur, mi-cuisinier, il carbure au panini merguez. Toujours là pour dépanner, jamais loin d’un fou-rire."
+    },
+    {
+      "nom": "Gilbert Lainé",
+      "nationalite": "🐐",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Attaquant fluo",
+      "description": "Le vieux de la vieille. Il attaque sans prévenir, avec son petit gilet fluo et une clope dans le dos. Il n’a jamais aimé les oreillettes."
+    },
+    {
+      "nom": "Hubert Savary de Beauregard",
+      "nationalite": "🕶",
+      "type": "Rouleur grimpeur, CLM",
+      "profil": "Noble du bitume",
+      "description": "Le noble du bitume. Classe sur le vélo, royal dans l’effort. Son vélo est aussi propre que ses trajectoires."
+    },
+    {
+      "nom": "Chikun Gunya",
+      "nationalite": "🔨",
+      "type": "Paveman",
+      "profil": "Cogneur de pavés",
+      "description": "Le mec qu’on appelle quand faut cogner les pavés. Il aime la douleur, les pavés mouillés, et les sandwichs triangle au pâté."
+    },
+    {
+      "nom": "David Desnos",
+      "nationalite": "🐆",
+      "type": "Sprinteur",
+      "profil": "Sprinteur nerveux",
+      "description": "Rapide, nerveux, impulsif. Il déclenche son sprint comme il relance un débat au Stadium : sans prévenir."
+    },
+    {
+      "nom": "Piti Chou",
+      "nationalite": "🐻",
+      "type": "Porteur d’eau, plat, coéquipier modèle",
+      "profil": "Généreux et fidèle",
+      "description": "Le cœur de l’équipe. Il ferme les portes, il remonte les copains, il distribue les gels comme des bonbons au PMU."
+    }
+  ]
+}

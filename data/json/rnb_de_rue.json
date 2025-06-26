@@ -1,0 +1,66 @@
+{
+  "equipe": "RnB de rue",
+  "maillot": "images/jerseys/rnb_de_rue.png",
+  "surnom": "Label Indé 20004 / Streetwear Nation",
+  "description": "Directeur sportif : DJ Eclipse\nMatériel : Vélos SonicBeat Carbone RSX / Casques UrbanRhythm Pro\nObjectif de la saison : Tour de France – Classement général, maillot blanc, et victoires d’étapes.",
+  "style_course": "Du bitume à la victoire, ensemble on réécrit la route.",
+  "devise": "20004 Action",
+  "coureurs": [
+    {
+      "nom": "Matt Houston",
+      "nationalite": "🌟",
+      "type": "Leader",
+      "profil": "Stratège et finisseur explosif",
+      "description": "Expérimenté, stratège et finisseur explosif. Triple vainqueur d’étape sur le Tour. Porte-voix du collectif."
+    },
+    {
+      "nom": "Willy Denzey",
+      "nationalite": "⚪",
+      "type": "Lieutenant",
+      "profil": "Puncheur polyvalent",
+      "description": "Maillot blanc 2025. Polyvalent, puncheur rapide. Un coéquipier d’or et une vraie menace pour le général."
+    },
+    {
+      "nom": "Justin Bieber",
+      "nationalite": "🩵",
+      "type": "Lieutenant",
+      "profil": "Relanceur des ombres",
+      "description": "Rôle d’ombre au service du leader. Barrage, relance, et coup de panache dans les descentes."
+    },
+    {
+      "nom": "Kamaro",
+      "nationalite": "🚴",
+      "type": "Rouleur",
+      "profil": "Tracteur du peloton",
+      "description": "Moteur du plat. Fait le tempo. Tracteur du peloton, ne lâche rien."
+    },
+    {
+      "nom": "Matt Pokora",
+      "nationalite": "🏁",
+      "type": "Rouleur / Sprinteur",
+      "profil": "Relais rapide",
+      "description": "Style propre, efficace. Relais clé sur les longues étapes et sprinteur redoutable dans les finals."
+    },
+    {
+      "nom": "Calo",
+      "nationalite": "⛰️",
+      "type": "Grimpeur",
+      "profil": "Attaquant des cimes",
+      "description": "Pur grimpeur, toujours à l’attaque en montagne. Fait sa loi quand la pente s’élève."
+    },
+    {
+      "nom": "Passi",
+      "nationalite": "⛰️",
+      "type": "Grimpeur",
+      "profil": "Déstabilisateur précoce",
+      "description": "Binôme de Calo. Capable de déstabiliser les favoris par des attaques tôt."
+    },
+    {
+      "nom": "Doc Gyneco",
+      "nationalite": "🌆",
+      "type": "Spécialiste pavés",
+      "profil": "Technicien du chaos",
+      "description": "Maîtrise le chaos des secteurs piégeux. Froideur et technique. Charismatique et imprévisible."
+    }
+  ]
+}

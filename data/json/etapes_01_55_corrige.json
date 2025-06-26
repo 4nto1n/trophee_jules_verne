@@ -1,0 +1,372 @@
+[
+  {
+    "etape": 1,
+    "pays": "Argentine",
+    "description": "Description Le Trophée Jules Verne débute en Argentine , à El Durazno , pour un contre-la-montre individuel de 12,6 km . Sur un parcours relativement plat mais exposé au vent, les spécialistes du chrono auront une belle occasion de marquer les esprits dès la première étape. Le tracé en aller-retour offre un profil roulant mais exigeant sur le plan du rythme . Le décor argentin et les premiers écarts promettent déjà une grande aventure .",
+    "donnees_techniques": "Données techniques Distance : 12,6 km Dénivelé positif : 134 m Type d’étape : Contre-la-montre individuel Départ / Arrivée : El Durazno Discipline : Route – chrono",
+    "drapeau": "img/flags/argentine.png",
+    "profil": "img/profils/etape_01.png"
+  },
+  {
+    "etape": 2,
+    "pays": "Brésil",
+    "description": "Description Deuxième étape du Trophée Jules Verne à Uribici, Brésil , sur une boucle de 108 km offrant un terrain plat et rapide. Cette étape permettra aux sprinteurs de s'illustrer, mais le vent et la gestion du rythme seront essentiels. Une première occasion pour les trains de se mettre en place et marquer les esprits.",
+    "donnees_techniques": "Données techniques Distance : 108 km Dénivelé positif : 235 m Type d’étape : Plat Départ / Arrivée : Uribici Discipline : Route – en ligne",
+    "drapeau": "img/flags/brésil.png",
+    "profil": "img/profils/etape_02.png"
+  },
+  {
+    "etape": 3,
+    "pays": "Venezuela",
+    "description": "Description Troisième étape du Trophée Jules Verne au Venezuela , une étape vallonnée où les baroudeurs auront leur mot à dire. Les bosses successives useront les organismes et le placement sera capital dans le final.",
+    "donnees_techniques": "Données techniques Distance : 134 km Dénivelé positif : 1 620 m Type d’étape : Vallonnée avec final en montée Cols répertoriés : Côte de 4e cat. – km 18,1 – 5 km à 4,1% Côte de 4e cat. – km 54,3 – 5 km à 2,6% Côte de 4e cat. – km 90,6 – 5 km à 2,3% Montée finale – 13,6 km à 3,4% jusqu'à Mérida (1 588 m) Départ : Lagunillas (756 m) Arrivée : Mérida (1 602 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/venezuela.png",
+    "profil": "img/profils/etape_03.png"
+  },
+  {
+    "etape": 4,
+    "pays": "Colombie",
+    "description": "Description L’étape reine de la première semaine nous plonge au cœur des montagnes colombiennes. Avec ses 131 km et un dénivelé positif de 3468 m , cette journée s’annonce décisive pour les prétendants au classement général. Les coureurs devront franchir plusieurs cols successifs avant une ascension finale redoutable vers un sommet à haute altitude. Les pourcentages à deux chiffres et la chaleur rendront cette étape impitoyable.",
+    "donnees_techniques": "Données techniques Distance : 131 km Dénivelé positif : 3468 m Type d’étape : Montagne Cols répertoriés : Côte de 2e cat. – km 35,1 – 14 km à 4,1% Côte de 3e cat. – km 48.1 – 6.1 km à 5.9% Côte de 2e cat. – km 61.3 – 9.3 km à 5% Côte de 1e cat. – km 108 – 37.4 km à 4.1% Départ : Doradal (242 m) Arrivée : Rionegro (2094 m)",
+    "drapeau": "img/flags/colombie.png",
+    "profil": "img/profils/etape_04.png"
+  },
+  {
+    "etape": 5,
+    "pays": "Jamaïque",
+    "description": "Description Cinquième étape du Trophée Jules Verne à Montego Bay , sur un tracé de 113,2 km en boucle. Bien que le parcours soit relativement plat, les coureurs devront affronter plusieurs zones exposées au vent. Ces sections, visibles sur le profil, pourraient favoriser des bordures et créer des écarts importants. Une vigilance tactique sera donc indispensable dans cette étape piégeuse.",
+    "donnees_techniques": "Données techniques Distance : 113,2 km Dénivelé positif : 627 m Type d’étape : Plat avec zones exposées au vent Départ / Arrivée : Montego Bay (6 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/jamaïque.png",
+    "profil": "img/profils/etape_05.png"
+  },
+  {
+    "etape": 6,
+    "pays": "Équateur",
+    "description": "Description Sixième étape du Trophée Jules Verne dans les Andes équatoriennes. Le peloton doit affronter une véritable étape de montagne, avec deux ascensions vers Abra del Cajas, dont une terrifiante montée finale classée Hors Catégorie. Cette étape, en aller-retour, mettra les grimpeurs à rude épreuve.",
+    "donnees_techniques": "Données techniques Distance : 138,7 km Dénivelé positif : 3285 m Type d’étape : Montagne Cols répertoriés : Côte de 1re cat. – km 4.1 – 3.9 km à 29.6% Col Hors Catégorie – km 18.7 – 9 km à 12.6% Départ / Arrivée : Ibarra (1000 m / 1184 m) Discipline : Route – montagne",
+    "drapeau": "img/flags/équateur.png",
+    "profil": "img/profils/etape_06.png"
+  },
+  {
+    "etape": 7,
+    "pays": "Belize",
+    "description": "Description Septième étape du Trophée Jules Verne au Belize , et quelle étape ! Une traversée de 214,5 km par les terres accidentées, marquée par une succession de cols à enchaîner sans relâche. Les grimpeurs auront fort à faire avec 9 ascensions répertoriées, dont une arrivée au sommet de catégorie 2. Une véritable étape de montagne en Amérique centrale, stratégique pour le classement général.",
+    "donnees_techniques": "Données techniques Distance : 214,5 km Dénivelé positif : 3986 m Type d’étape : Montagne Cols répertoriés : Checo Hill – 3e cat. – km 48.8 – 1 km à 4.3% Pine Ridge – 3e cat. – km 54.7 – 2.9 km à 6.3% Starkey Hill – 3e cat. – km 93 – 4 km à 5% Turnback Cairn – 4e cat. – km 101.5 – 1.6 km à 6.2% Granite Cairn – 3e cat. – km 114 – 4 km à 5.2% Lookout – 2e cat. – km 140 – 11 km à 2.5% Cooma Cairn – 2e cat. – km 151 – 4.6 km à 5.7% Pine Ridge – 4e cat. – km 163.5 – 0.7 km à 6.3% Cooma Cairn – 3e cat. – km 188 – 7.8 km à 3.7% Départ : Armenia (175 m) Arrivée : Pine Crest (924 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/belize.png",
+    "profil": "img/profils/etape_07.png"
+  },
+  {
+    "etape": 8,
+    "pays": "Honduras",
+    "description": "Description Contre-la-montre individuel dans les plaines du Honduras. Étape rapide et décisive sur un parcours rectiligne de 31.7 kilomètres.",
+    "donnees_techniques": "Données techniques Distance : 31.7 km Dénivelé positif : 84 m Type d’étape : Contre-la-montre individuel Départ : Lamani (33 m) Arrivée : Lamani (41 m)",
+    "drapeau": "img/flags/honduras.png",
+    "profil": "img/profils/etape_08.png"
+  },
+  {
+    "etape": 9,
+    "pays": "Guatemala",
+    "description": "Description Neuvième étape du Trophée Jules Verne , la traversée du Guatemala propose un enchaînement de cols très exigeants. Cette étape de montagne, qui mêle de longues ascensions et des pentes abruptes, promet des écarts significatifs au classement général. L’arrivée à Ciudad est jugée après une série de difficultés en altitude, dont une montée à plus de 2000 mètres.",
+    "donnees_techniques": "Données techniques Distance : 157.9 km Dénivelé positif : 4006 m Type d’étape : Montagne Cols répertoriés : Col de 1ʳᵉ cat. – km 15 – 5.9 km à 9.8% Col de 1ʳᵉ cat. – km 56.5 – 11 km à 7.3% Col de 4ᵉ cat. – km 68 – 1.2 km à 7.1% Col de 3ᵉ cat. – km 83 – 2 km à 8.7% Col de 1ʳᵉ cat. – km 119.5 – 7.6 km à 8.1% Col de 4ᵉ cat. – km 134 – 3.1 km à 4.9% Départ : Salama (955 m) Arrivée : Ciudad (1527 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/guatemala.png",
+    "profil": "img/profils/etape_09.png"
+  },
+  {
+    "etape": 10,
+    "pays": "Cuba",
+    "description": "Description Dixième étape du Trophée Jules Verne à La Havane, Cuba , un circuit urbain exigeant de 22,2958 km à parcourir 13 fois pour un total de 243,4 km . Chaque tour intègre deux secteurs pavés de 700 m classés 2 étoiles, mettant à rude épreuve l’endurance et la technique des coureurs. Le tracé sinueux dans les rues de la capitale cubaine favorisera la vigilance tactique et la maîtrise du peloton.",
+    "donnees_techniques": "Données techniques Distance : 243,4 km (13 tours de ~22,2958 km) Dénivelé positif : 1379 m Type d’étape : Circuit urbain Tours : 13 tours Secteurs pavés : 2 par tour, 700 m chacun classés 2 étoiles Départ / Arrivée : La Havane Discipline : Route – circuit urbain",
+    "drapeau": "img/flags/cuba.png",
+    "profil": "img/profils/etape_10.png"
+  },
+  {
+    "etape": 11,
+    "pays": "Mexique",
+    "description": "Description Onzième étape du Trophée Jules Verne au Mexique, autour de Monterrey.  \n            Les coureurs effecturont environ 118,2 km, comprenant plusieurs ascensions marquées dans la zone de Monterrey :  \n            un sprint intermédiaire dans Monterrey même, puis l’enchaînement de cols proches de la Sierra environnante (Santa Catarina, Los Olmos, Los Encinos, Chipinque, El Mirador), demandant puissance et résistance en altitude.  \n            Le parcours part et revient à Monterrey, offrant un final potentiellement animé par de petites montées avant l’arrivée.",
+    "donnees_techniques": "Données techniques Distance : 118,2 km Dénivelé positif : 2 308 m Type d’étape : Montagne / vallonnée Cols et points clés : Sprint intermédiaire : Monterrey – km ~11 (alt. ~473 m) Col de 4ᵉ cat. Los Olmos – km ~70,9 – 616 m (Santa Catarina) Col de 3ᵉ cat. Los Encinos – km ~84,3 – 892 m Col de 2ᵉ cat. Chipinque – km ~95 – 1 207 m (4,9 km à 10%) Col de 2ᵉ cat. El Mirador – km ~111,3 – 863 m (2,4 km à 9,2%) Départ : Monterrey (449 m) Arrivée : Monterrey (591 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/mexique.png",
+    "profil": "img/profils/etape_11.png"
+  },
+  {
+    "etape": 12,
+    "pays": "USA",
+    "description": "Description Douzième étape du Trophée Jules Verne aux États-Unis, départ de Hemet pour une boucle revenant à Big Bear City.  \n            Sur environ 177,2 km, les coureurs affronteront plusieurs ascensions significatives :  \n            - Départ à Hemet, montée progressive vers Pine Cove (HC) au km ~37.  \n            - Descente vers Banning, sprint intermédiaire vers km ~73.  \n            - Ensuite montée vers Oak Glen (2ᵉ cat.) vers km ~95, puis descente vers Yucaipa (km ~107, sprint).  \n            - Montée de Glen Martin (1ʳᵉ cat.) vers km ~127.  \n            - Enfin la montée de Onyx Summit (HC) vers km ~159.5, avant le retour et l’arrivée à Big Bear City.  \n            Cette étape de montagne américaine est exigeante, avec des pentes longues et un final en altitude, où la gestion de l’effort sera cruciale.",
+    "donnees_techniques": "Données techniques Distance : 177,2 km Dénivelé positif : 4 293 m Type d’étape : Montagne Cols et points clés : Montée HC Pine Cove – km ~37 – 1 887 m (23 km à 5,4%) Sprint intermédiaire – Banning – km ~73 – 733 m Col 2ᵉ cat. Oak Glen – km ~95,5 – 1 478 m (13 km à 5,4%) Sprint intermédiaire – Yucaipa – km ~107 – 857 m Col 1ʳᵉ cat. Glen Martin – km ~127 – 1 711 m (17 km à 5,4%) Montée HC Onyx Summit – km ~159,5 – 2 548 m (2 km à 5,8%) Départ : Hemet (523 m) Arrivée : Big Bear City (2 066 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/usa.png",
+    "profil": "img/profils/etape_12.png"
+  },
+  {
+    "etape": 13,
+    "pays": "Canada",
+    "description": "Description Treizième étape du Trophée Jules Verne au Canada , une véritable étape de montagne dans les Rocheuses. Sur 163,1 km, les coureurs affrontent plusieurs ascensions courtes mais sévères avant la montée finale vers Marmot Basin. Le parcours exigeant mettra à l'épreuve les meilleurs grimpeurs et pourra créer des écarts décisifs.",
+    "donnees_techniques": "Données techniques Distance : 163,1 km Dénivelé positif : 2011 m Type d’étape : Montagne Cols répertoriés : Côte de 4ᵉ cat. – km 25,8 – 1,5 km à 2,7% Côte de 4ᵉ cat. – km 73,5 – 1,5 km à 6,2% Côte de 4ᵉ cat. – km 120,5 – 1,5 km à 6,2% Montée finale – 11 km à 5,3% jusqu'à Marmot Basin (1 775 m) Départ : Jasper (1 053 m) Arrivée : Marmot Basin (1 803 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/canada.png",
+    "profil": "img/profils/etape_13.png"
+  },
+  {
+    "etape": 14,
+    "pays": "Nouvelle-Zélande",
+    "description": "Description Quatorzième étape du Trophée Jules Verne en Nouvelle-Zélande : un parcours spectaculaire qui traverse la campagne vallonnée de l’île du Nord. Avec 155,3 km et 2102 m de dénivelé positif, les coureurs affronteront plusieurs ascensions bien réparties. Les montées emblématiques du Wharau Hill se présentent en trois occasions, avant la dernière montée vers Admiral Hill pour la conclusion au sommet. Les amateurs de paysages changeants et de défis tactiques apprécieront cet itinéraire exigeant dans des décors époustouflants.",
+    "donnees_techniques": "Données techniques Distance : 155,3 km Dénivelé positif : 2102 m Type d’étape : Montagne (secteurs vallonnés) Cols répertoriés : The Wharau Hill – 3ᵉ catégorie – km 19.3 – 6.4 km à 4.9% The Wharau Hill – 3ᵉ catégorie – km 70 – 6.4 km à 4.9% The Wharau Hill – 3ᵉ catégorie – km 134.5 – 3.5 km à 5.7% Admiral Hill – 3ᵉ catégorie – km 155.3 – 9.4 km à 5% Départ : Masterton (99 m) Arrivée : Admiral Hill (475 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/nouvelle-zélande.png",
+    "profil": "img/profils/etape_14.png"
+  },
+  {
+    "etape": 15,
+    "pays": "Australie",
+    "description": "Description Quinzième étape du Trophée Jules Verne en Australie , un parcours épique depuis Corryong jusqu’au mythique Mount Kosci. Les coureurs affronteront les ascensions emblématiques des Snowy Mountains, en passant par Scammells Ridge, Dead Horse Gap, Perisher et plus encore, pour culminer à Mount Kosci.",
+    "donnees_techniques": "Données techniques Distance : 173 km Dénivelé positif : ~5975 m Type d’étape : Montagne Cols répertoriés : Patrick’s Lookout – 4ᵉ cat. – km 9 – 2.8 km à 5.4% Blarens Gap – 4ᵉ cat. – km 18.3 – 2.7 km à 5.5% Scammells Ridge – HC – km 44.4 – 15 km à 4.8% Dead Horse Gap – HC – km 94.5 – 14 km à 7.1% Penderlea Gap – 4ᵉ cat. – km 121 – 2.1 km à 6% Daines Gap – 2ᵉ cat. – km 157 – 16 km à 4.4% Perisher Gap – 4ᵉ cat. – km 166 – 1 km à 6.2% Mount Kosci – 2ᵉ cat. – km 173 – 11 km à 5.3% Départ : Corryong (321 m) Arrivée : Mount Kosci (1831 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/australie.png",
+    "profil": "img/profils/etape_15.png"
+  },
+  {
+    "etape": 16,
+    "pays": "Tonga",
+    "description": "Description Seizième étape du Trophée Jules Verne dans les îles Tonga , un véritable défi tactique sur un circuit côtier extrêmement exposé. Sur environ 103 km, les coureurs affronteront 20 zones au bord de l'eau, où le vent pourra faire éclater le peloton et créer des bordures décisives. La boucle entre Lotofoa et Pangai demandera une vigilance permanente et une gestion fine de l'effort.",
+    "donnees_techniques": "Données techniques Distance : 103 km Dénivelé positif : ~490 m Type d’étape : Plat venteux Départ : Lotofoa (12 m) Arrivée : Pangai (4 m) Secteurs exposés : 20 zones côtières Discipline : Route – en ligne",
+    "drapeau": "img/flags/tonga.png",
+    "profil": "img/profils/etape_16.png"
+  },
+  {
+    "etape": 17,
+    "pays": "Papouasie",
+    "description": "Description Dix-septième étape du Trophée Jules Verne en Papouasie , une véritable odyssée montagnarde. Sur 187,9 km, les coureurs affronteront des ascensions titanesques au cœur de la jungle et des reliefs abrupts, avec plus de 5800 m de dénivelé positif. Attendez-vous à des pentes éprouvantes et un parcours exigeant où seule la résistance et le mental feront la différence.",
+    "donnees_techniques": "Données techniques Distance : 187.9 km Dénivelé positif : 5824 m Type d’étape : Montagne extrême Cols répertoriés : Départ : Tubusereia (24 m) Côte de 4ᵉ cat. – km 63 – 40 m (Sprint) Côte de 4ᵉ cat. – km 83 – 477 m Côte de 2ᵉ cat. – km 107 – 791 m Côte de 1ʳᵉ cat. – km 122 – 1272 m Côte de 2ᵉ cat. – km 132 – 1078 m Côte de 2ᵉ cat. – km 140.5 – 1428 m Côte Hors Catégorie – km 155.5 – 2210 m Arrivée : Kokoda (367 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/papouasie.png",
+    "profil": "img/profils/etape_17.png"
+  },
+  {
+    "etape": 18,
+    "pays": "Indonésie",
+    "description": "Description Dix-huitième étape du Trophée Jules Verne en Indonésie , un contre-la-montre par équipe exigeant sur des routes variées. Longue de 70.9 km, cette spéciale mettra en lumière la cohésion des équipes et la gestion du rythme sur un parcours sinueux à travers la campagne indonésienne.",
+    "donnees_techniques": "Données techniques Distance : 70.9 km Dénivelé positif : 423 m Type d’étape : Contre-la-montre par équipe Départ : Point de départ du GPX Arrivée : Point d'arrivée du GPX Discipline : Route – contre-la-montre par équipe",
+    "drapeau": "img/flags/indonésie.png",
+    "profil": "img/profils/etape_18.png"
+  },
+  {
+    "etape": 19,
+    "pays": "Malaisie",
+    "description": "Description Dix-neuvième étape du Trophée Jules Verne en Malaisie , sur un parcours d’environ 172,9 km. Étape puncher qui emprunte en grande partie des routes ondulées, entre collines douces et secteurs plats favorables aux attaques. Malgré un dénivelé modéré (870 m), les petites bosses et le rythme soutenu peuvent créer des cassures. Attendez-vous à des sprints réduits en petit groupe ou des attaques opportunistes dans les côtes courtes. La tactique d’équipe sera essentielle pour contrôler les échappées.",
+    "donnees_techniques": "Données techniques Distance : 172,9 km Dénivelé positif : 870 m Type d’étape : Puncher (étape vallonnée courte) Départ : Kuala Kubu Baru (59 m) Arrivée : Hulu Selangor (226 m) Discipline : Route – en ligne Secteurs notables : plusieurs petites côtes courtes (2-3 km) avec pentes autour de 5-9% pouvant faire la différence",
+    "drapeau": "img/flags/malaisie.png",
+    "profil": "img/profils/etape_19.png"
+  },
+  {
+    "etape": 20,
+    "pays": "Philippines",
+    "description": "Description Vingtième étape du Trophée Jules Verne aux Philippines , une étape pour sprinteurs costauds dans les bosses. Sur un parcours urbain et rural mêlant faux plats et courtes pentes, les sprinteurs capables de résister sur de petites côtes seront à la fête. Attendez-vous à des arrivées en peloton réduit après plusieurs efforts successifs.",
+    "donnees_techniques": "Données techniques Distance : 144,7 km Dénivelé positif : 375 m Type d’étape : Sprint en bosse Départ : Calamba (102 m) Arrivée : Angeles (90 m) Discipline : Route – en ligne",
+    "drapeau": "img/flags/philippines.png",
+    "profil": "img/profils/etape_20.png"
+  },
+  {
+    "etape": 21,
+    "pays": "Thaïlande",
+    "description": "Description Vingt-et-unième étape du Trophée Jules Verne , en Thaïlande, entre Chiang Mai et Ban Pa Khui.\n            Cette étape “vallonnée” propose un double passage sur les pentes de Ban Pang Nam Tu, alternant des portions roulantes et des montées sélectives.\n            Les sprinteurs costauds devront gérer leur effort : les ascensions courtes et raides pourront servir de tremplin pour un groupe réduit, mais la vigilance restera de mise sur chaque montée et relance.",
+    "donnees_techniques": "Données techniques Distance : 122,4 km Dénivelé positif : 1 246 m Type d’étape : Vallonnée Cols répertoriés : Ban Pang Nam Tu – 2ᵉ cat. – km 61.2 – 5.3 km à 5% Ban Pang Nam Tu – 2ᵉ cat. – km 84.1 – 2 km à 6.9% Départ : Chiang Mai (338 m) Arrivée : Ban Pa Khui (331 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 22,
+    "pays": "Vietnam",
+    "description": "Description Vingt-deuxième étape du Trophée Jules Verne , au Vietnam, entre Nha Trang et Da Lat. D'une longueur de 139,1 km pour 2 610 m de dénivelé positif, préparez vos mollets à une journée digne des montagnes russes : d'abord une côte côtière faussement tranquille, puis une montée progressive vers les hauts plateaux. Entre ascensions raides et replats providentiels, chaque coup de pédale comptera. À l'arrivée, la vue sur Da Lat récompensera vos efforts (et fera oublier, presque, la brûlure dans les jambes) !",
+    "donnees_techniques": "Données techniques Distance : 139,1 km Dénivelé positif : 2 610 m Type d’étape : Montagne Départ : Nha Trang (8 m) Arrivée : Da Lat (1 494 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 23,
+    "pays": "Taiwan",
+    "description": "Description Vingt-troisième étape du Trophée Jules Verne à Taiwan, entre Nantou et Sun Moon Lake.\n            Avec 167 km et 2 108 m de dénivelé positif, cette étape vallonnée est un véritable yo-yo pour vos mollets : \n            un faux-plat montant pour chauffer les jambes dès Nantou (102 m), puis la première ascension vers JiJi (235 m) \n            pour s’échauffer sérieusement. Ensuite, montée au Fudan Pond (451 m) avant une longue descente/récup, \n            puis nouveau coup de collier vers Shuan Zhang Temple (874 m, 1,8 km à 5 %) avant le final au bord du lac (763 m). \n            Préparez-vous à jongler entre sensations de plaine et piqûres de col : vos mollets vont adorer… ou souffrir ! 😅",
+    "donnees_techniques": "Données techniques Distance : 167 km Dénivelé positif : 2 108 m Type d’étape : Vallonnée Départ : Nantou (102 m) Arrivée : Sun Moon Lake (763 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 24,
+    "pays": "Japon",
+    "description": "Description Vingt-quatrième étape du Trophée Jules Verne au Japon, montagneuse et impitoyable : 167,9 km pour 6 385 m de dénivelé cumulé. Préparez vos plus belles grimaces et vos plus courageux mollets ! Départ de Saitama (17 m), enchaînement de multiples ascensions dont Ranzan, Yorii, Kamayama, Tokyo Trail, Doadira Sky Park, Ono Pass, Shomaru Pass, Arima Pass, et le final exigeant vers Chichibu. Une odyssée qui mêle fiction et souffrance... mais quel bonheur au sommet ! 😅",
+    "donnees_techniques": "Données techniques Distance : 167,9 km Dénivelé positif : 6 385 m Type d’étape : Montagne Départ : Saitama (17 m) Arrivée : Chichibu (225 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 25,
+    "pays": "Corée du Sud",
+    "description": "Description Vingt-cinquième étape du Trophée Jules Verne en Corée du Sud, un chrono par équipes de 61,3 km (522 m de D+). Parfait pour voir si votre équipe est synchronisée comme un K-pop boyband… ou si vous terminez en solo avant la ligne ! Plutôt plat, mais gare aux petites bosses sournoises : chaque seconde compte, alors pédalez comme si le kimchi vous attendait au bout ! 😜",
+    "donnees_techniques": "Données techniques Distance : 61,3 km Dénivelé positif : 522 m Type d’étape : Contre-la-montre par équipes Départ et arrivée : Noryang-ri (0 m → 96 m) Discipline : Route – chrono équipe"
+  },
+  {
+    "etape": 26,
+    "pays": "Chine",
+    "description": "Description Vingt-sixième étape du Trophée Jules Verne en Chine, 149,4 km de pur fun (ou pas) entre Wuzhishan et Changjiang. Trois cols pour réveiller vos mollets : Atuo Mountain (7,7 km à 5,2 %), Yingge Mountain (9,8 km à 4,1 %) et Jiuja Mountain (2,9 km à 6,4 %) agrémentés de sprints furtifs à Baisha et Qigfang. Si votre entraînement se limite au canapé, prévoyez un aspirateur pour ramasser vos larmes ! 😂",
+    "donnees_techniques": "Données techniques Distance : 149,4 km Dénivelé positif : à estimer ~ ??? m Type d’étape : Sprint / Montagne Départ : Wuzhishan (313 m) Arrivée : Changjiang (98 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 27,
+    "pays": "Bhoutan",
+    "description": "Description Vingt-septième étape du Trophée Jules Verne au Bhoutan, 210,3 km et un dénivelé cumulatif de 10 818 m : vos mollets vont demander l’asile politique ! Départ de Trashigang (1 086 m), puis Korila Pass (1 953 m, 17 km à 9,7 %), descente et sprint à Lingmethang, puis l’ascension monstruelle vers Thrimshingla Pass (3 676 m, 60 km à 5,1 %), Gayzangkar (3 666 m, 4,9 km à 5,6 %) et finish à Royal National Park (3 107 m). Préparez vos crampons… euh, pédales ! 😅",
+    "donnees_techniques": "Données techniques Distance : 210,3 km Dénivelé positif : 10 818 m Type d’étape : Montagne Départ : Trashigang (1 086 m) Arrivée : Royal National Park (3 107 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 28,
+    "pays": "Népal",
+    "description": "Description Vingt-huitième étape du Trophée Jules Verne au Népal, un monument d’altitude et d’efforts : 156 km à travers l’Himalaya, vos mollets vont tenter de réclamer une retraite anticipée ! De Bhojpu (1 751 m) on grimpe vers Darpachhurirada (1 670 m) pour chauffer, puis vers 2 096 m (3,5 km à 13,4 %) pour tester la bravoure avant la descente. Ensuite, plongée vers Thakle (383 m) pour savourer l’oxygène rare, puis ascension colossale vers les cols et enfin arrivée à Phera-Everest Gateway (2 620 m). Préparez vos crampons… euh, pédales ! 😅",
+    "donnees_techniques": "Données techniques Distance : 156 km Dénivelé positif : 10 818 m Type d’étape : Montagne Départ : Bhojpu (1 751 m) Arrivée : Phera-Everest Gateway (2 620 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 29,
+    "pays": "Inde",
+    "description": "Description Vingt-neuvième étape du Trophée Jules Verne en Inde, dernière épreuve himalayenne : 184,9 km et 8 046 m de dénivelé ! Départ de Gorubathan (342 m), montée épique vers Lava View Point (2 209 m, 25 km à 7,1 %), descente furieuse jusqu’à Rangpo (317 m), puis ascension vers Phong (1 519 m, 15 km à 8,2 %) avant une petite récupération et le final terrifiant vers Darjeeling (1 781 m, 14 km à 11,3 %). Si vous pensiez avoir tout vu, vos jambes vont reconsidérer leur vocation ! 😅",
+    "donnees_techniques": "Données techniques Distance : 184,9 km Dénivelé positif : 8 046 m Type d’étape : Montagne Départ : Gorubathan (342 m) Arrivée : Darjeeling (1 781 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 30,
+    "pays": "Pakistan",
+    "description": "Description Trentième étape du Trophée Jules Verne au Pakistan : un circuit de 10 tours de 2,8 km de pavé à travers champs, pour un total de 123,8 km et 1 487 m de D+. Ce “circuit urbain” vous fera découvrir le sens du mot poussière ! Préparez vos roues, ajustez votre trajectoire et espérez que le vent ne transforme pas le bitume en toboggan de gravier. À vos marques, prêts… pédalez ! 😅",
+    "donnees_techniques": "Données techniques Distance : 123,8 km Dénivelé positif : 1 487 m Type d’étape : Sprint / Circuit Départ et arrivée : Faisal Hills (491 m), 10 tours de 2,8 km pavés à travers champs Discipline : Route – en ligne / circuit"
+  },
+  {
+    "etape": 31,
+    "pays": "Iran",
+    "description": "Description Trentième première étape du Trophée Jules Verne à travers l’Iran (196 km, 3 357 m de D+). Vallonnée, avec le dernier col piégeux pour départager les punchers : entre Baneh et Ebrahimeh, préparez-vous à alterner faux-plats et montées punchy. Vos jambes auront sans doute envie d’un shawarma après ! 😜",
+    "donnees_techniques": "Données techniques Distance : 196 km Dénivelé positif : 3 357 m Type d’étape : Vallonnée Départ : Baneh (1 548 m) Arrivée : Ebrahimeh (2 109 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 32,
+    "pays": "Turquie",
+    "description": "Description Trente-deuxième étape du Trophée Jules Verne en Turquie, 160 km et 5 179 m de dénivelé : de Zpehyrium (15 m) à l’arrivée (1 193 m). Vos mollets vont découvrir cols imprévus et replats trompeurs : Cukurkeslik, Sunturas, Horozlu, Degnek, Ayvegedigi, puis Hebilli, Sariveli, Boztepe et le final vers 1 193 m. Un kebab de récompense vous attend à l’arrivée… si vous survivrez aux dernières rampes ! 😅",
+    "donnees_techniques": "Données techniques Distance : 160 km Dénivelé positif : 5 179 m Type d’étape : Montagne / Vallonnée Départ : Zpehyrium (15 m) Arrivée : [Nom final] (1 193 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 33,
+    "pays": "Israël",
+    "description": "Description Trente-troisième étape du Trophée Jules Verne en Israël : contre-la-montre de 32,7 km, 730 m de dénivelé. De Jérusalem à Jérusalem (ou circuit autour de la ville sainte), vos jambes joueront au yo-yo sur les collines sacrées ! Sortez les watts sacrés et priez pour le vent… ou pour un miracle de la performance ! 😏",
+    "donnees_techniques": "Données techniques Distance : 32,7 km Dénivelé positif : 730 m Type d’étape : Contre-la-montre individuel Départ et arrivée : Jérusalem (798 m / 699 m selon tracé) Discipline : Route – CLM"
+  },
+  {
+    "etape": 34,
+    "pays": "Jordanie",
+    "description": "Description Trente-quatrième étape du Trophée Jules Verne en Jordanie : 222,7 km et 4 778 m de dénivelé. De Ma’an à Petra, un parcours vallonné avec des bosses imprévues et un final épique au cœur de la cité antique. Vos mollets vont voyager dans le temps et l’effort ! 😅",
+    "donnees_techniques": "Données techniques Distance : 222,7 km Dénivelé positif : 4 778 m Type d’étape : Vallonnée / Montagne Départ : Ma’an (1 120 m) Arrivée : Petra (1 314 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 35,
+    "pays": "Arabie Saoudite",
+    "description": "Description Trente-cinquième étape du Trophée Jules Verne en Arabie Saoudite : 140,5 km et 1 040 m de dénivelé. De Maraya à Harrat Uwayrid, un parcours vallonné où le désert teste vos limites : entre pierres et rares oasis, suivez ce circuit pour un final abrupt sur la lave recuite d’Harrat Uwayrid (3,6 km à 10,2 %). Sortez vos lunettes de soleil, ajustez vos watts et espérez ne pas fondre au soleil ! 😅",
+    "donnees_techniques": "Données techniques Distance : 140,5 km Dénivelé positif : 1 040 m Type d’étape : Vallonnée Départ : Maraya (786 m) Arrivée : Harrat Uwayrid (1 159 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 36,
+    "pays": "Bahreïn",
+    "description": "Description Trente-sixième étape du Trophée Jules Verne à Bahreïn : contre vents et marées... enfin, surtout contre le vent ! 155,6 km et 386 m de D+. De Manama à Al Jazair, attendez-vous à rouler en pleine étendue plate où le vent décidera de votre destin. Préparez vos roues profilées, repérez les secteurs de vent de côté et espérez que votre bidon ne s’envole pas ! 😅",
+    "donnees_techniques": "Données techniques Distance : 155,6 km Dénivelé positif : 386 m Type d’étape : Vallonnée / Vent Départ : Manama (3 m) Arrivée : Al Jazair (2 m) Discipline : Route – en ligne / CLM par équipes possible si adaptation 😉"
+  },
+  {
+    "etape": 37,
+    "pays": "Qatar",
+    "description": "Description Trente-septième étape du Trophée Jules Verne au Qatar : 156,7 km et 179 m de dénivelé. De Manama à Al Jazair sur terrain ultra-plat, idéal pour les sprinteurs affûtés. Ici, pas de vent (promis !), juste un long tapis d’asphalte où chaque virage et relance comptent. Préparez les derniers watts et visez la ligne droite parfaite ! 😄",
+    "donnees_techniques": "Données techniques Distance : 156,7 km Dénivelé positif : 179 m Type d’étape : Vallonnée légère / Sprint Départ : Manama (3 m) Arrivée : Al Jazair (2 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 38,
+    "pays": "Émirats Arabes Unis",
+    "description": "Description Trente-huitième étape du Trophée Jules Verne aux Émirats Arabes Unis : 180,5 km et 2 443 m de dénivelé. De Al Fujairah à Jebel Jais, préparez-vous à un final explosif : après une mise en jambe plate ponctuée d’un sprint intermédiaire, la montagne surgit pour grimper jusqu’à 1 488 m sur Jebel Jais. De la chaleur côtière aux sommets, vos mollets auront tout vu ! 😅",
+    "donnees_techniques": "Données techniques Distance : 180,5 km Dénivelé positif : 2 443 m Type d’étape : Montagne Départ : Al Fujairah (6 m) Arrivée : Jebel Jais (1 488 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 39,
+    "pays": "Oman",
+    "description": "Description Trente-neuvième étape du Trophée Jules Verne à Oman : 119 km et 1 263 m de D+. De Al Haffa à Ittin, un parcours où le désert s’anime : deux sprints intermédiaires à Al Ma’murah et Salalah Airport, puis l’ascension surprenante vers Qafloot (1 027 m) avant de redescendre vers Ittin. Entre plages de sable et montagnes sablonneuses, vos mollets vivront un petit bol d’aventure omanaise ! 😄",
+    "donnees_techniques": "Données techniques Distance : 119 km Dénivelé positif : 1 263 m Type d’étape : Montagne / Vallonnée Départ : Al Haffa (10 m) Arrivée : Ittin (59 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 40,
+    "pays": "Égypte",
+    "description": "Description Quaranteième étape du Trophée Jules Verne en Égypte : 220,6 km et 434 m de dénivelé. Plus de 70 km sur sable fin où le pavé vert devient fauteuil roulant… euh, pardon, guidon tactile. Entre sprints et mirages, vos pneus et votre sens de l’équilibre seront mis à rude épreuve : gare aux grains de sable dans les roulements ! 😅",
+    "donnees_techniques": "Données techniques Distance : 220,6 km Dénivelé positif : 434 m Type d’étape : Plat / Sable / Sprint Départ : Beni Suef (31 m) Arrivée : Pyramids of Gizeh (20 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 41,
+    "pays": "Rwanda",
+    "description": "Description Quarante-et-unième étape du Trophée Jules Verne au Rwanda : 142,3 km et 3 027 m de dénivelé. En partant de Huye à 1 669 m jusqu’à Rusizi à 1 620 m, préparez-vous à un yo-yo vallonné façon montagnes russes africaines ! Entre sprints de Kigeme et ascensions courtes mais fréquentes, vos mollets auront l’impression de danser le Intore. N’oubliez pas de saluer les collines verdoyantes et les ravitos spectaculaires ! 😄",
+    "donnees_techniques": "Données techniques Distance : 142,3 km Dénivelé positif : 3 027 m Type d’étape : Vallonnée Départ : Huye (1 669 m) Arrivée : Rusizi (1 620 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 42,
+    "pays": "Maurice",
+    "description": "Description Quarante-deuxième étape du Trophée Jules Verne à l’Île Maurice : 115,9 km et 1 938 m de dénivelé. De Cascavelle à Grand Bassin, préparez-vous à un parcours tropical digne d’une carte postale : premiers kilomètres roulants, puis ascension vers Chamarel View Point et Plaine Champagne, suivi d’une bosse vers Sommet Montée Lapeyre, et enfin la montée finale jusqu’au Grand Bassin à 706 m. Attention aux singes voleurs de bidons et aux rafales marines sur la côte ! 😄",
+    "donnees_techniques": "Données techniques Distance : 115,9 km Dénivelé positif : 1 938 m Type d’étape : Montagne / Vallonnée Départ : Cascavelle (118 m) Arrivée : Grand Bassin (672 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 43,
+    "pays": "Afrique du Sud",
+    "description": "Description Quarante-troisième étape du Trophée Jules Verne en Afrique du Sud : 170,1 km et 1 600 m de dénivelé sur 5 tours de circuit autour de Volmoed. Circuit vallonné avec ascensions courtes et relances : préparez-vous à reprendre plusieurs fois le même col, comme un manège sans fin, mais en mieux ! Les spectateurs seront ravis de voir les attaques revenir sans arrêt. Vos mollets et votre sens tactique seront mis à l’épreuve dans ce ballet sud-africain ! 😄",
+    "donnees_techniques": "Données techniques Distance : 170,1 km Dénivelé positif : 1 600 m Type d’étape : Vallonnée / Circuit (5 tours) Départ & Arrivée : Volmoed (276 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 44,
+    "pays": "Gabon",
+    "description": "Description Quarante-quatrième étape du Trophée Jules Verne au Gabon : \n            un contre-la-montre par équipes de 55 km sur un circuit de 6 tours autour de Port Gentil. \n            Avec à peine 35 m de dénivelé, attendez-vous à une course fulgurante : \n            cohésion parfaite, relais précis, rythme élevé. \n            Attention toutefois à ne pas confondre vélo et safari : pas d’éléphants sur la route, \n            mais gardez le regard vif et la cadence haute ! 🚴‍♂️💨",
+    "donnees_techniques": "Données techniques Distance : 55 km Dénivelé positif : 35 m Type d’étape : Contre-la-montre par équipes / Circuit (6 tours) Départ & Arrivée : Port Gentil (≈ 5 m) Discipline : Route – contre-la-montre par équipes"
+  },
+  {
+    "etape": 45,
+    "pays": "Guinée équatoriale",
+    "description": "Description Quarante-cinquième étape du Trophée Jules Verne en Guinée équatoriale : \n            de Malabo à Moca, un véritable rodéo tropical de 133,7 km et 3 502 m de dénivelé. \n            On part de la côte, on grimpe vers le sommet dramatique à ≈1 540 m, \n            on redescend en rêvant d’une noix de coco fraîche, puis on replonge pour mieux remonter vers Moca à ≈1 266 m. \n            Vos mollets à l’équateur vont suer comme jamais, mais quelle vue au sommet ! 🌴🚵‍♂️",
+    "donnees_techniques": "Données techniques Distance : 133,7 km Dénivelé positif : 3 502 m Type d’étape : Montagne Départ : Malabo (~38 m) Arrivée : Moca (~1 266 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 46,
+    "pays": "Cameroun",
+    "description": "Description Quarante-sixième étape du Trophée Jules Verne au Cameroun : \n            de Bafoussam à Nkongsamba, 122,6 km et 1 455 m de dénivelé. \n            Un profil vallonné où chaque bosse pourrait cacher une surprise : \n            on démarre à 1 457 m, on joue au yoyo sur des pentes courtes, \n            on bascule vers la vallée puis on remonte vers Nkongsamba à 874 m. \n            Vos jambes vont jongler entre efforts brefs et relances, comme un DJ improvisé de colline ! 🎶🚵‍♂️",
+    "donnees_techniques": "Données techniques Distance : 122,6 km Dénivelé positif : 1 455 m Type d’étape : Vallonnée Départ : Bafoussam (≈ 1 457 m) Arrivée : Nkongsamba (≈ 874 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 47,
+    "pays": "Bénin",
+    "description": "Description Quarante-septième étape du Trophée Jules Verne au Bénin : \n            un sprint plat de 153,2 km de Agbangnizoun à Cotonou. \n            Avec seulement 453 m de dénivelé, attendez-vous à un peloton groupé et des vitesses élevées \n            sous le soleil béninois. Ne laissez pas la chaleur vous griller avant le sprint final : \n            hydratez-vous et préparez-vous à une arrivée explosive sur la plage de Cotonou ! 🌞🚴‍♂️💨",
+    "donnees_techniques": "Données techniques Distance : 153,2 km Dénivelé positif : 453 m Type d’étape : Sprint plat Départ : Agbangnizoun (≈ 143 m) Arrivée : Cotonou (≈ 6 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 48,
+    "pays": "Ghana",
+    "description": "Description Quarante-huitième étape du Trophée Jules Verne au Ghana : \n            d’Accra à Mpraeso, 179,2 km et 1 503 m de dénivelé. \n            Un profil vallonné où la montée au km 31 est le premier test de vos jambes, \n            puis une relance vers Houegbo, un faux-plat roulant avant de replonger et de remonter vers Mpraeso. \n            Préparez vos changements de rythme comme un chef d’orchestre : \n            vous dirigerez vos coureurs avec précision pour briller au sprint final en altitude ! 🎵🚴‍♂️",
+    "donnees_techniques": "Données techniques Distance : 179,2 km Dénivelé positif : 1 503 m Type d’étape : Vallonnée Départ : Accra (≈ 50 m) Arrivée : Mpraeso (≈ 471 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 49,
+    "pays": "Mali",
+    "description": "Description Quarante-neuvième étape du Trophée Jules Verne au Mali : \n            un sprint très venteux de Fana à Bamako, 153,7 km et 695 m de dénivelé. \n            Après quelques ondulations discrètes, la grande majorité est plate, \n            mais le vent dominant peut transformer le peloton en bataillons dispersés. \n            Soyez prêt aux bordures et aux attaques surprises : \n            qui tiendra le coup avant le grand sprint final dans la capitale ? 🌬️🚴‍♂️💥",
+    "donnees_techniques": "Données techniques Distance : 153,7 km Dénivelé positif : 695 m Type d’étape : Sprint plat venteux Départ : Fana (≈ 329 m) Arrivée : Bamako (≈ 338 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 50,
+    "pays": "Algérie",
+    "description": "Description Cinquantième étape du Trophée Jules Verne en Algérie : \n            une aventure longue de 248 km avec 6 700 m de dénivelé. \n            De Ouled Dahmane, on attaque Ait Khelifa et Diaafra, on plonge vers Ouled Sidi Brahim, \n            puis énorme montée vers l’Adrar Akuker à 1 802 m, descente pour se refaire avant Ighlalh et Ifri, \n            et on termine par l’ascension vers le Col de Chellata à 1 455 m. \n            Vos jambes devront être des machines à grimper : \n            punchers, grimpeurs, soyez prêts à un marathon en altitude ! 🏔️🚵‍♂️🔥",
+    "donnees_techniques": "Données techniques Distance : 248 km Dénivelé positif : 6 700 m Type d’étape : Montagne Départ : Ouled Dahmane (≈ 677 m) Arrivée : Col de Chellata (≈ 1 455 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 51,
+    "pays": "Tunisie",
+    "description": "Description Cinquante et unième étape du Trophée Jules Verne en Tunisie : \n            185,2 km et 4 591 m de dénivelé. \n            De Fernana à Pont Oued Ezzem, c’est une chevauchée grandiose à travers les reliefs tunisiens. \n            D’emblée, une bosse autour de 600 m, puis la montée vedette vers 792 m, suivie d’un enchaînement de petites ascensions pour titiller les grimpeurs. \n            Au km 112-115, un double passage sprint/col vers 502 m puis 450 m testera votre vélocité : \n            qui osera attaquer ici ? Après une montée finale vers 565 m, le clou du spectacle est l’ascension vers 872 m avant le plongeon vers Pont Oued Ezzem. \n            Préparez vos équipiers : ça va être épique ! 🇹🇳🚵‍♂️🔥",
+    "donnees_techniques": "Données techniques Distance : 185,2 km Dénivelé positif : 4 591 m Type d’étape : Montagne Départ : Fernana (≈ 291 m) Arrivée : Pont Oued Ezzem (≈ 359 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 52,
+    "pays": "Maroc",
+    "description": "Description Cinquante-deuxième étape du Trophée Jules Verne au Maroc : \n            199,9 km et 6 441 m de dénivelé. \n            De Jinan Annich (66 m) à Tafza Imoukzane (1 586 m), préparez-vous à une escalade digne du Rif ! \n            Après une première mise en bouche le long de la côte montagneuse, la rude montée vers Douar Isfaren à 1 490 m ouvrira le bal. \n            Suivront des enchaînements de cols vers 1 300 m puis 1 403 m avant une descente technique sur Ikkaouen. \n            Le final, couronné par deux ascensions successives autour de 1 311 m et 1 327 m, mènera au sommet culminant de Tafza Imoukzane à 1 586 m. \n            Seuls les plus costauds en sortiront indemnes : grimpeurs, affûtez vos braquets ! 🇲🇦🚵‍♂️🔥",
+    "donnees_techniques": "Données techniques Distance : 199,9 km Dénivelé positif : 6 441 m Type d’étape : Montagne Départ : Jinan Annich (≈ 66 m) Arrivée : Tafza Imoukzane (≈ 1 586 m) Discipline : Route – en ligne"
+  },
+  {
+    "etape": 53,
+    "pays": "Portugal",
+    "description": "Description Contre-la-montre individuel de 20,4 km au Portugal, presque plat mais attention au petit raidillon km 10 (614 m) ! Sortez vos roues profilées, ça va dépoter ⏱️🇵🇹",
+    "donnees_techniques": "Données techniques Distance : 20,4 km Dénivelé : 221 m Type : Contre-la-montre individuel Départ & Arrivée : Pinhel (≈ 646 → 642 m)"
+  },
+  {
+    "etape": 54,
+    "pays": "Espagne",
+    "description": "Description Après le chrono express du Portugal, on remet les watts mais avec un zeste de montagnes espagnoles :\n            152 km de bosselés, deux sprints-surprise et une montée finale à 954 m à “La Desespera” –\n            de quoi désespérer les plus coriaces ! Avancez masqués : la chaleur, la Ruta de la Desespera et les relances feront tomber plus d’un maillot à pois ! 🇪🇸😅",
+    "donnees_techniques": "Données techniques Distance : 151,8 km Dénivelé positif : 2 189 m Type : Vallonnée Départ : Inicio (294 m) Arrivée : Final (604 m)"
+  },
+  {
+    "etape": 55,
+    "pays": "Italie",
+    "description": "Description Grosse journée dans les Apennins : 152,5 km et 4 721 m de D+, \n            avec cinq cols à escalader dont l’Alpe San Pellegrino (13,7 km à 8,8 %) \n            et un final à Abetone. Sortez les triple plateaux, vos mollets vont hurler… mais quel panorama !",
+    "donnees_techniques": "Données techniques Distance : 152,5 km Dénivelé positif : 4 721 m Type : Montagne Départ : Sestola (1 024 m) Arrivée : Abetone (1 378 m)"
+  }
+]

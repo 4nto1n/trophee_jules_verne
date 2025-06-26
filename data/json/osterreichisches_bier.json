@@ -1,0 +1,66 @@
+{
+  "equipe": "Österreichisches Bier",
+  "maillot": "images/jerseys/osterreichisches_bier.png",
+  "surnom": "La puissance du malt, le mental de l'orge",
+  "description": "Concurrente directe de la Bier Brigade et de Belgisch Bier, cette équipe sent le houblon alpin, la puissance des bocks et la robustesse des tavernes tyroliennes.",
+  "style_course": "Prost à la victoire ! 🇦🇹🍺🚴‍♂️",
+  "devise": "La puissance du malt, le mental de l'orge",
+  "coureurs": [
+    {
+      "nom": "Otta Kringer",
+      "nationalite": "🍻",
+      "type": "Leader",
+      "profil": "Malté et alpin",
+      "description": "Leader charismatique de Vienne, fort en altitude et toujours bien malté dans le final."
+    },
+    {
+      "nom": "Wiesel Burger",
+      "nationalite": "🍺",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Nerveux et rapide",
+      "description": "Jeune premier lieutenant : rapide, nerveux, il monte en pression à chaque col."
+    },
+    {
+      "nom": "Trumer Pils",
+      "nationalite": "🍺",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Pétillant et léger",
+      "description": "2e lieutenant au style léger et pétillant, prêt à mousser dans les échappées."
+    },
+    {
+      "nom": "Zip Fer",
+      "nationalite": "🍻",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Explosif et effervescent",
+      "description": "Puncheur explosive, baroudeur du km0, il saute comme une capsule dès que ça grimpe."
+    },
+    {
+      "nom": "Kaiser Bier",
+      "nationalite": "🍺",
+      "type": "Rouleur-grimpeur, CLM",
+      "profil": "Fermenté en chrono",
+      "description": "Rouleur-grimpeur régulier et costaud, il impose sa loi en chrono et en haute fermentation."
+    },
+    {
+      "nom": "Hirt Herbier",
+      "nationalite": "🍻",
+      "type": "Paveman",
+      "profil": "Rustique et tenace",
+      "description": "Paveman rustique, il adore les étapes pluvieuses et les routes cabossées."
+    },
+    {
+      "nom": "Göss Her",
+      "nationalite": "🍺",
+      "type": "Sprinteur",
+      "profil": "Musclé et tranchant",
+      "description": "Sprinteur musclé, prêt à décapsuler tout le monde sur la ligne droite."
+    },
+    {
+      "nom": "Punti Gamer",
+      "nationalite": "🍻",
+      "type": "Rouleur, coéquipier modèle",
+      "profil": "Fidèle et tireur de pinte",
+      "description": "Rouleur fiable, coéquipier modèle, toujours prêt à tirer les copains… et une pinte."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "equipe": "Good Cheese",
+  "maillot": "images/jerseys/good_cheese.png",
+  "surnom": "L'équipe crémeuse de Mika",
+  "description": "Nouvelle venue sur le Tibo Picole Tour, la Good Cheese incarne la finesse lactée alliée à une bonne dose de panache. Des coureurs fermiers, fondants et surprenants.",
+  "style_course": "Ça sent le terroir, le km 0, et l’attaque audacieuse dans les bosses de troisième catégorie. Ils roulent pour le goût et la gloire.",
+  "devise": "Fromage fondu, peloton vaincu.",
+  "coureurs": [
+    {
+      "nom": "Ngolo Comté",
+      "nationalite": "🧱",
+      "type": "Leader",
+      "profil": "Le roule-toujours",
+      "description": "Increvable, ne sent jamais la pente. Souvent en tête du peloton sans savoir pourquoi. Peut rouler fort pendant 50 km pour... revenir sur une échappée inutile."
+    },
+    {
+      "nom": "Duncan Coillotte",
+      "nationalite": "🔨",
+      "type": "Rouleur, platiste",
+      "profil": "Le gros moteur du plat",
+      "description": "Spécialiste des relais musclés, mais à la trajectoire incertaine. A un passé chez les racleurs de bidon."
+    },
+    {
+      "nom": "Mangetes Morbier",
+      "nationalite": "🐐",
+      "type": "Baroudeur",
+      "profil": "L’attaquant du dimanche",
+      "description": "Aime les attaques dans les bosses de 3e caté, même si ça sert à rien. Applaudi par les vaches. Grand fan de Pinot."
+    },
+    {
+      "nom": "Guivarch Kiri",
+      "nationalite": "😅",
+      "type": "Baroudeur, km0",
+      "profil": "Le baroudeur crémeux",
+      "description": "Une seule tactique : partir dès le km 0. Si ça marche, c’est un miracle. Si ça rate, c’est normal."
+    },
+    {
+      "nom": "Bob Lacroute",
+      "nationalite": "🧀",
+      "type": "Rouleur, baroudeur",
+      "profil": "Le Croûton Volant",
+      "description": "Attaque souvent en début d’étape, toujours en première ligne. Résistant sur le plat. Faiblesse en descente et sur les pavés."
+    },
+    {
+      "nom": "Romain Blochon",
+      "nationalite": "🧀",
+      "type": "Grimpeur, puncheur",
+      "profil": "Le Fromage Fou",
+      "description": "Aime les attaques sur profils courts et raides. Explosif, nerveux, perd du temps sur longues ascensions."
+    },
+    {
+      "nom": "Raymond Gold",
+      "nationalite": "🧀",
+      "type": "Grimpeur longue distance",
+      "profil": "Le Coulant d’Or",
+      "description": "Très bon en montag

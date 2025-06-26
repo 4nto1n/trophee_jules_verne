@@ -1,0 +1,66 @@
+{
+  "equipe": "Weed",
+  "maillot": "images/jerseys/weed.png",
+  "surnom": "Peace, pedals & puff",
+  "description": "Concurrente décontractée mais redoutable des équipes Big Farma et TCE, Weed fait planer le peloton… parfois littéralement.",
+  "style_course": "Une équipe planante, un collectif chill mais déterminé. Ils roulent à leur tempo... mais quand ça s'emballe, ça fume tout le monde.",
+  "devise": "Peace, pedals & puff",
+  "coureurs": [
+    {
+      "nom": "Snoop Dog",
+      "nationalite": "🎤",
+      "type": "Leader",
+      "profil": "Charismatique et détendu",
+      "description": "Toujours détendu, jamais dans le rouge, mais souvent dans la verte."
+    },
+    {
+      "nom": "Bob Marley",
+      "nationalite": "🎶",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Tranquille et régulier",
+      "description": "1er lieutenant au flow tranquille, adore les longues montées où il peut chanter \"One Climb\"."
+    },
+    {
+      "nom": "Kanye West",
+      "nationalite": "🌀",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Imprévisible",
+      "description": "Capable de coups de génie comme de pétages de câble tactiques."
+    },
+    {
+      "nom": "Wiz Khalifa",
+      "nationalite": "🚬",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Aérien et instable",
+      "description": "Il attaque au km0 et s’évapore souvent... mais quand il tient, il est injouable."
+    },
+    {
+      "nom": "John Lennon",
+      "nationalite": "🎸",
+      "type": "Rouleur-grimpeur, CLM",
+      "profil": "Mystique et solitaire",
+      "description": "Aime la solitude des CLM et la poésie des cols."
+    },
+    {
+      "nom": "Jay Z",
+      "nationalite": "🧱",
+      "type": "Paveman",
+      "profil": "Solide et streetwise",
+      "description": "Puissant, solide sur les cailloux comme dans les embrouilles."
+    },
+    {
+      "nom": "Drake",
+      "nationalite": "⚡",
+      "type": "Sprinteur",
+      "profil": "Émotif et rapide",
+      "description": "Pleure souvent à l’arrivée mais gagne parfois en rasant les barrières."
+    },
+    {
+      "nom": "Ice Cube",
+      "nationalite": "🧊",
+      "type": "Porteur d’eau",
+      "profil": "Zen et glacial",
+      "description": "Toujours là pour calmer les tensions, mec de l’ombre à sang-froid légendaire."
+    }
+  ]
+}

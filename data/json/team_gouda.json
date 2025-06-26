@@ -1,0 +1,66 @@
+{
+  "equipe": "Team Gouda",
+  "maillot": "images/jerseys/team_gouda.png",
+  "surnom": "Solide, fondue… mais jamais coulée",
+  "description": "Rivale directe de la Good Cheese, de la Team Burrata et de la Team Claquos, elle incarne la rigueur hollandaise, la puissance laitière, et la tradition des grands plateaux.",
+  "style_course": "La Team Gouda ne cherche pas le raffinement, mais la solidité. Elle contrôle les étapes, place ses hommes avec précision, et n’hésite pas à bloquer les tentatives de ses rivaux (Good Cheese, Claquos ou Burrata). Elle aime les bordures, les longues lignes droites balayées par le vent… et les victoires bien grasses.",
+  "devise": "Chez nous, on ne s'effrite pas, on fond la route.",
+  "coureurs": [
+    {
+      "nom": "Gou Da",
+      "nationalite": "🧀",
+      "type": "Leader",
+      "profil": "Polyvalent tacticien",
+      "description": "Le patron. Ferme, savoureux, régulier en montagne comme sur les classiques, il impose le respect dans le peloton comme une meule de 20 kg sur une balance. Polyvalent et fin tacticien, il est le pilier de l’équipe."
+    },
+    {
+      "nom": "Ay Dam",
+      "nationalite": "🧀",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Explosif en montagne",
+      "description": "Espoir au tempérament explosif. Natif d’Amsterdam, il se distingue par sa capacité à suivre les grands leaders en montagne et son goût prononcé pour les virées audacieuses dans les bordures."
+    },
+    {
+      "nom": "Maas Dam",
+      "nationalite": "🧀",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Discret mais efficace",
+      "description": "Un jeune à trous… mais pas dans les jambes. Il apprend vite dans les bordures et les bosses, discret mais précieux, toujours prêt à se fondre dans le plan de bataille du jour."
+    },
+    {
+      "nom": "Leer Dammer",
+      "nationalite": "🔥",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Fonceur tranchant",
+      "description": "Impétueux comme une tranche épaisse sur un sandwich. Il attaque à tout va, ne laisse aucun répit aux échappées, et s’offre parfois des coups de maître sur les étapes accidentées. Amoureux de la belle fugue."
+    },
+    {
+      "nom": "Ley Den",
+      "nationalite": "💨",
+      "type": "Rouleur-grimpeur, spécialiste du CLM",
+      "profil": "Métronome du chrono",
+      "description": "Par tous les temps, il déroule. Il a dompté les montres comme d’autres domptent la raclette. Excellent en relais, pilier des chronos par équipes."
+    },
+    {
+      "nom": "Fri Son",
+      "nationalite": "🔨",
+      "type": "Paveman",
+      "profil": "La meule de guerre",
+      "description": "Brut, puissant, il adore quand ça tape. Roi des pavés, il vise Roubaix et toutes les classiques du Nord. Surnommé \"la meule de guerre\", il ne craint ni la boue, ni les chutes, ni les carambars fondus."
+    },
+    {
+      "nom": "Geiten Kaas",
+      "nationalite": "🚀",
+      "type": "Sprinteur",
+      "profil": "Caprin explosif",
+      "description": "Léger, caprin, mais terriblement explosif. Spécialiste des arrivées en paquet, il surgit comme un coup de corne dans la dernière ligne droite. Très à l’aise avec les sprints techniques."
+    },
+    {
+      "nom": "Blue Fort",
+      "nationalite": "💧",
+      "type": "Platiste, coéquipier modèle, porteur d'eau",
+      "profil": "Capitaine bleu",
+      "description": "Le bleu qui ne moisit jamais. Capitaine de route de l’ombre, il contrôle le peloton, gère les bidons, et ramène les leaders en place dans les moments chauds. Sans lui, rien ne roule droit."
+    }
+  ]
+}

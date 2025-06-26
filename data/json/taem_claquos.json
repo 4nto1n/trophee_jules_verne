@@ -1,0 +1,66 @@
+{
+  "equipe": "Team Claquos",
+  "maillot": "images/jerseys/team_claquos.png",
+  "surnom": "Plus ça sent fort, plus on roule fort",
+  "description": "Fière équipe 100% fromage français, prête à croquer la concurrence Good Cheese dans les cols, les pavés et les emballages plastiques.",
+  "style_course": "Battre Good Cheese sur leur propre terrain et faire fondre les ambitions des autres équipes.",
+  "devise": "On sent mauvais, mais on sent la gagne.",
+  "coureurs": [
+    {
+      "nom": "Cam Ambert",
+      "nationalite": "🧠",
+      "type": "Leader",
+      "profil": "Tacticien affiné",
+      "description": "Leader expérimenté, maître des tactiques lentes mais sûres, il gère sa course comme un fromage affiné."
+    },
+    {
+      "nom": "Roch Fort",
+      "nationalite": "🧗",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Explosif et piquant",
+      "description": "Jeune au caractère bien trempé, il attaque quand ça pique, et ça pique souvent."
+    },
+    {
+      "nom": "Fourme Dambert",
+      "nationalite": "🌬️",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Discret et loyal",
+      "description": "Discret mais efficace, il suit son leader en toutes circonstances."
+    },
+    {
+      "nom": "Pico Don",
+      "nationalite": "🚀",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Attaquant de l’aube",
+      "description": "Puncheur explosif, baroudeur des premiers kilomètres, souvent en échappée dès le km 0."
+    },
+    {
+      "nom": "Saint Nectaire",
+      "nationalite": "⏱️",
+      "type": "Rouleur-grimpeur, CLM",
+      "profil": "Spécialiste des chronos auvergnats",
+      "description": "Rouleur-grimpeur solide, spécialiste du chrono et des longues pentes auvergnates."
+    },
+    {
+      "nom": "Brillat Savarin",
+      "nationalite": "🪨",
+      "type": "Paveman",
+      "profil": "Raffiné et solide",
+      "description": "Paveman raffiné, roule comme il déguste : avec autorité, sur tous les terrains cabossés."
+    },
+    {
+      "nom": "Ma Roilles",
+      "nationalite": "💨",
+      "type": "Sprinteur",
+      "profil": "Puissant et odorant",
+      "description": "Sprinteur musclé à l'odeur marquée, capable d’enrhumer les meilleurs dans les 200 derniers mètres."
+    },
+    {
+      "nom": "Brie de Meaux",
+      "nationalite": "💧",
+      "type": "Rouleur, platiste, porteur d’eau",
+      "profil": "Infatigable coéquipier",
+      "description": "Rouleur-platiste fidèle, porteur d’eau infatigable, soutien des siens dans la plaine et les vallons."
+    }
+  ]
+}

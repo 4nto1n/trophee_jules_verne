@@ -1,0 +1,130 @@
+[
+  {
+    "nom": "Baubert",
+    "equipe": "Suceurs de Roue",
+    "emoji": "🧀",
+    "style": "microgestion extrême, suceur de roue suprême",
+    "origine": "Alençon",
+    "caracteristiques": [
+      "Jamais dans le vent",
+      "Conserve toute son énergie",
+      "Défenseur du camembert normand",
+      "Métronome du placement, gestion parfaite des stats"
+    ],
+    "role": "Chef d’orchestre de la gestion, souvent moqué mais redoutablement efficace",
+    "relations": [
+      {
+        "type": "tension",
+        "cible": "Peloton",
+        "description": "Toujours en embuscade, prêt à gratter sans prendre un mètre de vent."
+      }
+    ]
+  },
+  {
+    "nom": "Tefouine",
+    "equipe": "RnB de Rue",
+    "emoji": "🎤",
+    "style": "panache total, attaque dès le km 0",
+    "caracteristiques": [
+      "Imprévisible",
+      "Anime toutes les étapes, surtout celles où il ne devrait pas",
+      "Roule très fort, parfois trop"
+    ],
+    "role": "Showman du peloton, capable de tout perdre comme de créer la légende",
+    "relations": [
+      {
+        "type": "tension",
+        "cible": "Peloton",
+        "description": "Dynamite les étapes sans jamais regarder le profil."
+      },
+      {
+        "type": "impact",
+        "cible": "Mika",
+        "description": "Ses démarrages kamikazes déstabilisent le rookie jurassien."
+      }
+    ]
+  },
+  {
+    "nom": "Méchu",
+    "equipe": "Big Pharma",
+    "emoji": "💊",
+    "style": "talentueux mais ultra malchanceux",
+    "caracteristiques": [
+      "Toujours bien placé... jusqu'à la chute ou bug PCM",
+      "Gère bien, mais le sort s’acharne",
+      "Vise désormais le maillot à pois, mais..."
+    ],
+    "role": "Rival direct de Rich pour la montagne. Problème : rien ne se passe jamais comme prévu",
+    "relations": [
+      {
+        "type": "rivalité",
+        "cible": "Rich",
+        "description": "Objectif commun sur le maillot à pois. La bataille des cols s’annonce rude."
+      }
+    ]
+  },
+  {
+    "nom": "Bismuth",
+    "equipe": "Bier Brigade",
+    "emoji": "🍺",
+    "style": "discret, vent latéral, style Gaudu mais plus rugueux",
+    "caracteristiques": [
+      "Gère les bordures comme un tueur",
+      "Parfois oublié... jusqu’à ce qu’il gagne",
+      "Amoureux de la bière et du travail d’équipe"
+    ],
+    "role": "Sniper du peloton, capable de tuer la course sur un détail",
+    "relations": [
+      {
+        "type": "danger",
+        "cible": "Peloton",
+        "description": "Frappe silencieusement dans les bordures et détruit les plans adverses."
+      }
+    ]
+  },
+  {
+    "nom": "Rich",
+    "equipe": "La Froooonce",
+    "emoji": "🇫🇷",
+    "style": "grimpeur costaud, tilte très vite",
+    "caracteristiques": [
+      "Très fort en montagne",
+      "Prend des éclats monumentaux sur les pavés",
+      "Ultra nerveux : il s’agace dès que le plan ne se déroule pas",
+      "Objectif : maillot à pois"
+    ],
+    "role": "Leader nerveux d’une équipe qui écrase… parfois sans contrôle",
+    "relations": [
+      {
+        "type": "rivalité",
+        "cible": "Méchu",
+        "description": "Lutte féroce pour le maillot à pois. Rich veut écraser le rêve de Méchu."
+      }
+    ]
+  },
+  {
+    "nom": "Mika",
+    "equipe": "Good Cheese",
+    "emoji": "🧀",
+    "style": "néophyte jurassien, rêve de fromage et d’échappées tranquilles",
+    "caracteristiques": [
+      "Apprend la dure vie du peloton",
+      "Victime des démarrages kamikazes de Tefouine",
+      "Oublie souvent les bidons",
+      "Potentiel offensif à révéler"
+    ],
+    "role": "Rookie à potentiel, pourra-t-il percer malgré l’adversité ?",
+    "relations": [
+      {
+        "type": "subit",
+        "cible": "Tefouine",
+        "description": "Souffre des démarrages anarchiques de Tefouine dès le km 0."
+      },
+      {
+        "type": "apprentissage",
+        "cible": "Peloton",
+        "description": "Pris dans les bordures, attaques, et oublis de stratégie, mais encaisse et progresse."
+      }
+    ]
+  }
+]

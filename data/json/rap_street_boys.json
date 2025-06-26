@@ -1,0 +1,66 @@
+{
+  "equipe": "Rap Street Boys",
+  "maillot": "images/jerseys/rap_street_boys.png",
+  "surnom": "Le flow peut changer, mais la rue reste la même",
+  "description": "Concurrents redoutés de la RnB de rue, les Rap Street Boys débarquent sur le Tibo Picole Tour avec rimes acérées, style affûté et vélos en carbones… leur tempo est rugueux, leur tactique affûtée comme un freestyle d'Aurel San.",
+  "style_course": "Rap Street Boys, ce n’est pas qu’un nom, c’est un mouvement cyclo-urbain, une rime qui file à 60 km/h. Préparez vos tympans… et vos mollets.",
+  "devise": "Le flow peut changer, mais la rue reste la même",
+  "coureurs": [
+    {
+      "nom": "Aurel San",
+      "nationalite": "🎤",
+      "type": "Leader",
+      "profil": "Flow tranchant, cadence froide",
+      "description": "Flow tranchant, regard distant, il roule en tête avec des textes lourds et une allure de métronome. Ami fidèle de Gringe, il ne sort que quand il est prêt."
+    },
+    {
+      "nom": "Grinne Dgeu",
+      "nationalite": "👊",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Sacrifié tactique",
+      "description": "Toujours à la vie à la mort avec Aurel San. Se sacrifie dans les bordures, tire des relais déchirants et pose des vibes même dans la galère."
+    },
+    {
+      "nom": "Maitre Gims",
+      "nationalite": "🕶️",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Attaquant au refrain lourd",
+      "description": "Lunettes noires même sous la pluie, il lance des attaques aussi puissantes que ses refrains. Part souvent en duo tactique avec Black M."
+    },
+    {
+      "nom": "Stro Mae",
+      "nationalite": "🚀",
+      "type": "Puncheur, Baroudeur, km 0",
+      "profil": "Baroudeur asynchrone",
+      "description": "Il part dès le départ réel. Rythme cassé, montées syncopées. Il ne dit pas bonjour, il envoie du lourd. Il rend tout le monde muet."
+    },
+    {
+      "nom": "Black Aime",
+      "nationalite": "⛰️",
+      "type": "Rouleur-Grimpeur, CLM",
+      "profil": "Grimpeur en cadence",
+      "description": "Il grimpe comme il rime : en cadence et sans bavure. Il tient la baraque dans les chronos et adore les cols longs comme un couplet."
+    },
+    {
+      "nom": "So Prano",
+      "nationalite": "🧊",
+      "type": "Paveman",
+      "profil": "Nordiste du sud",
+      "description": "Il vient du sud mais roule comme un nordiste : solide, indéchirable, mental de roc. Il rend fou ses adversaires avec des coups de coude bien placés et un chant sous la pluie."
+    },
+    {
+      "nom": "Hess Céhache",
+      "nationalite": "⚡",
+      "type": "Sprinteur",
+      "profil": "Fusée imprévisible",
+      "description": "Le roi du dernier virage, imprévisible et véloce. Il surgit au 150m avec Djou Houle à la sortie des raves pour conclure en pleine ligne droite."
+    },
+    {
+      "nom": "Djou Houle",
+      "nationalite": "💦",
+      "type": "Porteur d’eau",
+      "profil": "Distributeur d’énergie",
+      "description": "Invisible mais essentiel. Il distribue les bidons, les prods, et parfois même les joints de la victoire. Toujours là, toujours dans le tempo."
+    }
+  ]
+}

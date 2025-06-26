@@ -1,0 +1,66 @@
+{
+  "equipe": "Over Dose Racing",
+  "maillot": "images/jerseys/over_dose_racing.png",
+  "surnom": "On dépasse les limites, puis on recommence.",
+  "description": "La formation la plus perchée du peloton international. Rivale décomplexée de Big Farma, cette escouade mélange excès, mythe et dopage sans cachette. On y carbure à l’ego, à l’adrénaline et parfois à autre chose…",
+  "style_course": "Un savant mélange de labos clandestins, de vapeurs d’after et de playlists années 90. L’objectif ? Montrer à Big Farma que la défonce, c’est aussi une affaire de style.",
+  "devise": "On dépasse les limites, puis on recommence.",
+  "coureurs": [
+    {
+      "nom": "Elon Musk",
+      "nationalite": "🧠",
+      "type": "Leader",
+      "profil": "Visionnaire et lunaire",
+      "description": "Visionnaire du peloton, il veut aller sur Mars… en échappée solo."
+    },
+    {
+      "nom": "Jean-Claude Van Damme",
+      "nationalite": "🥋",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Souple et perché",
+      "description": "Capable de splits entre deux vélos, il pédale dans une autre dimension."
+    },
+    {
+      "nom": "Pierre Palmade",
+      "nationalite": "🚑",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Imprévisible et borderline",
+      "description": "Coureur imprévisible, parfois dans le bon groupe, souvent dans un sketch tragique."
+    },
+    {
+      "nom": "Jean-Luc Delarue",
+      "nationalite": "💥",
+      "type": "Puncheur, baroudeur, km0",
+      "profil": "Décalé et direct",
+      "description": "Attaque dès le départ, mais souvent en décalage horaire."
+    },
+    {
+      "nom": "Samy Naceri",
+      "nationalite": "🧗",
+      "type": "Rouleur-grimpeur, CLM",
+      "profil": "Fonceur gyropharé",
+      "description": "Grimpe à toute vitesse… mais redescend parfois en gyrophare."
+    },
+    {
+      "nom": "Thierry Ardisson",
+      "nationalite": "🧱",
+      "type": "Paveman",
+      "profil": "Noir et tranchant",
+      "description": "Adoooore le pavé. Toujours en noir, toujours en décalé, toujours un mot piquant."
+    },
+    {
+      "nom": "Frédéric Beigbeder",
+      "nationalite": "🚀",
+      "type": "Sprinteur",
+      "profil": "Poète acide",
+      "description": "Ne sprinte qu’à la nuit tombée, sous acide et poésie."
+    },
+    {
+      "nom": "Johnny Hallyday",
+      "nationalite": "🔥",
+      "type": "Porteur d’eau",
+      "profil": "Rock et relances",
+      "description": "Donne des bidons et des riffs en montée. “Allumez le feu” sur chaque relance."
+    }
+  ]
+}

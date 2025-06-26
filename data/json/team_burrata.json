@@ -1,0 +1,66 @@
+{
+  "equipe": "Team Burrata",
+  "maillot": "images/jerseys/team_burrata.png",
+  "surnom": "Dolcezza, grinta e mozzarella",
+  "description": "Rivale acharnée de Good Cheese, Team Claquos et Team Gouda, la Team Burrata débarque dans le peloton avec ses saveurs d’Italie, un cœur fondant… et des jambes solides.",
+  "style_course": "Devenir la référence du fromaggio cycling, et faire pleurer Team Claquos dans les cols.",
+  "devise": "On roule al dente, mais on gagne bien cuit.",
+  "coureurs": [
+    {
+      "nom": "Mozza Rella",
+      "nationalite": "🇮🇹",
+      "type": "Leader",
+      "profil": "Élégant et fondant",
+      "description": "Leader suave et élégant, fondant dans la bosse, tranchant au final. “Il cervello e la panna del peloton.”"
+    },
+    {
+      "nom": "Parmi Giano",
+      "nationalite": "👶",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Dévoué et brut",
+      "description": "Au lait cru et au cœur chaud, toujours là pour son leader. “Il ne recule devant rien… sauf devant les pastèques coupées.”"
+    },
+    {
+      "nom": "Grogonne Zola",
+      "nationalite": "💥",
+      "type": "Jeune, 2e lieutenant",
+      "profil": "Piquant et colérique",
+      "description": "Tempérament bleu et verbe sale. “Plus il crie, plus il roule.”"
+    },
+    {
+      "nom": "Rico Ta",
+      "nationalite": "🚀",
+      "type": "Puncheur baroudeur, km0",
+      "profil": "Échappé constant",
+      "description": "Il se glisse dans toutes les échappées et attaque au km0 avec panache. “Une pizza 4 fromages sur deux jambes.”"
+    },
+    {
+      "nom": "Mascar Pone",
+      "nationalite": "⏱️",
+      "type": "Rouleur grimpeur, CLM",
+      "profil": "Soyeux et régulier",
+      "description": "Expert des chronos et des arrivées en altitude, soyeux comme un tiramisu. “Le dessert qui grimpe.”"
+    },
+    {
+      "nom": "Cazu Martzu",
+      "nationalite": "🪨",
+      "type": "Paveman",
+      "profil": "Fou et rugueux",
+      "description": "Rugueux, infesté de talent (et de surprises), adoré ou détesté. “Il se lance dans les pavés comme une larve sur du pecorino.”"
+    },
+    {
+      "nom": "Peco Rino",
+      "nationalite": "💨",
+      "type": "Sprinteur",
+      "profil": "Tranchant et salé",
+      "description": "Capable d’écraser la concurrence dans un final épicé. “Fonce comme un couteau dans la croûte.”"
+    },
+    {
+      "nom": "Stra Chino",
+      "nationalite": "🚿",
+      "type": "Porteur d’eau, platiste, coéquipier modèle",
+      "profil": "Discret et fiable",
+      "description": "Platiste au service de tous, il tire les bidons comme personne. “Toujours là, jamais dans la lumière.”"
+    }
+  ]
+}

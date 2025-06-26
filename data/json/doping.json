@@ -1,0 +1,66 @@
+{
+  "equipe": "DOPING",
+  "maillot": "images/jerseys/doping.png",
+  "surnom": "La renaissance des légendes chargées",
+  "description": "Quand la rédemption passe par le vélo... Huit anciens sportifs de haut niveau, tombés pour dopage, bannis, honnis… mais pas finis. Ils ont changé de terrain de jeu, mais pas de moteur intérieur. Place à la Team DOPING : vitesse surnaturelle, explosivité mystique et soupçons planants. Ici, les contrôles sont un souvenir, les limites une blague.",
+  "style_course": "Ultra explosif, 100% sprint, 0% prudence. Ils ne calculent rien, mais quand ils lancent la machine, le peloton explose. Ils roulent comme des missiles guidés par un passé chargé — au propre comme au figuré.",
+  "devise": "On a tous droit à une deuxième injection.",
+  "coureurs": [
+    {
+      "nom": "Diego Maradona",
+      "nationalite": "🇦🇷",
+      "type": "Leader",
+      "profil": "Puncheur imprévisible",
+      "description": "Ancienne idole du football, génie absolu, génie instable. Transposé sur deux roues, c’est un puncheur de folie, capable d’improviser un raid dans les cols, un sprint sur une montée, ou une sieste pendant une descente. Il court pour la main de Dieu… et pour l’honneur du Napoli."
+    },
+    {
+      "nom": "Ben Johnson",
+      "nationalite": "🇨🇦",
+      "type": "Jeune, 1er lieutenant",
+      "profil": "Sprinteur ultra explosif",
+      "description": "Le sprinteur canadien le plus sulfureux. Son pic de forme dure 10 secondes, mais quelles secondes ! Infernale accélération, toujours suspecte. Bras énormes, regard noir, il roule comme s’il fuyait Séoul 1988."
+    },
+    {
+      "nom": "Carl Lewis",
+      "nationalite": "🇺🇸",
+      "type": "Jeune, 2ème lieutenant",
+      "profil": "Stylé et ambigu",
+      "description": "Le roi de l’élégance. Un passé glorieux dans les sauts et les sprints, des rumeurs persistantes, mais jamais totalement avérées. Aujourd’hui, il roule comme il courait : aérien, stylé, ambigu."
+    },
+    {
+      "nom": "Marion Jones",
+      "nationalite": "🇺🇸",
+      "type": "Puncheuse, baroudeuse, km 0",
+      "profil": "Attaquante imprévisible",
+      "description": "L’éclat, la chute, la prison, puis la rédemption. Elle attaque dès le drapeau baissé, à l’ancienne. Charismatique, inspirante, mais totalement imprévisible."
+    },
+    {
+      "nom": "Tom Simpson",
+      "nationalite": "🇬🇧",
+      "type": "Rouleur grimpeur, CLM",
+      "profil": "Légende maudite",
+      "description": "Le seul \"vrai cycliste\" du lot. Mort sur le Ventoux, bouteille de cognac et amphétamines dans les poches. Il a ressuscité pour rouler à l’avant, bardé d’histoire et d’ironie. Une légende revenue d’outre-tombe."
+    },
+    {
+      "nom": "Sun Yang",
+      "nationalite": "🇨🇳",
+      "type": "Paveman",
+      "profil": "Tank des pavés",
+      "description": "Ex-nageur monstrueux, suspendu pour des histoires de tubes cassés et de contrôleurs intimidés. Maintenant, il fracasse les pavés comme il cassait des records. 90 kilos de pure animosité sur les secteurs flamands."
+    },
+    {
+      "nom": "Maurice Greene",
+      "nationalite": "🇺🇸",
+      "type": "Sprinteur",
+      "profil": "Catapulte humaine",
+      "description": "Ex-star des 100m, connu pour ses départs catapultés et ses chaînes en or. Sur un vélo, il reproduit exactement la même stratégie : explosivité, bras levés, grillades après l’arrivée."
+    },
+    {
+      "nom": "Tim Montgomery",
+      "nationalite": "🇺🇸",
+      "type": "Porteur d’eau, plat, coéquipier modèle",
+      "profil": "Lieutenant chargé",
+      "description": "Ancien recordman du monde, tombé pour dopage massif, père du fils de Marion Jones. Maintenant porteur d’eau… mais avec des mollets en titane et des seringues de souvenirs."
+    }
+  ]
+}
