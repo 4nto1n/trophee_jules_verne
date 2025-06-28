@@ -29,6 +29,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput       = document.getElementById('searchInput');     // champ de recherche nom coureur (facultatif)
     const teamFilter        = document.getElementById('teamFilter');      // <select> filtre par équipe (facultatif)
     const TEAM_STAGES = [18, 25, 44];
+    const LEADER_NAMES = [
+    "riccardo ricco", "clim atizer", "yves gêle", "naruto uzumaki", "uwe pilsner",
+    "otta kringer", "heine ken", "grim bergen", "lance armstrong", "snoop dog",
+    "elon musk", "diego maradona", "n'golo comté", "cam ambert", "gou da",
+    "mozza rella", "matt houston", "mi loud", "aurel san", "gilles tarot",
+    "richard virenque", "henoc beausejour", "jan ullrich", "saint emilion"
+];
+
+
 
     console.log('[classements.js] Initialisation DOMContentLoaded');
 
@@ -148,6 +157,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!searchInput && !teamFilter) return;
         const searchText = searchInput ? searchInput.value.trim().toLowerCase() : '';
         const selectedTeam = teamFilter ? teamFilter.value.trim().toLowerCase() : '';
+        const leaderCheckbox = document.getElementById("leaderFilter");
+        const filterLeaderOnly = leaderCheckbox && leaderCheckbox.checked;
+
         const table = container.querySelector('table');
         if (!table) return;
         const tbody = table.querySelector('tbody');
@@ -171,12 +183,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (cellEq) texteEquipe = cellEq.textContent.trim().toLowerCase();
             }
             let visible = true;
-            if (searchText) {
-                if (!texteNom.includes(searchText)) visible = false;
-            }
-            if (visible && selectedTeam) {
-                if (!texteEquipe || texteEquipe !== selectedTeam) visible = false;
-            }
+
+if (filterLeaderOnly) {
+    if (!LEADER_NAMES.includes(texteNom)) visible = false;
+}
+
+if (visible && searchText) {
+    if (!texteNom.includes(searchText)) visible = false;
+}
+
+if (visible && selectedTeam) {
+    if (!texteEquipe || texteEquipe !== selectedTeam) visible = false;
+}
+
             row.style.display = visible ? '' : 'none';
         });
     }
@@ -1301,6 +1320,11 @@ if (key === 'position') {
     if (teamFilter) {
         teamFilter.addEventListener('change', () => applyFilters());
     }
+    const leaderFilter = document.getElementById('leaderFilter');
+if (leaderFilter) {
+    leaderFilter.addEventListener('change', () => applyFilters());
+}
+
     if (btnEtape) {
         btnEtape.addEventListener('click', () => {
             if (viewType !== 'etape') {
