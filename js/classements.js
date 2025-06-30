@@ -381,13 +381,14 @@ if (visible && selectedTeam) {
         const nomW    = winnerEntry.nom    || '';
         const equipeW = winnerEntry.equipe || '';
         const tempsW  = winnerEntry.temps  || '';
+        const joueurW  = winnerEntry.joueur || '';   // ← on récupère le joueur
 
         etapes.push({
             numero: num,
             pays: item.pays,
             ville1: item.ville1,
             ville2: item.ville2 || '',
-            winner: { nom: nomW, equipe: equipeW, temps: tempsW }
+            winner: { nom: nomW, equipe: equipeW, temps: tempsW, joueur: joueurW}
         });
 
         // Parcours de chaque coureur pour stats individuelles et équipes
@@ -513,18 +514,85 @@ if (visible && selectedTeam) {
             if (b.top10    !== a.top10)    return b.top10    - a.top10;
             return (a.generalPos || Infinity) - (b.generalPos || Infinity);
         });
+                    // … juste après le tri de statsRiders …
 
-        // 3.8 Retourner tout
-        return {
-            totalEtapes,
-            etapesTerminees,
-            etapes,              // liste des étapes terminées, avec winner info
-            leadersActuels,
-            leaderEquipeActuel,
-            statsTeams,
-            statsRiders
-        };
+    // 3.9 Calcul du Hall of Fame (porteurs de maillots cumulés)
+    // On commence par reconstruire la liste des leaders à chaque étape
+    const stageLeaders = [];
+    for (let { item } of etapesTermineesList) {
+        const numStr = String(item.numero).padStart(2, '0');
+        const [gc, pts, mnt, jn, eq] = await Promise.all([
+            fetchGeneralLeaderObj(numStr, 'temps'),
+            fetchGeneralLeaderObj(numStr, 'points'),
+            fetchGeneralLeaderObj(numStr, 'montagne'),
+            fetchGeneralLeaderObj(numStr, 'jeune'),
+            fetchGeneralLeaderTeamObj(numStr)
+        ]);
+        stageLeaders.push({
+            GC:    gc,    // { nom, equipe }
+            Points: pts,
+            Montagne: mnt,
+            Jeune: jn,
+            Equipe: eq   // { equipe }
+        });
     }
+
+    const hallLeaders = {};
+    const categories = ['GC','Points','Montagne','Jeune','Equipe'];
+    for (let cat of categories) {
+        const stats = {}, keys = [];
+        let prevKey = null;
+
+        stageLeaders.forEach((leadObj, idx) => {
+            const leader = leadObj[cat];
+            if (!leader || (!leader.nom && !leader.equipe)) return;
+            // pour Équipe, on n’a pas leader.nom, on l’appelle leader.equipe
+            const name = cat==='Equipe' ? leader.equipe : leader.nom;
+            const team = cat==='Equipe' ? leader.equipe : leader.equipe;
+            if (!stats[name]) {
+                stats[name] = { nom: name, equipe: team||'', jours:0, streakMax:0, currentStreak:0 };
+                keys.push(name);
+            }
+            stats[name].jours++;
+            if (prevKey===name) {
+                stats[name].currentStreak++;
+            } else {
+                if (prevKey && stats[prevKey]) {
+                    stats[prevKey].streakMax = Math.max(stats[prevKey].streakMax, stats[prevKey].currentStreak);
+                }
+                stats[name].currentStreak = 1;
+            }
+            prevKey = name;
+        });
+        // clôture de la dernière série
+        if (prevKey && stats[prevKey]) {
+            stats[prevKey].streakMax = Math.max(stats[prevKey].streakMax, stats[prevKey].currentStreak);
+        }
+        // tri et Top 3
+        hallLeaders[cat] = keys
+            .map(k => ({
+                nom: stats[k].nom,
+                equipe: stats[k].equipe,
+                jours: stats[k].jours,
+                consecutifs: stats[k].streakMax
+            }))
+            .sort((a,b) => b.jours - a.jours || b.consecutifs - a.consecutifs)
+            .slice(0,3);
+    }
+
+    // 3.10 Retourner tout, ajouté hallLeaders
+    return {
+        totalEtapes,
+        etapesTerminees,
+        etapes,              // liste des étapes terminées, avec winner info
+        leadersActuels,
+        leaderEquipeActuel,
+        statsTeams,
+        statsRiders,
+        hallLeaders         // <==== nouveau champ
+    };
+}
+
 
     /**
      * Affiche la vue Hall of Fame réorganisée dans #tabContent.
@@ -537,39 +605,87 @@ if (visible && selectedTeam) {
     async function renderHallOfFameCurrentTour() {
         container.innerHTML = '';
         const data = await computeCurrentTourStats();
+        console.log("🔍 Exemple d'étape :", data.etapes?.[0]);
+
 
         // Conteneur principal Hall
         const hallDiv = document.createElement('div');
         hallDiv.classList.add('hall-container');
 
-        // --- 1) Résumé du tour ---
-        const summaryDiv = document.createElement('div');
-        summaryDiv.classList.add('hall-summary');
-        let html = `<h2>Résumé du tour en cours</h2>`;
-        html += `<p>Étapes terminées : ${data.etapesTerminees} / ${data.totalEtapes}</p>`;
-        html += `<ul style="list-style: none; padding-left:0; margin:0;">`;
-        if (data.leadersActuels.GC) {
-            const l = data.leadersActuels.GC;
-            html += `<li><strong>Leader GC :</strong> ${l.nom || '-'}${l.equipe ? ', ' + l.equipe : ''}</li>`;
-        }
-        if (data.leadersActuels.Points) {
-            const l = data.leadersActuels.Points;
-            html += `<li><strong>Leader Points :</strong> ${l.nom || '-'}${l.equipe ? ', ' + l.equipe : ''}</li>`;
-        }
-        if (data.leadersActuels.Montagne) {
-            const l = data.leadersActuels.Montagne;
-            html += `<li><strong>Leader Montagne :</strong> ${l.nom || '-'}${l.equipe ? ', ' + l.equipe : ''}</li>`;
-        }
-        if (data.leadersActuels.Jeune) {
-            const l = data.leadersActuels.Jeune;
-            html += `<li><strong>Leader Jeune :</strong> ${l.nom || '-'}${l.equipe ? ', ' + l.equipe : ''}</li>`;
-        }
-        if (data.leaderEquipeActuel && data.leaderEquipeActuel.equipe) {
-            html += `<li><strong>Leader Équipe :</strong> ${data.leaderEquipeActuel.equipe}</li>`;
-        }
-        html += `</ul>`;
-        summaryDiv.innerHTML = html;
-        hallDiv.appendChild(summaryDiv);
+
+  
+
+// --- Résumé du tour en 6 colonnes ---
+const summaryDiv = document.createElement('div');
+summaryDiv.classList.add('hall-summary');
+
+// Démarrage HTML
+let html = `<h2>Résumé du tour en cours</h2>`;
+html += `<div class="hof-resume-grid">`;
+
+// Colonne 1 : Infos générales + leaders actuels avec le maillot de l'équipe
+html += `<div class="hof-col">
+    <p><strong>Étapes terminées :</strong> ${data.etapesTerminees} / ${data.totalEtapes}</p>
+    <ul style="list-style: none; padding-left:0; margin:0;">`;
+
+function getTeamJerseyHTML(equipe) {
+    const path = getJerseyPath(equipe);
+    return path ? `<img src="${path}" class="team-maillot" alt="${equipe}">` : '';
+}
+
+if (data.leadersActuels.GC) {
+    const l = data.leadersActuels.GC;
+    html += `<li><strong>Leader GC :</strong> ${getTeamJerseyHTML(l.equipe)} ${l.nom || '-'}${l.equipe ? ', ' + l.equipe : ''}</li>`;
+}
+if (data.leadersActuels.Points) {
+    const l = data.leadersActuels.Points;
+    html += `<li><strong>Leader Points :</strong> ${getTeamJerseyHTML(l.equipe)} ${l.nom || '-'}${l.equipe ? ', ' + l.equipe : ''}</li>`;
+}
+if (data.leadersActuels.Montagne) {
+    const l = data.leadersActuels.Montagne;
+    html += `<li><strong>Leader Montagne :</strong> ${getTeamJerseyHTML(l.equipe)} ${l.nom || '-'}${l.equipe ? ', ' + l.equipe : ''}</li>`;
+}
+if (data.leadersActuels.Jeune) {
+    const l = data.leadersActuels.Jeune;
+    html += `<li><strong>Leader Jeune :</strong> ${getTeamJerseyHTML(l.equipe)} ${l.nom || '-'}${l.equipe ? ', ' + l.equipe : ''}</li>`;
+}
+if (data.leaderEquipeActuel && data.leaderEquipeActuel.equipe) {
+    html += `<li><strong>Leader Équipe :</strong> ${getTeamJerseyHTML(data.leaderEquipeActuel.equipe)} ${data.leaderEquipeActuel.equipe}</li>`;
+}
+html += `</ul></div>`;
+
+function buildJerseyCol(title, jerseyFilename, key) {
+    let col = `<div class="hof-col">
+        <img src="images/jerseys/${jerseyFilename}" class="jersey-img" alt="${title}">
+        <h4>${title}</h4>`;
+    const leaders = data.hallLeaders[key] || [];
+    leaders.slice(0, 3).forEach(l => {
+        const teamIcon = getJerseyPath(l.equipe);
+        col += `<div class="leader-entry">
+            ${teamIcon ? `<img src="${teamIcon}" class="team-icon" alt="${l.equipe}">` : ''}
+            ${l.nom} — ${l.jours} jours (max ${l.consecutifs} jours d’affilés)
+        </div>`;
+    });
+    col += `</div>`;
+    return col;
+}
+
+
+
+// Colonnes 2 à 6
+html += buildJerseyCol("Maillot Jaune", "leader_gc.png", "GC");
+html += buildJerseyCol("Maillot Vert", "leader_points.png", "Points");
+html += buildJerseyCol("Maillot à Pois", "leader_montagne.png", "Montagne");
+html += buildJerseyCol("Maillot Blanc", "leader_jeune.png", "Jeune");
+html += buildJerseyCol("Meilleure Équipe", "leader_equipe.png", "Equipe");
+
+
+html += `</div>`; // fin de .hof-resume-grid
+
+summaryDiv.innerHTML = html;
+hallDiv.appendChild(summaryDiv);
+
+
 
         // --- 2) Section Équipes ---
         const teamsSection = document.createElement('div');
@@ -750,7 +866,7 @@ tr.appendChild(tdE);
         // Thead
         const theadH = document.createElement('thead');
         const trHH = document.createElement('tr');
-        ['Étape', 'Pays', 'Ville 1', 'Ville 2', 'Coureur', 'Équipe', 'Temps'].forEach(h => {
+        ['Étape', 'Pays', 'Ville 1', 'Ville 2', 'Coureur', 'Équipe','Joueur', 'Temps'].forEach(h => {
             const th = document.createElement('th');
             th.textContent = h;
             trHH.appendChild(th);
@@ -805,6 +921,10 @@ teamWrapper.appendChild(spanTeam);
 
 tdEquipe.appendChild(teamWrapper);
 tr.appendChild(tdEquipe);
+// === Nouvelle colonne Joueur ===
+const tdJoueur = document.createElement('td');
+tdJoueur.textContent = ep.winner?.joueur || '-';
+tr.appendChild(tdJoueur);
             // Temps du gagnant
             const tdTemps = document.createElement('td');
             tdTemps.textContent = ep.winner?.temps || '-';

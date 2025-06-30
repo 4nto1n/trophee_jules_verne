@@ -1,0 +1,209 @@
+EQUIPES (15 sur 24)
+
+https://4nto1n.github.io/trophee_jules_verne/data/json/belgisch_bier.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/daikin.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/doping.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/good_cheese.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/joueurs.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/nederlands_bier.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/osterreichisches_bier.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/over_dose_racing.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/rap_street_boys.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/rnb_de_rue.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/taem_claquos.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/team_alencon.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/team_burrata.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/team_gouda.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/ucpspa.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/weed.json
+
+PARCOURS (55 etapes sur 80)
+
+https://4nto1n.github.io/trophee_jules_verne/data/json/etapes_01_55_corrige.json
+
+JOUEURS
+
+https://4nto1n.github.io/trophee_jules_verne/data/json/coureurs.json
+
+INFOS GENERALE :
+
+https://4nto1n.github.io/trophee_jules_verne/data/json/infos_generales.json
+
+CLASSEMENT
+	ETAPE 1
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_01_equipe.json
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_01_temps.json
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_01_jeune.json
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_01_points.json
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_01_montagne.json
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_01_equipe
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_01_equipe
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_01_jeune
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_01_temps
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_01_points
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_01_montagne
+		https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_01_equipe
+
+ETAPE 2
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_02_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_02_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_02_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_02_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_02_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_02_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_02_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_02_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_02_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_02_points
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_02_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_02_equipe
+
+ETAPE 3
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_03_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_03_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_03_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_03_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_03_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_03_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_03_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_03_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_03_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_03_points
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_03_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_03_equipe
+
+
+ETAPE 4
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_04_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_04_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_04_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_04_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_04_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/etape_04_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_04_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_04_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_04_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_04_points
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_04_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classemennts/general_etape_04_equipe
+
+ETAPE 5
+EQUIPES (15 sur 24)
+
+https://4nto1n.github.io/trophee_jules_verne/data/json/belgisch_bier.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/daikin.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/doping.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/good_cheese.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/joueurs.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/nederlands_bier.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/osterreichisches_bier.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/over_dose_racing.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/rap_street_boys.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/rnb_de_rue.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/taem_claquos.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/team_alencon.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/team_burrata.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/team_gouda.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/ucpspa.json
+https://4nto1n.github.io/trophee_jules_verne/data/json/weed.json
+
+PARCOURS (55 etapes sur 80)
+
+https://4nto1n.github.io/trophee_jules_verne/data/json/etapes_01_55_corrige.json
+
+JOUEURS
+
+https://4nto1n.github.io/trophee_jules_verne/data/json/coureurs.json
+
+INFOS GENERALE :
+
+https://4nto1n.github.io/trophee_jules_verne/data/json/infos_generales.json
+
+CLASSEMENT
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_01_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_01_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_01_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_01_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_01_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_01_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_01_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_01_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_01_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_01_points
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_01_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_01_equipe
+
+
+ETAPE 2
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_02_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_02_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_02_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_02_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_02_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_02_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_02_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_02_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_02_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_02_points
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_02_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_02_equipe
+
+
+ETAPE 3
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_03_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_03_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_03_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_03_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_03_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_03_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_03_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_03_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_03_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_03_points
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_03_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_03_equipe
+
+
+
+ETAPE 4
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_04_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_04_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_04_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_04_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_04_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_04_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_04_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_04_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_04_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_04_points
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_04_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_04_equipe
+
+
+ETAPE 5
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_05_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_05_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_05_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_05_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_05_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_05_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_05_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_05_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_05_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_05_points
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_05_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_05_equipe
+
+ETAPE6
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_06_equipe.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_06_temps.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_06_jeune.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_06_points.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_06_montagne.json
+https://4nto1n.github.io/trophee_jules_verne/data/classements/etape_06_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_06_equipe
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_06_jeune
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_06_temps
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_06_points
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_06_montagne
+https://4nto1n.github.io/trophee_jules_verne/data/classements/general_etape_06_equipe

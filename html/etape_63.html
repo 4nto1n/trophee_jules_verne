@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Étape 63 - Serbie</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+  <style>
+    body { font-family:'Georgia', serif; background:url('https://www.transparenttextures.com/patterns/old-wall.png') #fdf6e3; margin:0; color:#3b2f2f; }
+    header { display:flex; justify-content:space-between; align-items:center; background:rgba(253,246,227,0.95); border-bottom:2px solid #5e4b3c; padding:10px 30px; }
+    .logo-gauche, .logo-droite { width:80px; box-shadow:none; }
+    .titre-bandeau { flex:1; text-align:center; font-variant:small-caps; font-size:2.4em; font-weight:bold; text-shadow:1px 1px 0 #e4d8be; display:flex; align-items:center; justify-content:center; }
+    .titre-bandeau img.type-icon { height:60px; margin-right:12px; box-shadow:none; vertical-align:middle; }
+    .titre-bandeau img.flag-icon { height:30px; margin-left:10px; box-shadow:none; vertical-align:middle; }
+    .top-navigation { display:flex; justify-content:space-between; padding:10px 40px; }
+    .button { background:#5e4b3c; color:white; padding:12px 25px; text-decoration:none; border-radius:5px; font-weight:bold; }
+    .button:hover { background:#463628; }
+    section { margin:40px; padding:20px; background:rgba(255,255,240,0.85); border:2px solid #c3b091; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); }
+    .description p { font-size:1.1em; line-height:1.6; }
+    .encadre-technique { margin:40px; padding:20px; background:#fbf7e4; border:2px dashed #b1976b; }
+    .encadre-technique h3 { color:#5e4b3c; font-variant:small-caps; margin-top:0; }
+    .image-container { text-align:center; margin-top:15px; }
+    img { max-width:90%; height:auto; border-radius:8px; box-shadow:0 0 12px rgba(0,0,0,0.2); }
+    #map { width:100%; height:500px; border-radius:8px; margin:auto; }
+    .navigation { display:flex; justify-content:space-between; margin:40px; flex-wrap:wrap; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="../logo/logo_trophee_jules_verne.png" class="logo-gauche" alt="TJV">
+  <div class="titre-bandeau">
+    <img src="../logo/sprint.png" class="type-icon" alt="Sprint">
+    Étape 63 : Serbie
+    <img src="../flag/serbie.png" class="flag-icon" alt="Drapeau Serbie">
+  </div>
+  <img src="../logo/europe.png" class="logo-droite" alt="Europe">
+</header>
+
+<div class="top-navigation">
+  <a href="etape_62.html" class="button">⬅ Étape précédente</a>
+  <a href="../index.html" class="button">🏠 Accueil</a>
+  <a href="etape_64.html" class="button">Étape suivante ➡</a>
+</div>
+
+<section class="description">
+  <h2>Description</h2>
+  <p>
+    147 km à fond sur le circuit de Beranovac ! Pavé partout, ça secoue plus qu’un café turc, 
+    et le vent en prime pour un sprint façon cyclo-cross urbain. Préparez vos bras pour diriger votre monture !
+  </p>
+</section>
+
+<section class="encadre-technique">
+  <h3>Données techniques</h3>
+  <ul>
+    <li><strong>Distance :</strong> 146,6 km</li>
+    <li><strong>Dénivelé positif :</strong> 1 548 m</li>
+    <li><strong>Type :</strong> Circuit – sprint</li>
+    <li><strong>Départ / Arrivée :</strong> Beranovac Circuit (253 m / 235 m)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Profil de l'étape</h2>
+  <div class="image-container">
+    <img src="../profile/profil_serbie.png" alt="Profil Serbie">
+  </div>
+</section>
+
+<section>
+  <h2>Carte du parcours</h2>
+  <div id="map"></div>
+</section>
+
+<div class="navigation">
+  <a href="etape_62.html" class="button">⬅ Étape précédente</a>
+  <a href="../index.html" class="button">🏠 Accueil</a>
+  <a href="etape_64.html" class="button">Étape suivante ➡</a>
+</div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+<!-- Leaflet-GPX plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
+<script>
+  // Centrage sur Beranovac
+  const map = L.map('map').setView([44.185, 20.443], 12);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution:'&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  new L.GPX('../gpx/etape_63_serbie.gpx', {
+      async: true,
+      polyline_options: { color:'green', weight:5 },
+      marker_options: {
+        startIconUrl: '../logo/pin-icon-start.png',
+        endIconUrl:   '../logo/pin-icon-end.png',
+        shadowUrl:    'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png'
+      }
+    })
+    .on('loaded', function(e) {
+      map.fitBounds(e.target.getBounds());
+      const pts = e.target.getLatLngs();
+      L.marker(pts[0]).addTo(map).bindPopup('Départ – Beranovac Circuit');
+      L.marker(pts[pts.length-1]).addTo(map).bindPopup('Arrivée – Beranovac Circuit');
+    })
+    .addTo(map);
+</script>
+
+</body>
+</html>

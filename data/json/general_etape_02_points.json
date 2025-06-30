@@ -1,0 +1,240 @@
+[
+  {
+    "nom": "Matt Pokora",
+    "equipe": "RnB de Rue",
+    "points": 58,
+    "position": 1,
+    "ecart": "Leader Points"
+  },
+  {
+    "nom": "Nippon Nimove",
+    "equipe": "Daikin",
+    "points": 40,
+    "position": 2,
+    "ecart": "-18"
+  },
+  {
+    "nom": "Thomas Voeckler",
+    "equipe": "Froooonce",
+    "points": 37,
+    "position": 3,
+    "ecart": "-21"
+  },
+  {
+    "nom": "Geraint Tomasse",
+    "equipe": "Suceurs 2 Roues",
+    "points": 33,
+    "position": 4,
+    "ecart": "-25"
+  },
+  {
+    "nom": "Stra Chino",
+    "equipe": "Team Burrata",
+    "points": 29,
+    "position": 5,
+    "ecart": "-29"
+  },
+  {
+    "nom": "Tonton Graillou",
+    "equipe": "Team Alençon",
+    "points": 29,
+    "position": 6,
+    "ecart": "-29"
+  },
+  {
+    "nom": "Grinne Dgeu",
+    "equipe": "Rap Street Boys",
+    "points": 25,
+    "position": 7,
+    "ecart": "-33"
+  },
+  {
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "points": 20,
+    "position": 8,
+    "ecart": "-38"
+  },
+  {
+    "nom": "Lambrusco Prosecco",
+    "equipe": "20 Rouge",
+    "points": 20,
+    "position": 9,
+    "ecart": "-38"
+  },
+  {
+    "nom": "Bruno Krombacher",
+    "equipe": "Bier Brigade",
+    "points": 17,
+    "position": 10,
+    "ecart": "-41"
+  },
+  {
+    "nom": "Ben Johnson",
+    "equipe": "Doping",
+    "points": 16,
+    "position": 11,
+    "ecart": "-42"
+  },
+  {
+    "nom": "Miguel Indurain",
+    "equipe": "Big Farma",
+    "points": 15,
+    "position": 12,
+    "ecart": "-43"
+  },
+  {
+    "nom": "Chikun Gunya",
+    "equipe": "Team Alençon",
+    "points": 14,
+    "position": 13,
+    "ecart": "-44"
+  },
+  {
+    "nom": "Max Weizen",
+    "equipe": "Bier Brigade",
+    "points": 13,
+    "position": 14,
+    "ecart": "-45"
+  },
+  {
+    "nom": "Otta Kringer",
+    "equipe": "Österreichisches Bier",
+    "points": 11,
+    "position": 15,
+    "ecart": "-47"
+  },
+  {
+    "nom": "Hans Hopfen",
+    "equipe": "Bier Brigade",
+    "points": 10,
+    "position": 16,
+    "ecart": "-48"
+  },
+  {
+    "nom": "Michael Rasmussen",
+    "equipe": "Big Farma",
+    "points": 9,
+    "position": 17,
+    "ecart": "-49"
+  },
+  {
+    "nom": "Damiano Cunego",
+    "equipe": "Saunier Duval",
+    "points": 9,
+    "position": 18,
+    "ecart": "-49"
+  },
+  {
+    "nom": "Zip Fer",
+    "equipe": "Österreichisches Bier",
+    "points": 8,
+    "position": 19,
+    "ecart": "-50"
+  },
+  {
+    "nom": "Bob Lacroute",
+    "equipe": "Good Cheese",
+    "points": 7,
+    "position": 20,
+    "ecart": "-51"
+  },
+  {
+    "nom": "Ra Chelle",
+    "equipe": "UCPSPA",
+    "points": 6,
+    "position": 21,
+    "ecart": "-52"
+  },
+  {
+    "nom": "Snoop Dog",
+    "equipe": "Weed",
+    "points": 5,
+    "position": 22,
+    "ecart": "-53"
+  },
+  {
+    "nom": "Alessandro Petacchi",
+    "equipe": "Saunier Duval",
+    "points": 5,
+    "position": 23,
+    "ecart": "-53"
+  },
+  {
+    "nom": "Erik Zabel",
+    "equipe": "Big Farma",
+    "points": 5,
+    "position": 24,
+    "ecart": "-53"
+  },
+  {
+    "nom": "Brie de Meaux",
+    "equipe": "Team Claquos",
+    "points": 4,
+    "position": 25,
+    "ecart": "-54"
+  },
+  {
+    "nom": "Djou Houle",
+    "equipe": "Rap Street Boys",
+    "points": 4,
+    "position": 26,
+    "ecart": "-54"
+  },
+  {
+    "nom": "Dra Ke",
+    "equipe": "Weed",
+    "points": 4,
+    "position": 27,
+    "ecart": "-54"
+  },
+  {
+    "nom": "Bob Marley",
+    "equipe": "Weed",
+    "points": 3,
+    "position": 28,
+    "ecart": "-55"
+  },
+  {
+    "nom": "Tom Desbauges",
+    "equipe": "Good Cheese",
+    "points": 3,
+    "position": 29,
+    "ecart": "-55"
+  },
+  {
+    "nom": "Guivarch Kiri",
+    "equipe": "Good Cheese",
+    "points": 3,
+    "position": 30,
+    "ecart": "-55"
+  },
+  {
+    "nom": "Göss Her",
+    "equipe": "Österreichisches Bier",
+    "points": 3,
+    "position": 31,
+    "ecart": "-55"
+  },
+  {
+    "nom": "K Kamaro",
+    "equipe": "RnB de Rue",
+    "points": 2,
+    "position": 32,
+    "ecart": "-56"
+  },
+  {
+    "nom": "Leo Pompasse",
+    "equipe": "UCPSPA",
+    "points": 2,
+    "position": 33,
+    "ecart": "-56"
+  },
+  {
+    "nom": "Dieter Bitburger",
+    "equipe": "Bier Brigade",
+    "points": 1,
+    "position": 34,
+    "ecart": "-57"
+  }
+]
