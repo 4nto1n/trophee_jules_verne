@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "nom": "Lance Armstrong",
+    "equipe": "Big Farma",
+    "etape": 7
+  },
+  {
+    "nom": "Jay Z",
+    "equipe": "Weed",
+    "etape": 7
+  },
+  {
+    "nom": "Muscat Rivesaltes",
+    "equipe": "20 Rouge",
+    "etape": 7
+  },
+  {
+    "nom": "Al Bane",
+    "equipe": "UCPSPA",
+    "etape": 7
+  },
+  {
+    "nom": "Brie de Meaux",
+    "equipe": "Team Claquos",
+    "etape": 7
+  },
+  {
+    "nom": "Oedipus Brewing",
+    "equipe": "Nederlands Bier",
+    "etape": 7
+  }
+]
