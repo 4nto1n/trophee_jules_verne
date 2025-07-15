@@ -1,0 +1,354 @@
+[
+  {
+    "position": 1,
+    "nom": "Thibaut Pinot",
+    "equipe": "Froooonce",
+    "points": 47,
+    "joueur": "RicH33",
+    "ecart": ""
+  },
+  {
+    "position": 2,
+    "nom": "Marco Pantani",
+    "equipe": "Big Farma",
+    "points": 38,
+    "joueur": "mcohara",
+    "ecart": "-9"
+  },
+  {
+    "position": 3,
+    "nom": "David Gaudu",
+    "equipe": "Froooonce",
+    "points": 35,
+    "joueur": "RicH33",
+    "ecart": "-12"
+  },
+  {
+    "position": 4,
+    "nom": "Otto Krug",
+    "equipe": "Bier Brigade",
+    "points": 31,
+    "joueur": "Bismuth",
+    "ecart": "-16"
+  },
+  {
+    "position": 5,
+    "nom": "Floyd Landis",
+    "equipe": "Big Farma",
+    "points": 23,
+    "joueur": "mcohara",
+    "ecart": "-24"
+  },
+  {
+    "position": 6,
+    "nom": "Tom Desbauges",
+    "equipe": "Good Cheese",
+    "points": 22,
+    "joueur": "",
+    "ecart": "-25"
+  },
+  {
+    "position": 7,
+    "nom": "Otta Kringer",
+    "equipe": "Österreichisches Bier",
+    "points": 19,
+    "joueur": "",
+    "ecart": "-28"
+  },
+  {
+    "position": 8,
+    "nom": "Karl Beck",
+    "equipe": "Bier Brigade",
+    "points": 19,
+    "joueur": "Bismuth",
+    "ecart": "-28"
+  },
+  {
+    "position": 9,
+    "nom": "Romain Blochon",
+    "equipe": "Good Cheese",
+    "points": 18,
+    "joueur": "",
+    "ecart": "-29"
+  },
+  {
+    "position": 10,
+    "nom": "Ughes Goboss",
+    "equipe": "Gangster and Gentleman",
+    "points": 17,
+    "joueur": "",
+    "ecart": "-30"
+  },
+  {
+    "position": 11,
+    "nom": "Tom Simpson",
+    "equipe": "Doping",
+    "points": 17,
+    "joueur": "",
+    "ecart": "-30"
+  },
+  {
+    "position": 12,
+    "nom": "Damiano Cunego",
+    "equipe": "Saunier Duval",
+    "points": 15,
+    "joueur": "",
+    "ecart": "-32"
+  },
+  {
+    "position": 13,
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "points": 13,
+    "joueur": "Bismuth",
+    "ecart": "-34"
+  },
+  {
+    "position": 14,
+    "nom": "Bruno Krombacher",
+    "equipe": "Bier Brigade",
+    "points": 13,
+    "joueur": "Bismuth",
+    "ecart": "-34"
+  },
+  {
+    "position": 15,
+    "nom": "Bob Lacroute",
+    "equipe": "Good Cheese",
+    "points": 11,
+    "joueur": "",
+    "ecart": "-36"
+  },
+  {
+    "position": 16,
+    "nom": "Raymond Gold",
+    "equipe": "Good Cheese",
+    "points": 11,
+    "joueur": "",
+    "ecart": "-36"
+  },
+  {
+    "position": 17,
+    "nom": "Erik Zabel",
+    "equipe": "Big Farma",
+    "points": 10,
+    "joueur": "mcohara",
+    "ecart": "-37"
+  },
+  {
+    "position": 18,
+    "nom": "Gilberto Simoni",
+    "equipe": "Saunier Duval",
+    "points": 10,
+    "joueur": "",
+    "ecart": "-37"
+  },
+  {
+    "position": 19,
+    "nom": "Francesco Casagrande",
+    "equipe": "Saunier Duval",
+    "points": 9,
+    "joueur": "",
+    "ecart": "-38"
+  },
+  {
+    "position": 20,
+    "nom": "Riccardo Ricco",
+    "equipe": "Saunier Duval",
+    "points": 9,
+    "joueur": "",
+    "ecart": "-38"
+  },
+  {
+    "position": 21,
+    "nom": "Alessandro Ballan",
+    "equipe": "Saunier Duval",
+    "points": 8,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 22,
+    "nom": "Lance Armstrong",
+    "equipe": "Big Farma",
+    "points": 7,
+    "joueur": "mcohara",
+    "ecart": "-40"
+  },
+  {
+    "position": 23,
+    "nom": "Thomas Voeckler",
+    "equipe": "Froooonce",
+    "points": 7,
+    "joueur": "RicH33",
+    "ecart": "-40"
+  },
+  {
+    "position": 24,
+    "nom": "Boil Her",
+    "equipe": "Viesmann",
+    "points": 6,
+    "joueur": "",
+    "ecart": "-41"
+  },
+  {
+    "position": 25,
+    "nom": "Laurent Jalabert",
+    "equipe": "Froooonce",
+    "points": 5,
+    "joueur": "RicH33",
+    "ecart": "-42"
+  },
+  {
+    "position": 26,
+    "nom": "Van Sifer",
+    "equipe": "Viesmann",
+    "points": 5,
+    "joueur": "",
+    "ecart": "-42"
+  },
+  {
+    "position": 27,
+    "nom": "Duncan Coillotte",
+    "equipe": "Good Cheese",
+    "points": 5,
+    "joueur": "",
+    "ecart": "-42"
+  },
+  {
+    "position": 28,
+    "nom": "Guivarch Kiri",
+    "equipe": "Good Cheese",
+    "points": 4,
+    "joueur": "",
+    "ecart": "-43"
+  },
+  {
+    "position": 29,
+    "nom": "Rez Iztense",
+    "equipe": "Viesmann",
+    "points": 4,
+    "joueur": "",
+    "ecart": "-43"
+  },
+  {
+    "position": 30,
+    "nom": "Dario Frigo",
+    "equipe": "Saunier Duval",
+    "points": 4,
+    "joueur": "",
+    "ecart": "-43"
+  },
+  {
+    "position": 31,
+    "nom": "N'golo Comté",
+    "equipe": "Good Cheese",
+    "points": 3,
+    "joueur": "",
+    "ecart": "-44"
+  },
+  {
+    "position": 32,
+    "nom": "Julian Alaphilippe",
+    "equipe": "Froooonce",
+    "points": 3,
+    "joueur": "RicH33",
+    "ecart": "-44"
+  },
+  {
+    "position": 33,
+    "nom": "Justin Bieber",
+    "equipe": "RnB de Rue",
+    "points": 2,
+    "joueur": "Tefouine",
+    "ecart": "-45"
+  },
+  {
+    "position": 34,
+    "nom": "Raymond Poulidor",
+    "equipe": "Froooonce",
+    "points": 2,
+    "joueur": "RicH33",
+    "ecart": "-45"
+  },
+  {
+    "position": 35,
+    "nom": "Hirt Herbier",
+    "equipe": "Österreichisches Bier",
+    "points": 1,
+    "joueur": "",
+    "ecart": "-46"
+  },
+  {
+    "position": 36,
+    "nom": "Dieter Bitburger",
+    "equipe": "Bier Brigade",
+    "points": 0,
+    "joueur": "Bismuth",
+    "ecart": "-47"
+  },
+  {
+    "position": 37,
+    "nom": "K Kamaro",
+    "equipe": "RnB de Rue",
+    "points": 0,
+    "joueur": "Tefouine",
+    "ecart": "-47"
+  },
+  {
+    "position": 38,
+    "nom": "Affli Gem",
+    "equipe": "Belgisch Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-47"
+  },
+  {
+    "position": 39,
+    "nom": "Hans Hopfen",
+    "equipe": "Bier Brigade",
+    "points": 0,
+    "joueur": "Bismuth",
+    "ecart": "-47"
+  },
+  {
+    "position": 40,
+    "nom": "Miguel Indurain",
+    "equipe": "Big Farma",
+    "points": 0,
+    "joueur": "mcohara",
+    "ecart": "-47"
+  },
+  {
+    "position": 41,
+    "nom": "Max Weizen",
+    "equipe": "Bier Brigade",
+    "points": 0,
+    "joueur": "Bismuth",
+    "ecart": "-47"
+  },
+  {
+    "position": 42,
+    "nom": "Am Stel",
+    "equipe": "Nederlands Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-47"
+  },
+  {
+    "position": 43,
+    "nom": "Kaiser Bier",
+    "equipe": "Österreichisches Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-47"
+  },
+  {
+    "position": 44,
+    "nom": "Fritz Fass",
+    "equipe": "Bier Brigade",
+    "points": 0,
+    "joueur": "Bismuth",
+    "ecart": "-47"
+  }
+]
