@@ -1,170 +1,163 @@
 [
   {
     "position": 1,
-    "equipe": "Weed",
-    "temps": "84:52:19",
-    "ecart": "Leader équipe",
-    "joueur": ""
-  },
-  {
-    "position": 2,
     "equipe": "RnB de Rue",
     "temps": "96:11:00",
-    "ecart": "+11:18'41",
+    "ecart": "Leader équipe",
     "joueur": "Tefouine"
   },
   {
-    "position": 3,
+    "position": 2,
     "equipe": "Froooonce",
     "temps": "96:20:34",
-    "ecart": "+11:28'15",
+    "ecart": "+9'34",
     "joueur": "RicH33"
   },
   {
-    "position": 4,
+    "position": 3,
     "equipe": "Bier Brigade",
     "temps": "96:20:54",
-    "ecart": "+11:28'35",
+    "ecart": "+9'54",
     "joueur": "Bismuth"
   },
   {
-    "position": 5,
+    "position": 4,
     "equipe": "Big Farma",
     "temps": "96:38:44",
-    "ecart": "+11:46'25",
+    "ecart": "+27'44",
     "joueur": "mcohara"
   },
   {
-    "position": 6,
+    "position": 5,
     "equipe": "Good Cheese",
     "temps": "97:03:56",
-    "ecart": "+12:11'37",
+    "ecart": "+52'56",
+    "joueur": ""
+  },
+  {
+    "position": 6,
+    "equipe": "Saunier Duval",
+    "temps": "97:11:16",
+    "ecart": "+1:00'16",
     "joueur": ""
   },
   {
     "position": 7,
-    "equipe": "Saunier Duval",
-    "temps": "97:11:16",
-    "ecart": "+12:18'57",
+    "equipe": "UCPSPA",
+    "temps": "97:26:58",
+    "ecart": "+1:15'58",
     "joueur": ""
   },
   {
     "position": 8,
-    "equipe": "UCPSPA",
-    "temps": "97:26:58",
-    "ecart": "+12:34'39",
+    "equipe": "Team Claquos",
+    "temps": "97:32:34",
+    "ecart": "+1:21'34",
     "joueur": ""
   },
   {
     "position": 9,
-    "equipe": "Team Claquos",
-    "temps": "97:32:34",
-    "ecart": "+12:40'15",
+    "equipe": "Viesmann",
+    "temps": "97:39:18",
+    "ecart": "+1:28'18",
     "joueur": ""
   },
   {
     "position": 10,
-    "equipe": "Viesmann",
-    "temps": "97:39:18",
-    "ecart": "+12:46'59",
+    "equipe": "Gangster and Gentleman",
+    "temps": "99:19:02",
+    "ecart": "+3:08'02",
     "joueur": ""
   },
   {
     "position": 11,
-    "equipe": "Gangster and Gentleman",
-    "temps": "99:19:02",
-    "ecart": "+14:26'43",
+    "equipe": "Team Gouda",
+    "temps": "99:24:49",
+    "ecart": "+3:13'49",
     "joueur": ""
   },
   {
     "position": 12,
-    "equipe": "Team Gouda",
-    "temps": "99:24:49",
-    "ecart": "+14:32'30",
+    "equipe": "Frisquet",
+    "temps": "99:32:15",
+    "ecart": "+3:21'15",
     "joueur": ""
   },
   {
     "position": 13,
-    "equipe": "Frisquet",
-    "temps": "99:32:15",
-    "ecart": "+14:39'56",
+    "equipe": "Österreichisches Bier",
+    "temps": "100:08:48",
+    "ecart": "+3:57'48",
     "joueur": ""
   },
   {
     "position": 14,
-    "equipe": "Österreichisches Bier",
-    "temps": "100:08:48",
-    "ecart": "+15:16'29",
+    "equipe": "Rap Street Boys",
+    "temps": "100:56:12",
+    "ecart": "+4:45'12",
     "joueur": ""
   },
   {
     "position": 15,
-    "equipe": "Rap Street Boys",
-    "temps": "100:56:12",
-    "ecart": "+16:03'53",
+    "equipe": "Daikin",
+    "temps": "101:05:04",
+    "ecart": "+4:54'04",
     "joueur": ""
   },
   {
     "position": 16,
-    "equipe": "Daikin",
-    "temps": "101:05:04",
-    "ecart": "+16:12'45",
+    "equipe": "Suceurs 2 Roues",
+    "temps": "101:10:14",
+    "ecart": "+4:59'14",
     "joueur": ""
   },
   {
     "position": 17,
-    "equipe": "Suceurs 2 Roues",
-    "temps": "101:10:14",
-    "ecart": "+16:17'55",
+    "equipe": "Nederlands Bier",
+    "temps": "101:40:53",
+    "ecart": "+5:29'53",
     "joueur": ""
   },
   {
     "position": 18,
-    "equipe": "Nederlands Bier",
-    "temps": "101:40:53",
-    "ecart": "+16:48'34",
+    "equipe": "Over Dose Racing",
+    "temps": "101:51:50",
+    "ecart": "+5:40'50",
     "joueur": ""
   },
   {
     "position": 19,
-    "equipe": "Over Dose Racing",
-    "temps": "101:51:50",
-    "ecart": "+16:59'31",
+    "equipe": "Doping",
+    "temps": "102:41:31",
+    "ecart": "+6:30'31",
     "joueur": ""
   },
   {
     "position": 20,
-    "equipe": "Doping",
-    "temps": "102:41:31",
-    "ecart": "+17:49'12",
+    "equipe": "Team Alençon",
+    "temps": "102:49:37",
+    "ecart": "+6:38'37",
     "joueur": ""
   },
   {
     "position": 21,
-    "equipe": "Team Alençon",
-    "temps": "102:49:37",
-    "ecart": "+17:57'18",
+    "equipe": "Belgisch Bier",
+    "temps": "102:53:19",
+    "ecart": "+6:42'19",
     "joueur": ""
   },
   {
     "position": 22,
-    "equipe": "Belgisch Bier",
-    "temps": "102:53:19",
-    "ecart": "+18:01'00",
+    "equipe": "20 Rouge",
+    "temps": "102:58:06",
+    "ecart": "+6:47'06",
     "joueur": ""
   },
   {
     "position": 23,
-    "equipe": "20 Rouge",
-    "temps": "102:58:06",
-    "ecart": "+18:05'47",
-    "joueur": ""
-  },
-  {
-    "position": 24,
     "equipe": "Team Burrata",
     "temps": "103:04:04",
-    "ecart": "+18:11'45",
+    "ecart": "+6:53'04",
     "joueur": ""
   }
 ]
