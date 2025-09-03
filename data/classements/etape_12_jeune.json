@@ -1,0 +1,325 @@
+[
+  {
+    "position": 1,
+    "nom": "Ra Chelle",
+    "equipe": "UCPSPA",
+    "temps": "04:39:21",
+    "ecart": "Meilleur jeune de l'étape"
+  },
+  {
+    "position": 2,
+    "nom": "Bank Ize",
+    "equipe": "Frisquet",
+    "temps": "04:39:21",
+    "ecart": "0'00"
+  },
+  {
+    "position": 3,
+    "nom": "Miguel Indurain",
+    "equipe": "Big Farma",
+    "temps": "04:40:05",
+    "ecart": "+0'44",
+    "joueur": "mcohara"
+  },
+  {
+    "position": 4,
+    "nom": "Thibaut Pinot",
+    "equipe": "Froooonce",
+    "temps": "04:40:27",
+    "ecart": "+1'06",
+    "joueur": "RicH33"
+  },
+  {
+    "position": 5,
+    "nom": "Karl Beck",
+    "equipe": "Bier Brigade",
+    "temps": "04:40:27",
+    "ecart": "+1'06",
+    "joueur": "Bismuth"
+  },
+  {
+    "position": 6,
+    "nom": "Roch Fort",
+    "equipe": "Team Claquos",
+    "temps": "04:40:27",
+    "ecart": "+1'06"
+  },
+  {
+    "position": 7,
+    "nom": "Floyd Landis",
+    "equipe": "Big Farma",
+    "temps": "04:40:27",
+    "ecart": "+1'06",
+    "joueur": "mcohara"
+  },
+  {
+    "position": 8,
+    "nom": "Maas Dam",
+    "equipe": "Team Gouda",
+    "temps": "04:42:21",
+    "ecart": "+3'00"
+  },
+  {
+    "position": 9,
+    "nom": "Fourme Dambert",
+    "equipe": "Team Claquos",
+    "temps": "04:42:21",
+    "ecart": "+3'00"
+  },
+  {
+    "position": 10,
+    "nom": "Kal Orifer",
+    "equipe": "Viesmann",
+    "temps": "04:42:21",
+    "ecart": "+3'00"
+  },
+  {
+    "position": 11,
+    "nom": "Willy Denzey",
+    "equipe": "RnB de Rue",
+    "temps": "04:42:43",
+    "ecart": "+3'22",
+    "joueur": "Tefouine"
+  },
+  {
+    "position": 12,
+    "nom": "Julian Alaphilippe",
+    "equipe": "Froooonce",
+    "temps": "04:42:43",
+    "ecart": "+3'22",
+    "joueur": "RicH33"
+  },
+  {
+    "position": 13,
+    "nom": "Duncan Coillotte",
+    "equipe": "Good Cheese",
+    "temps": "04:44:52",
+    "ecart": "+5'31"
+  },
+  {
+    "position": 14,
+    "nom": "Justin Bieber",
+    "equipe": "RnB de Rue",
+    "temps": "04:45:04",
+    "ecart": "+5'43",
+    "joueur": "Tefouine"
+  },
+  {
+    "position": 15,
+    "nom": "Mangetes Morbier",
+    "equipe": "Good Cheese",
+    "temps": "04:50:00",
+    "ecart": "+10'39"
+  },
+  {
+    "position": 16,
+    "nom": "Boil Her",
+    "equipe": "Viesmann",
+    "temps": "04:53:02",
+    "ecart": "+13'41"
+  },
+  {
+    "position": 17,
+    "nom": "Dieter Bitburger",
+    "equipe": "Bier Brigade",
+    "temps": "04:55:04",
+    "ecart": "+15'43",
+    "joueur": "Bismuth"
+  },
+  {
+    "position": 18,
+    "nom": "Trumer Pils",
+    "equipe": "Österreichisches Bier",
+    "temps": "04:59:57",
+    "ecart": "+20'36"
+  },
+  {
+    "position": 19,
+    "nom": "Ferme Laporte",
+    "equipe": "Frisquet",
+    "temps": "04:59:57",
+    "ecart": "+20'36"
+  },
+  {
+    "position": 20,
+    "nom": "Ay Dam",
+    "equipe": "Team Gouda",
+    "temps": "04:59:57",
+    "ecart": "+20'36"
+  },
+  {
+    "position": 21,
+    "nom": "Wiesel Burger",
+    "equipe": "Österreichisches Bier",
+    "temps": "04:59:57",
+    "ecart": "+20'36"
+  },
+  {
+    "position": 22,
+    "nom": "Jan Hertog",
+    "equipe": "Nederlands Bier",
+    "temps": "05:03:33",
+    "ecart": "+24'12"
+  },
+  {
+    "position": 23,
+    "nom": "Am Stel",
+    "equipe": "Nederlands Bier",
+    "temps": "05:04:55",
+    "ecart": "+25'34"
+  },
+  {
+    "position": 24,
+    "nom": "Crozés Hermitage",
+    "equipe": "20 Rouge",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 25,
+    "nom": "Dario Frigo",
+    "equipe": "Saunier Duval",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 26,
+    "nom": "Lalande De Pomerol",
+    "equipe": "20 Rouge",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 27,
+    "nom": "Danilo Di Luca",
+    "equipe": "Saunier Duval",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 28,
+    "nom": "Robert de la Bergerie",
+    "equipe": "UCPSPA",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 29,
+    "nom": "Carl Lewis",
+    "equipe": "Doping",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 30,
+    "nom": "Hiro Shima",
+    "equipe": "Daikin",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 31,
+    "nom": "Geraint Tomasse",
+    "equipe": "Suceurs 2 Roues",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 32,
+    "nom": "Ki Inimod",
+    "equipe": "Gangster and Gentleman",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 33,
+    "nom": "Pierre Palmade",
+    "equipe": "Over Dose Racing",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 34,
+    "nom": "Stella Artois",
+    "equipe": "Belgisch Bier",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 35,
+    "nom": "Parmi Giano",
+    "equipe": "Team Burrata",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 36,
+    "nom": "Bradley Wiggins",
+    "equipe": "Suceurs 2 Roues",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 37,
+    "nom": "Sashi Mi",
+    "equipe": "Daikin",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 38,
+    "nom": "Tonton Graillou",
+    "equipe": "Team Alençon",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 39,
+    "nom": "Vianney Pangrazy",
+    "equipe": "Team Alençon",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 40,
+    "nom": "Maitre Gims",
+    "equipe": "Rap Street Boys",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 41,
+    "nom": "Oudgard Den",
+    "equipe": "Belgisch Bier",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 42,
+    "nom": "Gorgone Zola",
+    "equipe": "Team Burrata",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 43,
+    "nom": "Jean-Claude Van Damme",
+    "equipe": "Over Dose Racing",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": 44,
+    "nom": "Grinne Dgeu",
+    "equipe": "Rap Street Boys",
+    "temps": "05:40:33",
+    "ecart": "+61'12"
+  },
+  {
+    "position": null,
+    "nom": "Ughes Goboss",
+    "equipe": "Gangster and Gentleman",
+    "temps": "Étape 12",
+    "ecart": "Abandon"
+  }
+]

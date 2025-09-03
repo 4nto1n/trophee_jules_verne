@@ -138,5 +138,100 @@
     "nom": "Kar Rate",
     "equipe": "Daikin",
     "etape": 10
+  },
+  {
+    "nom": "Linde Boom",
+    "equipe": "Nederlands Bier",
+    "etape": 12
+  },
+  {
+    "nom": "Mobb Infamous",
+    "equipe": "Gangster and Gentleman",
+    "etape": 12
+  },
+  {
+    "nom": "Ughes Goboss",
+    "equipe": "Gangster and Gentleman",
+    "etape": 12
+  },
+  {
+    "nom": "Moincinq Degré",
+    "equipe": "Frisquet",
+    "etape": 12
+  },
+  {
+    "nom": "Robin Aitery",
+    "equipe": "Frisquet",
+    "etape": 12
+  },
+  {
+    "nom": "Kami Kaze",
+    "equipe": "Daikin",
+    "etape": 12
+  },
+  {
+    "nom": "Nippon Nimove",
+    "equipe": "Daikin",
+    "etape": 12
+  },
+  {
+    "nom": "Taka Tire",
+    "equipe": "Daikin",
+    "etape": 12
+  },
+  {
+    "nom": "Zun Dert",
+    "equipe": "Nederlands Bier",
+    "etape": 12
+  },
+  {
+    "nom": "Ra Aekwon",
+    "equipe": "Gangster and Gentleman",
+    "etape": 12
+  },
+  {
+    "nom": "Hess Céhache",
+    "equipe": "Rap Street Boys",
+    "etape": 12
+  },
+  {
+    "nom": "Ley Den",
+    "equipe": "Team Gouda",
+    "etape": 12
+  },
+  {
+    "nom": "Delirium Tremens",
+    "equipe": "Belgisch Bier",
+    "etape": 12
+  },
+  {
+    "nom": "Al Kpote",
+    "equipe": "Gangster and Gentleman",
+    "etape": 12
+  },
+  {
+    "nom": "Yves Voncrevay",
+    "equipe": "Gangster and Gentleman",
+    "etape": 12
+  },
+  {
+    "nom": "Fabio Aroue",
+    "equipe": "Suceurs 2 Roues",
+    "etape": 12
+  },
+  {
+    "nom": "Kaiser Bier",
+    "equipe": "Österreichisches Bier",
+    "etape": 12
+  },
+  {
+    "nom": "Al Libi",
+    "equipe": "Gangster and Gentleman",
+    "etape": 12
+  },
+  {
+    "nom": "Peco Rino",
+    "equipe": "Team Burrata",
+    "etape": 12
   }
 ]
