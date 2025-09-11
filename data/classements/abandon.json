@@ -338,5 +338,75 @@
     "nom": "Jan Hertog",
     "equipe": "Nederlands Bier",
     "etape": 14
+  },
+  {
+    "nom": "Crozés Hermitage",
+    "equipe": "20 Rouge",
+    "etape": 15
+  },
+  {
+    "nom": "Leer Dammer",
+    "equipe": "Team Gouda",
+    "etape": 15
+  },
+  {
+    "nom": "Gey Zer",
+    "equipe": "Viesmann",
+    "etape": 15
+  },
+  {
+    "nom": "Fri Son",
+    "equipe": "Team Gouda",
+    "etape": 15
+  },
+  {
+    "nom": "Robert de la Bergerie",
+    "equipe": "UCPSPA",
+    "etape": 15
+  },
+  {
+    "nom": "Ma Roilles",
+    "equipe": "Team Claquos",
+    "etape": 15
+  },
+  {
+    "nom": "Cazu Martzu",
+    "equipe": "Team Burrata",
+    "etape": 15
+  },
+  {
+    "nom": "Vianney Pangrazy",
+    "equipe": "Team Alençon",
+    "etape": 15
+  },
+  {
+    "nom": "Fort Pommard",
+    "equipe": "20 Rouge",
+    "etape": 15
+  },
+  {
+    "nom": "Pico Don",
+    "equipe": "Team Claquos",
+    "etape": 15
+  },
+  {
+    "nom": "Van Sifer",
+    "equipe": "Viesmann",
+    "etape": 15
+  },
+  {
+    "nom": "Jean-Claude Van Damme",
+    "equipe": "Over Dose Racing",
+    "etape": 15
+  },
+  {
+    "nom": "So Prano",
+    "equipe": "Rap Street Boys",
+    "etape": 15
+  },
+  {
+    "nom": "Brillat Savarin",
+    "equipe": "Team Claquos",
+    "etape": 15
   }
 ]
