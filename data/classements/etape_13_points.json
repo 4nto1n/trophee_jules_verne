@@ -1,0 +1,762 @@
+[
+  {
+    "position": 1,
+    "nom": "Marco Pantani",
+    "equipe": "Big Farma",
+    "points": 39,
+    "joueur": "mcohara",
+    "ecart": ""
+  },
+  {
+    "position": 2,
+    "nom": "Geraint Tomasse",
+    "equipe": "Suceurs 2 Roues",
+    "points": 38,
+    "joueur": "",
+    "ecart": "-1"
+  },
+  {
+    "position": 3,
+    "nom": "Otto Krug",
+    "equipe": "Bier Brigade",
+    "points": 37,
+    "joueur": "Bismuth",
+    "ecart": "-2"
+  },
+  {
+    "position": 4,
+    "nom": "Matt Pokora",
+    "equipe": "RnB de Rue",
+    "points": 37,
+    "joueur": "Tefouine",
+    "ecart": "-2"
+  },
+  {
+    "position": 5,
+    "nom": "Parmi Giano",
+    "equipe": "Team Burrata",
+    "points": 35,
+    "joueur": "",
+    "ecart": "-4"
+  },
+  {
+    "position": 6,
+    "nom": "Blue Fort",
+    "equipe": "Team Gouda",
+    "points": 22,
+    "joueur": "",
+    "ecart": "-17"
+  },
+  {
+    "position": 7,
+    "nom": "Aurel San",
+    "equipe": "Rap Street Boys",
+    "points": 21,
+    "joueur": "",
+    "ecart": "-18"
+  },
+  {
+    "position": 8,
+    "nom": "Bank Ize",
+    "equipe": "Frisquet",
+    "points": 21,
+    "joueur": "",
+    "ecart": "-18"
+  },
+  {
+    "position": 9,
+    "nom": "David Gaudu",
+    "equipe": "Froooonce",
+    "points": 17,
+    "joueur": "RicH33",
+    "ecart": "-22"
+  },
+  {
+    "position": 10,
+    "nom": "Laurent Jalabert",
+    "equipe": "Froooonce",
+    "points": 13,
+    "joueur": "RicH33",
+    "ecart": "-26"
+  },
+  {
+    "position": 11,
+    "nom": "Matt Houston",
+    "equipe": "RnB de Rue",
+    "points": 13,
+    "joueur": "Tefouine",
+    "ecart": "-26"
+  },
+  {
+    "position": 12,
+    "nom": "Tom Desbauges",
+    "equipe": "Good Cheese",
+    "points": 11,
+    "joueur": "",
+    "ecart": "-28"
+  },
+  {
+    "position": 13,
+    "nom": "Fritz Fass",
+    "equipe": "Bier Brigade",
+    "points": 11,
+    "joueur": "Bismuth",
+    "ecart": "-28"
+  },
+  {
+    "position": 14,
+    "nom": "Hirt Herbier",
+    "equipe": "Österreichisches Bier",
+    "points": 10,
+    "joueur": "",
+    "ecart": "-29"
+  },
+  {
+    "position": 15,
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "points": 9,
+    "joueur": "Bismuth",
+    "ecart": "-30"
+  },
+  {
+    "position": 16,
+    "nom": "Lance Armstrong",
+    "equipe": "Big Farma",
+    "points": 8,
+    "joueur": "mcohara",
+    "ecart": "-31"
+  },
+  {
+    "position": 17,
+    "nom": "Thibaut Pinot",
+    "equipe": "Froooonce",
+    "points": 6,
+    "joueur": "RicH33",
+    "ecart": "-33"
+  },
+  {
+    "position": 18,
+    "nom": "Max Weizen",
+    "equipe": "Bier Brigade",
+    "points": 6,
+    "joueur": "Bismuth",
+    "ecart": "-33"
+  },
+  {
+    "position": 19,
+    "nom": "Dieter Bitburger",
+    "equipe": "Bier Brigade",
+    "points": 5,
+    "joueur": "Bismuth",
+    "ecart": "-34"
+  },
+  {
+    "position": 20,
+    "nom": "N'golo Comté",
+    "equipe": "Good Cheese",
+    "points": 5,
+    "joueur": "",
+    "ecart": "-34"
+  },
+  {
+    "position": 21,
+    "nom": "Tyler Hamilton",
+    "equipe": "Big Farma",
+    "points": 5,
+    "joueur": "mcohara",
+    "ecart": "-34"
+  },
+  {
+    "position": 22,
+    "nom": "Romain Blochon",
+    "equipe": "Good Cheese",
+    "points": 4,
+    "joueur": "",
+    "ecart": "-35"
+  },
+  {
+    "position": 23,
+    "nom": "Willy Denzey",
+    "equipe": "RnB de Rue",
+    "points": 4,
+    "joueur": "Tefouine",
+    "ecart": "-35"
+  },
+  {
+    "position": 24,
+    "nom": "Boil Her",
+    "equipe": "Viesmann",
+    "points": 3,
+    "joueur": "",
+    "ecart": "-36"
+  },
+  {
+    "position": 25,
+    "nom": "Hans Hopfen",
+    "equipe": "Bier Brigade",
+    "points": 3,
+    "joueur": "Bismuth",
+    "ecart": "-36"
+  },
+  {
+    "position": 26,
+    "nom": "Leo Pompasse",
+    "equipe": "UCPSPA",
+    "points": 3,
+    "joueur": "",
+    "ecart": "-36"
+  },
+  {
+    "position": 27,
+    "nom": "Bob Lacroute",
+    "equipe": "Good Cheese",
+    "points": 2,
+    "joueur": "",
+    "ecart": "-37"
+  },
+  {
+    "position": 28,
+    "nom": "Amande Ine",
+    "equipe": "UCPSPA",
+    "points": 2,
+    "joueur": "",
+    "ecart": "-37"
+  },
+  {
+    "position": 29,
+    "nom": "Grim Bergen",
+    "equipe": "Belgisch Bier",
+    "points": 1,
+    "joueur": "",
+    "ecart": "-38"
+  },
+  {
+    "position": 30,
+    "nom": "Duncan Coillotte",
+    "equipe": "Good Cheese",
+    "points": 1,
+    "joueur": "",
+    "ecart": "-38"
+  },
+  {
+    "position": 31,
+    "nom": "Al Bane",
+    "equipe": "UCPSPA",
+    "points": 1,
+    "joueur": "",
+    "ecart": "-38"
+  },
+  {
+    "position": 32,
+    "nom": "Julian Alaphilippe",
+    "equipe": "Froooonce",
+    "points": 0,
+    "joueur": "RicH33",
+    "ecart": "-39"
+  },
+  {
+    "position": 33,
+    "nom": "Otta Kringer",
+    "equipe": "Österreichisches Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 34,
+    "nom": "K Kamaro",
+    "equipe": "RnB de Rue",
+    "points": 0,
+    "joueur": "Tefouine",
+    "ecart": "-39"
+  },
+  {
+    "position": 35,
+    "nom": "Karl Beck",
+    "equipe": "Bier Brigade",
+    "points": 0,
+    "joueur": "Bismuth",
+    "ecart": "-39"
+  },
+  {
+    "position": 36,
+    "nom": "Damiano Cunego",
+    "equipe": "Saunier Duval",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 37,
+    "nom": "Bruno Krombacher",
+    "equipe": "Bier Brigade",
+    "points": 0,
+    "joueur": "Bismuth",
+    "ecart": "-39"
+  },
+  {
+    "position": 38,
+    "nom": "Floyd Landis",
+    "equipe": "Big Farma",
+    "points": 0,
+    "joueur": "mcohara",
+    "ecart": "-39"
+  },
+  {
+    "position": 39,
+    "nom": "Sashi Mi",
+    "equipe": "Daikin",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 40,
+    "nom": "Raymond Poulidor",
+    "equipe": "Froooonce",
+    "points": 0,
+    "joueur": "RicH33",
+    "ecart": "-39"
+  },
+  {
+    "position": 41,
+    "nom": "Erik Zabel",
+    "equipe": "Big Farma",
+    "points": 0,
+    "joueur": "mcohara",
+    "ecart": "-39"
+  },
+  {
+    "position": 42,
+    "nom": "Justin Bieber",
+    "equipe": "RnB de Rue",
+    "points": 0,
+    "joueur": "Tefouine",
+    "ecart": "-39"
+  },
+  {
+    "position": 43,
+    "nom": "Stra Chino",
+    "equipe": "Team Burrata",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 44,
+    "nom": "Samy Naceri",
+    "equipe": "Over Dose Racing",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 45,
+    "nom": "Alessandro Ballan",
+    "equipe": "Saunier Duval",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 46,
+    "nom": "Carl Lewis",
+    "equipe": "Doping",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 47,
+    "nom": "Miguel Indurain",
+    "equipe": "Big Farma",
+    "points": 0,
+    "joueur": "mcohara",
+    "ecart": "-39"
+  },
+  {
+    "position": 48,
+    "nom": "Tonton Graillou",
+    "equipe": "Team Alençon",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 49,
+    "nom": "Brillat Savarin",
+    "equipe": "Team Claquos",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 50,
+    "nom": "Rez Iztense",
+    "equipe": "Viesmann",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 51,
+    "nom": "Jupi Ler",
+    "equipe": "Belgisch Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 52,
+    "nom": "Pico Don",
+    "equipe": "Team Claquos",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 53,
+    "nom": "Ra Chelle",
+    "equipe": "UCPSPA",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 54,
+    "nom": "Tom Simpson",
+    "equipe": "Doping",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 55,
+    "nom": "Gou Da",
+    "equipe": "Team Gouda",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 56,
+    "nom": "Otto Clave",
+    "equipe": "Viesmann",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 57,
+    "nom": "B Passi",
+    "equipe": "RnB de Rue",
+    "points": 0,
+    "joueur": "Tefouine",
+    "ecart": "-39"
+  },
+  {
+    "position": 58,
+    "nom": "G Calo",
+    "equipe": "RnB de Rue",
+    "points": 0,
+    "joueur": "Tefouine",
+    "ecart": "-39"
+  },
+  {
+    "position": 59,
+    "nom": "Doc Gyneco",
+    "equipe": "RnB de Rue",
+    "points": 0,
+    "joueur": "Tefouine",
+    "ecart": "-39"
+  },
+  {
+    "position": 60,
+    "nom": "Riccardo Ricco",
+    "equipe": "Saunier Duval",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 61,
+    "nom": "Jean-Claude Van Damme",
+    "equipe": "Over Dose Racing",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 62,
+    "nom": "Affli Gem",
+    "equipe": "Belgisch Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 63,
+    "nom": "Richard Virenque",
+    "equipe": "Froooonce",
+    "points": 0,
+    "joueur": "RicH33",
+    "ecart": "-39"
+  },
+  {
+    "position": 64,
+    "nom": "Raymond Gold",
+    "equipe": "Good Cheese",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 65,
+    "nom": "Dario Frigo",
+    "equipe": "Saunier Duval",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 66,
+    "nom": "Alessandro Petacchi",
+    "equipe": "Saunier Duval",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 67,
+    "nom": "Gorgone Zola",
+    "equipe": "Team Burrata",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 68,
+    "nom": "Gilberto Simoni",
+    "equipe": "Saunier Duval",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 69,
+    "nom": "So Prano",
+    "equipe": "Rap Street Boys",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 70,
+    "nom": "Lalande De Pomerol",
+    "equipe": "20 Rouge",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 71,
+    "nom": "Francesco Casagrande",
+    "equipe": "Saunier Duval",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 72,
+    "nom": "Gilles Tarot",
+    "equipe": "Team Alençon",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 73,
+    "nom": "Jan Ullrich",
+    "equipe": "Suceurs 2 Roues",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 74,
+    "nom": "Thomas Voeckler",
+    "equipe": "Froooonce",
+    "points": 0,
+    "joueur": "RicH33",
+    "ecart": "-39"
+  },
+  {
+    "position": 75,
+    "nom": "Maitre Gims",
+    "equipe": "Rap Street Boys",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 76,
+    "nom": "Vianney Pangrazy",
+    "equipe": "Team Alençon",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 77,
+    "nom": "Fri Son",
+    "equipe": "Team Gouda",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 78,
+    "nom": "Bradley Wiggins",
+    "equipe": "Suceurs 2 Roues",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 79,
+    "nom": "Michael Rasmussen",
+    "equipe": "Big Farma",
+    "points": 0,
+    "joueur": "mcohara",
+    "ecart": "-39"
+  },
+  {
+    "position": 80,
+    "nom": "Jan Hertog",
+    "equipe": "Nederlands Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 81,
+    "nom": "Am Stel",
+    "equipe": "Nederlands Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 82,
+    "nom": "Van Sifer",
+    "equipe": "Viesmann",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 83,
+    "nom": "Gey Zer",
+    "equipe": "Viesmann",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 84,
+    "nom": "Crozés Hermitage",
+    "equipe": "20 Rouge",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 85,
+    "nom": "Roch Fort",
+    "equipe": "Team Claquos",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 86,
+    "nom": "Brie de Meaux",
+    "equipe": "Team Claquos",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 87,
+    "nom": "Trumer Pils",
+    "equipe": "Österreichisches Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 88,
+    "nom": "Johan Museeuw",
+    "equipe": "Big Farma",
+    "points": 0,
+    "joueur": "mcohara",
+    "ecart": "-39"
+  },
+  {
+    "position": 89,
+    "nom": "Guivarch Kiri",
+    "equipe": "Good Cheese",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 90,
+    "nom": "Bernard Hinault",
+    "equipe": "Froooonce",
+    "points": 0,
+    "joueur": "RicH33",
+    "ecart": "-39"
+  },
+  {
+    "position": 91,
+    "nom": "Danilo Di Luca",
+    "equipe": "Saunier Duval",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 92,
+    "nom": "Grinne Dgeu",
+    "equipe": "Rap Street Boys",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 93,
+    "nom": "Göss Her",
+    "equipe": "Österreichisches Bier",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 94,
+    "nom": "Henoc Beausejour",
+    "equipe": "Gangster and Gentleman",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  },
+  {
+    "position": 95,
+    "nom": "Saint Nectaire",
+    "equipe": "Team Claquos",
+    "points": 0,
+    "joueur": "",
+    "ecart": "-39"
+  }
+]
