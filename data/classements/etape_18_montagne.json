@@ -1,0 +1,402 @@
+[
+  {
+    "position": 1,
+    "nom": "David Gaudu",
+    "equipe": "Froooonce",
+    "montagne": 0,
+    "joueur": "RicH33",
+    "ecart": ""
+  },
+  {
+    "position": 2,
+    "nom": "Uwe Pilsner",
+    "equipe": "Bier Brigade",
+    "montagne": 0,
+    "joueur": "Bismuth",
+    "ecart": "0"
+  },
+  {
+    "position": 3,
+    "nom": "Thibaut Pinot",
+    "equipe": "Froooonce",
+    "montagne": 0,
+    "joueur": "RicH33",
+    "ecart": "0"
+  },
+  {
+    "position": 4,
+    "nom": "Marco Pantani",
+    "equipe": "Big Farma",
+    "montagne": 0,
+    "joueur": "mcohara",
+    "ecart": "0"
+  },
+  {
+    "position": 5,
+    "nom": "Alessandro Ballan",
+    "equipe": "Saunier Duval",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 6,
+    "nom": "Gou Da",
+    "equipe": "Team Gouda",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 7,
+    "nom": "Lance Armstrong",
+    "equipe": "Big Farma",
+    "montagne": 0,
+    "joueur": "mcohara",
+    "ecart": "0"
+  },
+  {
+    "position": 8,
+    "nom": "Justin Bieber",
+    "equipe": "RnB de Rue",
+    "montagne": 0,
+    "joueur": "Tefouine",
+    "ecart": "0"
+  },
+  {
+    "position": 9,
+    "nom": "Dieter Bitburger",
+    "equipe": "Bier Brigade",
+    "montagne": 0,
+    "joueur": "Bismuth",
+    "ecart": "0"
+  },
+  {
+    "position": 10,
+    "nom": "N'golo Comté",
+    "equipe": "Good Cheese",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 11,
+    "nom": "Otto Krug",
+    "equipe": "Bier Brigade",
+    "montagne": 0,
+    "joueur": "Bismuth",
+    "ecart": "0"
+  },
+  {
+    "position": 12,
+    "nom": "Aurel San",
+    "equipe": "Rap Street Boys",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 13,
+    "nom": "Boil Her",
+    "equipe": "Viesmann",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 14,
+    "nom": "Karl Beck",
+    "equipe": "Bier Brigade",
+    "montagne": 0,
+    "joueur": "Bismuth",
+    "ecart": "0"
+  },
+  {
+    "position": 15,
+    "nom": "Matt Houston",
+    "equipe": "RnB de Rue",
+    "montagne": 0,
+    "joueur": "Tefouine",
+    "ecart": "0"
+  },
+  {
+    "position": 16,
+    "nom": "Duncan Coillotte",
+    "equipe": "Good Cheese",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 17,
+    "nom": "Floyd Landis",
+    "equipe": "Big Farma",
+    "montagne": 0,
+    "joueur": "mcohara",
+    "ecart": "0"
+  },
+  {
+    "position": 18,
+    "nom": "Richard Virenque",
+    "equipe": "Froooonce",
+    "montagne": 0,
+    "joueur": "RicH33",
+    "ecart": "0"
+  },
+  {
+    "position": 19,
+    "nom": "Fritz Fass",
+    "equipe": "Bier Brigade",
+    "montagne": 0,
+    "joueur": "Bismuth",
+    "ecart": "0"
+  },
+  {
+    "position": 20,
+    "nom": "Julian Alaphilippe",
+    "equipe": "Froooonce",
+    "montagne": 0,
+    "joueur": "RicH33",
+    "ecart": "0"
+  },
+  {
+    "position": 21,
+    "nom": "Bank Ize",
+    "equipe": "Frisquet",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 22,
+    "nom": "Willy Denzey",
+    "equipe": "RnB de Rue",
+    "montagne": 0,
+    "joueur": "Tefouine",
+    "ecart": "0"
+  },
+  {
+    "position": 23,
+    "nom": "Bruno Krombacher",
+    "equipe": "Bier Brigade",
+    "montagne": 0,
+    "joueur": "Bismuth",
+    "ecart": "0"
+  },
+  {
+    "position": 24,
+    "nom": "Geraint Tomasse",
+    "equipe": "Suceurs 2 Roues",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 25,
+    "nom": "Hans Hopfen",
+    "equipe": "Bier Brigade",
+    "montagne": 0,
+    "joueur": "Bismuth",
+    "ecart": "0"
+  },
+  {
+    "position": 26,
+    "nom": "Tom Simpson",
+    "equipe": "Doping",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 27,
+    "nom": "Matt Pokora",
+    "equipe": "RnB de Rue",
+    "montagne": 0,
+    "joueur": "Tefouine",
+    "ecart": "0"
+  },
+  {
+    "position": 28,
+    "nom": "Guivarch Kiri",
+    "equipe": "Good Cheese",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 29,
+    "nom": "Vinz Cent",
+    "equipe": "UCPSPA",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 30,
+    "nom": "G Calo",
+    "equipe": "RnB de Rue",
+    "montagne": 0,
+    "joueur": "Tefouine",
+    "ecart": "0"
+  },
+  {
+    "position": 31,
+    "nom": "Ra Chelle",
+    "equipe": "UCPSPA",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 32,
+    "nom": "Francesco Casagrande",
+    "equipe": "Saunier Duval",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 33,
+    "nom": "Raymond Gold",
+    "equipe": "Good Cheese",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 34,
+    "nom": "Riccardo Ricco",
+    "equipe": "Saunier Duval",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 35,
+    "nom": "Tom Desbauges",
+    "equipe": "Good Cheese",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 36,
+    "nom": "Thomas Voeckler",
+    "equipe": "Froooonce",
+    "montagne": 0,
+    "joueur": "RicH33",
+    "ecart": "0"
+  },
+  {
+    "position": 37,
+    "nom": "B Passi",
+    "equipe": "RnB de Rue",
+    "montagne": 0,
+    "joueur": "Tefouine",
+    "ecart": "0"
+  },
+  {
+    "position": 38,
+    "nom": "Roch Fort",
+    "equipe": "Team Claquos",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 39,
+    "nom": "Tyler Hamilton",
+    "equipe": "Big Farma",
+    "montagne": 0,
+    "joueur": "mcohara",
+    "ecart": "0"
+  },
+  {
+    "position": 40,
+    "nom": "Blue Fort",
+    "equipe": "Team Gouda",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 41,
+    "nom": "Pierre Palmade",
+    "equipe": "Over Dose Racing",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 42,
+    "nom": "Samy Naceri",
+    "equipe": "Over Dose Racing",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 43,
+    "nom": "K Kamaro",
+    "equipe": "RnB de Rue",
+    "montagne": 0,
+    "joueur": "Tefouine",
+    "ecart": "0"
+  },
+  {
+    "position": 44,
+    "nom": "Saint Nectaire",
+    "equipe": "Team Claquos",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 45,
+    "nom": "Clim Atizer",
+    "equipe": "Viesmann",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 46,
+    "nom": "Dario Frigo",
+    "equipe": "Saunier Duval",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 47,
+    "nom": "Punti Gamer",
+    "equipe": "Österreichisches Bier",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 48,
+    "nom": "Brie de Meaux",
+    "equipe": "Team Claquos",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 49,
+    "nom": "Amande Ine",
+    "equipe": "UCPSPA",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  },
+  {
+    "position": 50,
+    "nom": "Hirt Herbier",
+    "equipe": "Österreichisches Bier",
+    "montagne": 0,
+    "joueur": "",
+    "ecart": "0"
+  }
+]
