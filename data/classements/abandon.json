@@ -408,5 +408,10 @@
     "nom": "Brillat Savarin",
     "equipe": "Team Claquos",
     "etape": 15
+  },
+  {
+    "nom": "Karl Beck",
+    "equipe": "Bier Brigade",
+    "etape": 20
   }
 ]
